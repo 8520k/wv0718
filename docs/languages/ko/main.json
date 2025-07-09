@@ -1,0 +1,15 @@
+{
+	"title": "미래로 가는 차표 - 7월의 어느 날을 향하여",
+	"sys.game_end.to_title": "타이틀 화면",
+	"sys.game_end.continue": "이어하기",
+
+	"sign.forester": "숲가는 길",
+	"sign.village": "마을가는 길",
+	"sign.flower_field": "들판가는 길",
+	"sign.vash_house": "스탬피드 저택으로 가는 길",
+	"sign.wolfwood_house": "울프우드 가",
+	"sign.wood_shop": "리비오의 뚝딱 목공소",
+
+	"ctr.description": "[이동] 화살표 키\n[확인] space키\n[메뉴] esc키\n[빨리 감기] space 키 길게 누르기",
+  "ctr.title": "조작 방법 안내"
+}
