@@ -276,7 +276,7 @@
 
 	Scene_Map.prototype.updateItemHUDPosition = function () {
 		if (this._itemHUD) {
-			this._itemHUD.x = Graphics.width - CONTAINER_SIZE - 10;
+			this._itemHUD.x = Graphics.width - CONTAINER_SIZE - 60;
 			this._itemHUD.y = 10;
 		}
 	};

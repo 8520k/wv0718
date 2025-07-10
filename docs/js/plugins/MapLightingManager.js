@@ -40,7 +40,6 @@
 	"use strict";
 
 	const pluginName = "MapLightingManager";
-	let mapLightingData = [];
 	let isQJLightingLoaded = false;
 	let litEvents = new Set();
 
@@ -49,18 +48,6 @@
 			return false;
 		}
 		return true;
-	};
-
-	const loadMapLightingData = function () {
-		const xhr = new XMLHttpRequest();
-		xhr.open("GET", "../mapData/map_lighting.json");
-		xhr.overrideMimeType("application/json");
-		xhr.onload = function () {
-			if (xhr.status < 400) {
-				mapLightingData = JSON.parse(xhr.responseText);
-			}
-		};
-		xhr.send();
 	};
 
 	const _Game_Player_performTransfer = Game_Player.prototype.performTransfer;
@@ -73,7 +60,7 @@
 		QJ.LL.spl(1);
 
 		const currentMapId = $gameMap.mapId();
-		const mapConfig = mapLightingData.find(
+		const mapConfig = lightingData.find(
 			(config) => config.MapId === currentMapId
 		);
 
@@ -110,8 +97,353 @@
 	const _Scene_Boot_start = Scene_Boot.prototype.start;
 	Scene_Boot.prototype.start = function () {
 		_Scene_Boot_start.call(this);
-		loadMapLightingData();
 		isQJLightingLoaded = checkQJLighting();
 	};
 
 })();
+
+const lightingData = [
+	{
+		"MapId": 28,
+		"MapName": "S3 -마을B",
+		"Events": [
+			{
+				"EventId": 5,
+				"LightId": "1"
+			},
+			{
+				"EventId": 6,
+				"LightId": "1"
+			},
+			{
+				"EventId": 7,
+				"LightId": "1"
+			},
+			{
+				"EventId": 8,
+				"LightId": "1"
+			},
+			{
+				"EventId": 9,
+				"LightId": "1"
+			},
+			{
+				"EventId": 10,
+				"LightId": "1"
+			},
+			{
+				"EventId": 11,
+				"LightId": "1"
+			},
+			{
+				"EventId": 12,
+				"LightId": "1"
+			},
+			{
+				"EventId": 13,
+				"LightId": "1"
+			},
+			{
+				"EventId": 14,
+				"LightId": "1"
+			},
+			{
+				"EventId": 15,
+				"LightId": "1"
+			},
+			{
+				"EventId": 16,
+				"LightId": "1"
+			},
+			{
+				"EventId": 17,
+				"LightId": "1"
+			},
+			{
+				"EventId": 18,
+				"LightId": "1"
+			},
+			{
+				"EventId": 19,
+				"LightId": "1"
+			},
+			{
+				"EventId": 20,
+				"LightId": "1"
+			},
+			{
+				"EventId": 21,
+				"LightId": "1"
+			}
+		]
+	},
+	{
+		"MapId": 32,
+		"MapName": "S3 - 목공소",
+		"Events": [
+			{
+				"EventId": 2,
+				"LightId": "1"
+			},
+			{
+				"EventId": 4,
+				"LightId": "1"
+			},
+			{
+				"EventId": 5,
+				"LightId": "1"
+			}
+		]
+	},
+
+	{
+		"MapId": 27,
+		"MapName": "S2 - 마을",
+		"Events": [
+			{
+				"EventId": 10,
+				"LightId": "1"
+			},
+			{
+				"EventId": 11,
+				"LightId": "1"
+			},
+			{
+				"EventId": 12,
+				"LightId": "1"
+			},
+			{
+				"EventId": 13,
+				"LightId": "1"
+			},
+			{
+				"EventId": 14,
+				"LightId": "1"
+			},
+			{
+				"EventId": 15,
+				"LightId": "1"
+			},
+			{
+				"EventId": 16,
+				"LightId": "1"
+			},
+			{
+				"EventId": 17,
+				"LightId": "1"
+			},
+			{
+				"EventId": 18,
+				"LightId": "1"
+			},
+			{
+				"EventId": 19,
+				"LightId": "1"
+			},
+			{
+				"EventId": 20,
+				"LightId": "1"
+			},
+			{
+				"EventId": 21,
+				"LightId": "1"
+			},
+			{
+				"EventId": 22,
+				"LightId": "1"
+			},
+			{
+				"EventId": 23,
+				"LightId": "1"
+			},
+			{
+				"EventId": 24,
+				"LightId": "1"
+			},
+			{
+				"EventId": 25,
+				"LightId": "1"
+			},
+			{
+				"EventId": 26,
+				"LightId": "1"
+			},
+			{
+				"EventId": 27,
+				"LightId": "1"
+			},
+			{
+				"EventId": 28,
+				"LightId": "1"
+			},
+			{
+				"EventId": 29,
+				"LightId": "1"
+			}
+		]
+	},
+
+	{
+		"MapId": 6,
+		"MapName": "마을 가는 길",
+		"Events": [
+			{
+				"EventId": 4,
+				"LightId": "1"
+			},
+			{
+				"EventId": 5,
+				"LightId": "1"
+			},
+			{
+				"EventId": 12,
+				"LightId": "1"
+			},
+			{
+				"EventId": 13,
+				"LightId": "1"
+			},
+			{
+				"EventId": 14,
+				"LightId": "1"
+			},
+			{
+				"EventId": 15,
+				"LightId": "1"
+			}
+		]
+	},
+
+	{
+		"MapId": 10,
+		"MapName": "벌목장A",
+		"Events": [
+			{
+				"EventId": 5,
+				"LightId": "1"
+			}
+		]
+	},
+	{
+		"MapId": 29,
+		"MapName": "S1 - 집",
+		"Events": [
+			{
+				"EventId": 1,
+				"LightId": "1"
+			},
+			{
+				"EventId": 15,
+				"LightId": "1"
+			},
+			{
+				"EventId": 16,
+				"LightId": "1"
+			},
+			{
+				"EventId": 17,
+				"LightId": "1"
+			},
+			{
+				"EventId": 18,
+				"LightId": "1"
+			},
+			{
+				"EventId": 19,
+				"LightId": "1"
+			},
+			{
+				"EventId": 20,
+				"LightId": "1"
+			},
+			{
+				"EventId": 21,
+				"LightId": "1"
+			},
+			{
+				"EventId": 22,
+				"LightId": "1"
+			},
+			{
+				"EventId": 23,
+				"LightId": "1"
+			}
+		]
+	},
+	{
+		"MapId": 8,
+		"MapName": "제라늄-중",
+		"Events": [
+			{
+				"EventId": 3,
+				"LightId": "1"
+			},
+			{
+				"EventId": 4,
+				"LightId": "1"
+			},
+			{
+				"EventId": 5,
+				"LightId": "1"
+			},
+			{
+				"EventId": 6,
+				"LightId": "1"
+			},
+			{
+				"EventId": 7,
+				"LightId": "1"
+			},
+			{
+				"EventId": 8,
+				"LightId": "1"
+			},
+			{
+				"EventId": 9,
+				"LightId": "1"
+			},
+			{
+				"EventId": 10,
+				"LightId": "1"
+			}
+		]
+	},
+	{
+		"MapId": 38,
+		"MapName": "제라늄-전",
+		"Events": [
+			{
+				"EventId": 59,
+				"LightId": "1"
+			}, 
+			{
+				"EventId": 60,
+				"LightId": "1"
+			}, 
+			{
+				"EventId": 61,
+				"LightId": "1"
+			}, 
+			{
+				"EventId": 62,
+				"LightId": "1"
+			}, 
+			{
+				"EventId": 63,
+				"LightId": "1"
+			}, 
+			{
+				"EventId": 64,
+				"LightId": "1"
+			}, 
+			{
+				"EventId": 65,
+				"LightId": "1"
+			}, 
+			{
+				"EventId": 66,
+				"LightId": "1"
+			}
+		]
+	}
+]

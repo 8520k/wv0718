@@ -533,7 +533,7 @@
         }
 
         checkInput() {
-            if (this._isPlaying && Input.isTriggered('ok') && !window.GameResultManager?.isResultDisplaying()) {
+            if (this._isPlaying && (Input.isTriggered('ok') || TouchInput.isTriggered()) && !window.GameResultManager?.isResultDisplaying()) {
                 this.checkNoteHit();
             }
         }

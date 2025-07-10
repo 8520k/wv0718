@@ -134,7 +134,7 @@
 
     Scene_Map.prototype.updateTopLeftTexts = function() {
         if (this._topLeftTexts) {
-            let currentY = 30;
+            let currentY = 8;
             
             this._topLeftTexts.forEach((text, index) => {
                 const switchId = Number(text.setting.switchId);
@@ -146,7 +146,7 @@
                 }
                 
                 if (text.visible) {
-                    text.x = 20;
+                    text.x = 10;
                     text.y = currentY + (text.height * 0.15);
                     currentY += text.height + 10;
                 }
