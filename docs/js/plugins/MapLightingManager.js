@@ -112,6 +112,10 @@ const lightingData = [
 				"LightId": "1"
 			},
 			{
+				"EventId": 2,
+				"LightId": "1"
+			},
+			{
 				"EventId": 6,
 				"LightId": "1"
 			},
