@@ -1010,7 +1010,7 @@
   "stat.Luck": "운",
   "stat.hit": "명중률",
   "stat.dodge": "회피율",
-  "command.option": "옵션",
+  "command.option": "설정",
   "command.save": "저장",
   "command.endGame": "게임 종료",
   "command.stats": "스탯",
