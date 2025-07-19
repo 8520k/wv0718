@@ -1,1170 +1,1173 @@
-Key,ko,en,
-title,미래로 가는 차표 - 7월의 어느 날을 향하여,A Ticket to the Future - Toward a Day in July,
-sys.game_end.to_title,타이틀 화면,Title Screen,
-sys.game_end.continue,이어하기,Continue,
-sign.forester,숲가는 길,Path to the Forest,
-sign.village,마을가는 길,Path to the Village,
-sign.flower_field,들판가는 길,Path to the Field,
-sign.vash_house,스탬피드 저택으로 가는 길,Path to Stampede's Mansion,
-sign.wolfwood_house,울프우드 가,To Wolfwood's House,
-sign.wood_shop,리비오의 뚝딱 목공소,Livio's Woodworking Shop,
+Key,ko,jp,en
+title,미래로 가는 차표 - 7월의 어느 날을 향하여,未来へのチャ표 - 7月のある日へ,A Ticket to the Future - Toward a Day in July
+sys.game_end.to_title,타이틀 화면,タイトル画面,Title Screen
+sys.game_end.continue,이어하기,続き,Continue
+sign.forester,숲가는 길,森の道,Path to the Forest
+sign.village,마을가는 길,村の道,Path to the Village
+sign.flower_field,들판가는 길,田んぼの道,Path to the Field
+sign.vash_house,스탬피드 저택으로 가는 길,スタンピード邸への道,Path to Stampede's Mansion
+sign.wolfwood_house,울프우드 가,ウルフウッド通り,To Wolfwood's House
+sign.wood_shop,리비오의 뚝딱 목공소,リビオのドタバタ木工所,Livio's Woodworking Shop
 ctr.description,"[이동] 화살표
 [확인] space키
 [메뉴] esc키
-[빨리 감기] 확인 키 길게 누르기","[Movement] Arrow Keys
+[빨리 감기] 확인 키 길게 누르기","[移動]矢印
+[確認] spaceキー
+[メニュー]escキー
+[早送り]確認キー長押し","[Movement] Arrow Keys
 [Confirm] Spacebar
 [Menu] Esc Key
-[Fast Forward] Hold Confrim Key",
-ctr.title,조작 방법 안내,Control Guide,
-m_wolfwood,울프우드,Wolfwood,
-m_vash,밧슈,Vash,
-s_wolfwood,니콜라스,Nicholas,
-s_vash,스탬피드,Stampede,
-livio,리비오,Livio,
-s_knives,나이브스,Knives,
-neco,검은 고양이,The black cat,
-ev1,울프우드가의 가족사진,Family photo of the Wolfwood family,
-ev2,밧슈는 엄청난 동안인듯하다. 비결이 뭘까?,Vash looks incredibly youthful. What's the secret?,
-ev3,새 조각,A wooden bird carving,
-ev4,지금은 양 날개의 밸런스가 잘 맞는다,The balance of both wings is perfect now,
-ev5,오래된 나무에 균열이 갔다.,The old wood floor has cracked.,
-ev6,조만간 수리해야겠지?,I'll need to fix it soon.,
-ev7,"아부지 한티 속은 것 같지만, 약속한 일은 처리해야겠지..","I feel like I was tricked by father, but I need to handle the promised task..",
-ev8,무슨 일을 시작할까?,What task should I start?,
-ev9,좋다. 함 해보자!,Good. Let's try it!,
-ev10,진행 중인 심부름을 먼저 마무리하자.,Let's finish the current task first.,
-ev11,이걸 고치려면 수리 도구가 필요하긋다.,I need repair tools to fix this.,
-ev12,아재한테 빌려야 쓰겄네.,I need to borrow some from the uncle.,
-ev13,퀘스트: 장작을 패자!,Quest: Chop firewood!,
-ev14,퀘스트: 창고방을 정리하자!,Quest: Organize the storage room!,
-ev15,퀘스트: 제라늄을 키우자!,Quest: Gardening geraniums!,
-ev16,창고방을 살펴보기,Check the storage room,
-ev17,리비오의 목공소에서 수리 도구를 빌리기,Borrow repair tools from Livio's workshop,
-ev18,바닥 수리하기,Repair the floor,
-ev19,박스 치우기,Move the boxes,
-ev20,울프우드에게 보고하기,Report to Wolfwood,
-ev21,예,Yes,
-ev22,아니오,No,
-ev23,"어랏, 니콜라스 일하는 중이야?","Oh, Nicholas! Are you running errands for Dad?",
-ev24,예에.. 어무이는예?,Yeah.. What are you doing?,
-ev25,"아, 오늘따라 가족사진에 눈이 가서 말야~","Oh, today I was drawn to the family photo—",
-ev26,니콜라스는 무심결에 그동안 궁금했던 것을 질문했다.,Nicholas unconsciously asked something he had been curious about.,
-ev27,동안의 비결?,The secret to looking young?,
-ev28,규칙적인 생활과 10시 취침 아닐까?,Regular lifestyle and sleeping at 10 PM?,
-ev29,(거짓말. 매일 새벽까지 바쁘면서...),(Lies. He's busy until dawn every day...),
-ev30,아부지예,Father,
-ev31,뭐꼬,What?,
-ev32,역시 이런저런 핑계로 저한테 짬처리 하는 거 아입니꺼,You're just making excuses to dump work on me,
-ev33,"쓰읍. 아이니까, 투덜댈 시간에 가서 일이나 봐라.","Ha! Don't be like that, go and do the work instead of complaining.",
-ev34,...,...,
-ev35,텃밭에 있는 밧슈에게 말을 걸자,Let's talk to Vash in the garden,
-ev36,파릇파릇,Fresh and green,
-ev37,들판에 씨앗을 심자,Plant seeds in the field,
-ev38,마을로 향한 울프우드를 찾자,Find Wolfwood who went to the village,
-ev39,제라늄 꽃밭에 물을 주기,Water the geranium flower bed,
-ev40,이쯤 하믄 충분하겠재?,This should be enough.,
-ev41,다음은 우째야카는지 어무이한테 물어보자,Let's ask mother what to do next,
-ev42,밧슈에게 돌아가기,Return to Vash,
-ev43,다음엔 방울토마토를\n심을까?,Should I plant\ncherry tomatoes next?,
-ev44,꽃을 볼 수 있는\n지오 플랜트는 귀여워~,The geoplant with\n visible flowers is cute~,
-ev45,거북이 커플이\n생겼잖아?!,A turtle couple\nappeared?!,
-ev45.1,귀여워라~\n많이 많이 먹으렴~!,So cute~\nEat lots and lots~!,
-ev46,... ... ...,...,...
-ev47,잘생겼다.,Handsome.,
-ev48,밧슈의 사랑이 담긴 토스트.,A toast filled with Vash's love.,
-ev49,맛이 담기진 않은 것 같다.,"Love, yes—flavor, not so much.",
-ev.50,엉망으로 벗어둔 옷가지들.,Clothes scattered in a mess.,
-ev.51,청소하지 않으면 한 소리 들을게 뻔하다.,I'll definitely get scolded if I don't clean up.,
-ev.52,하지만 치우지 않을 것이다.,But I won't clean it up.,
-ev.53,그는 질풍노도의 시기니까.,I’m going through my rebellious phase.,
-ev.53.1,... ... ... ...,...,...
-ev.54,옷을 정리할까?,Should I organize the clothes?,
-ev.55,아무래도 혼나기 전에 정리해야겠다.,I should organize before getting scolded.,
-ev.56,한.. 내일쯤...,Well... maybe tomorrow...,
-ev.57,현명한 선택이다.,That's a wise choice.,
-ev58,"좋아, 남은 일도 해치워보실까","Alright, let's finish the remaining tasks",
-ev59,빗자루!!!,Spikey!!!,
-ev60,고요한 저택에서는 아무 대답이 돌아오지 않는다..,No response came from the quiet mansion..,
-ev61,제길... 내가 너무 늦은 기가..?,Damn... Am I too late..?,
-ev62,니콜라스는 허무한 말과 함께 들고 있던 제라늄 꽃을 놓쳤다.,Nicholas let the geranium slip from his hand as he muttered hollow words.,
-ev63,만약 시간을 되돌릴 수 있다면...,If only I could turn back time…,
-ev64,리비오의 목공소로 가기,Go to Livio's workshop,
-ev65,마을의 끝에 있는 리비오의 목공소로 가자!,Let's go to Livio's workshop at the end of the village!,
-ev66,집으로 돌아가기,Return home,
-ev67,부모님이 기다리는 집으로 돌아가자,Let's return to the house where my parents are waiting,
-ev68,이때나 지금이나 변한 게 없는 것 같다.,Nothing seems to have changed from then to now.,
-ev69,스탬피드가 떠나기 전에 고백해야해!,I’ve got to tell Stampede how I feel before he leaves!,
-ev70,제라늄 꽃을 준비하기,Prepare geranium flowers,
-ev71,방으로 돌아가 반지 찾기,Return to the room and find the ring,
-ev72,스탬피드 저택으로 달리기,Run to Stampede's mansion,
-ev73,이럴 때가 아냐! 더 늦기 전에 스탬피드를 만나러 가야 해!!,No time for this! I need to go meet Stampede before it's too late!!,
-home1.1,검은색 정장 몇 벌과 모노톤의 옷 몇 벌이 가지런히 정리되어 있다.,Several black suits and monotone clothes are neatly arranged.,
-home1.2,빨간색 옷으로 가득 차 있다. ... 지겨울 정도로.,It's full of red clothes. ...To a boring extent.,
-home1.3,성경과 관련된 서류들이 널브러져 있다. 아멘.,Bible-related documents are scattered around. Amen.,
-home1.4,침대 아래에 떨어진 빨간색 코트 자락이 보인다.,I can see the hem of a red coat fallen under the bed.,
-home1.5,뭐 부모님이 알아서 치우겠지.,Well the parents will clean it up themselves.,
-home2.1,제라늄이 담긴 꽃병이다.,It's a vase with geraniums.,
-home2.2,오늘 아침 물을 준 모양인지 이슬이 맺혀있다.,It looks like it was watered this morning—there are still drops of water on it.,
-home3.1,독서용 1인 의자.,A single chair for reading.,
-home3.2,엄마한테 대들때 마다 생각 의자로 썼었다...,I used it as a ‘thinking chair’ whenever I talked back to mom...,
-home3.3,사실 독서용으로 사용된 적은 없다.,It's never actually been used for reading.,
-home4.1,제라늄이 담긴 화분이다.,It's a pot with geraniums.,
-home4.2,아주 오래전부터 키워왔다.,It seems to have been grown for a very long time.,
-home4.3,우리 집은 왜 허구한 날 제라늄만 키우는 걸까?,Why is it always geraniums with mother?,
-home5.1,15살 때 생일선물로 받은 로퍼.,Loafers received as a birthday gift at age 15.,
-home5.2,빗자루가 예쁘다며 칭찬해 줬었다.,Spikey praised them saying they were pretty.,
-home6.1,제라늄.,Geranium.,
-home7.1,LOVE & PEACE!,LOVE & PEACE!,
-home8.1,부모님께서 취미로 키우고 있는 밭이다.,It's a field that my parents are growing as a hobby.,
-home8.2,많은 시행착오가 있었지만 결과는 성공적으로 보인다.,There were many trials and errors but the results look successful.,
-home8.3,밥상에 오르게 되려나?,Will it make it to the dinner table?,
-home9.1,크진 않지만 깨끗한 연못이다.,It's not big but it's a clean pond.,
-home9.2,부모님 친구분들이 놀러 올 때 세미 피크닉이 열리곤 한다.,Picnics are held when my parents' friends come to visit.,
-home9.3,...굉장히 큰 사람과 작은 사람으로 기억한다.,...I remember them as a very tall person and a short person.,
-home10.1,바닥이 까맣게 탄 냄비.,A pot with a blackened bottom.,
-home10.2,누군가 또 요리를 실패했나 보다..,Someone must have failed at cooking again..,
-home11.1,도넛으로 가득 차 있다.,It's full of donuts.,
-home12.1,빨간 소파.,Red couch.,
-home12.2,"슬슬 다른 색으로 바꿀 때가 되지 않았나, 파란 소파를 추천했더니 엄마가 기겁하셨다.","Isn't it time to change to a different color? When I recommended a blue couch, mom was shocked.",
-home13.1,머 하나. 뺑이 치지 않고?,"What are you doing, not speeding?",
-home13.2,(숨길 생각도 없구먼...),(He's not even thinking of hiding it...),
-home13.3,내 심부름 쪽지 주이소,Give me my task note,
-home13.4,어제 니 가져갔잖나?,You took it yesterday,
-home13.5,잘 찾아봐라. 책상 위라던가.,Look carefully. Like on the desk.,
-home13.6,그랬나..?,Did I..?,
-home14.1,...,...,
-home14.2,... ... ...,...,...
-home14.3,...?,...?,
-home14.4,니코는 탄 빵도 좋아하지?,You likes burnt bread too?,
-home14.5,... ... 하모예...,... ... Yeah...,
-home15.1,칠을 새로 하였는지 페인트 냄새가 난다.,There's a paint smell as if it was newly painted.,
-home16.1,"앗, 저 위에 사는 집 아이 아니니?","Oh, aren't you the child from the house up there?",
-home16.2,정말 언제 보아도 그 집 남편분과 똑 닮았네~,You really look exactly like Wolfwood every time I see you~,
-home16.3,아...예. (이런 얘긴 귀에 딱지가 앉을 만큼 들은 것 같다.),Ah...yes. (I feel like I've heard this story so many times my ears are numb.),
-home17.1,생각이 많을 때 누군가와 상담하기 좋아 보인다.,It looks like a good place to consult with someone when you have a lot on your mind.,
-home18.1,게임기.,Game console.,
-home18.2,7살쯤 스탬피드에게 선물 받았다.,I received it as a gift from Stampede when I was around 7.,
-home18.3,스탬피드에게 격투 게임 대전을 300번쯤 지고 난 뒤론 켜지 않고 있다...,It hasn't been turned on since losing about 300 fighting game matches to Stampede...,
-home19.1,흠.. 그거 어데 갔나..,Hmm.. where did that go..,
-home19.2,정말 언제 이렇게 큰 거지..?,When did he get so big...?,
-home19.3,어렸을 땐 귀여웠는데..,He was cute when he was young..,
-home20.1,헉.. 어떡하지..?,(Gasp..) what should I do..?,
-home21.1,흠흠...,Hmm hmm...,
-home22.1,너무 많이 시켰나..?,Did I order too much..?,
-home23.1,어서오세요~!,Welcome~!,
-home24.1,하아...,(Sigh...),
-home24.2,목공소에나 가봐야긋다.,I should go to the woodshop.,
-home25.1,아 잘 키워두니 편하고 마.,It's convenient to have raised son well.,
-home26.1,무럭무럭 자라렴~,Grow big and strong~,
-home26.2,램이 봤다면 좋아했을 텐데..,Rem would have liked this if she saw this..,
-home27.1,묵직한 쇳덩이 떨어지는 소리가 났다.,There was a sound of heavy metal falling.,
-home27.2,...? 이거 리볼버 아이가?,...? Is this a revolver?,
-home27.3,와 집에 이런 게 있는 기고..?,Why there's something like this at home..?,
-q0.1,"앗, 니콜라스..! 집에 있었구나~!","Oh, Nicholas..! You were home~!",
-q0.2,오늘따라 쿠키가 정말 잘 구워졌거든!,The cookies turned out really well today!,
-q0.3,스탬피드는 라탄 바구니를 한 팔에 안고 있다. 살포시 덮인 흰 천 아래로 산더미처럼 쌓인 쿠키가 보인다.,Stampede is holding a rattan basket in one arm. Cookies piled like a mountain can be seen under the lightly covered white cloth.,
-q0.4,모두랑 나눠먹고 싶어서 가져왔어!,I brought them to share with everyone!,
-q0.5,니콜라스도 있는 시간에 와서 다행이다..,Good thing I came when Nicholas had time.,
-q0.6,"ㅁ,맞나.. 고맙다..","Um, right.. thank you..",
-q0.7,두 사람이 머쓱하게 웃으며 마주 본 채로 조용한 시간이 흘렀다.,They smiled awkwardly at each other as quiet time passed.,
-q0.8,적당히 말문을 열지 못해 식은땀이 날 때쯤 뒤에서 불쑥 밧슈가 나타났다.,When they couldn't find words to say and cold sweat was forming Vash suddenly appeared from behind.,
-q0.9,"어머! 선물을 가져온 거니, 스탬피드?!","Oh my! Did you bring a gift, Stampede?!",
-q0.10,"아, 안녕하세요! 밧슈씨..!","Oh, hello! Vash..!",
-q0.11,스탬피드는 화들짝 놀라며 안고 있던 쿠키 바구니를 쏟을 뻔했다.,Stampede was startled and almost spilled the cookie basket he was holding.,
-q0.12,"어디, 스탬피드의 솜씨 좀 볼까?","Well, let me see Stampede's handiwork?",
-q0.13,밧슈는 니콜라스 옆으로 손을 뻗어 쿠키를 집어 든다.,Vash reaches next to Nicholas and picks up a cookie.,
-q0.14,"자, 잠깐…!!","Wait, wait…!!",
-q0.15,니콜라스가 끼어들 틈도 없이 쿠키를 양 볼 가득 물고 우물대고 있었다.,Before Nicholas could intervene Vash was already chewing with both cheeks full of cookies.,
-q0.16,오~ 아가씨 수제 쿠키가? 우리 빗자루보다 훨씬 나아 보이는데?!,Oh- your homemade cookies? They look much better than MY Spikey's!,
-q0.17,울프우드도 쿠키를 한웅큼 집어 든다. 바구니가 순식간에 비어갔다.,Wolfwood also grabs a handful of cookies. The basket emptied in an instant.,
-q0.18,"맞다. 마, 메느리 삼을 사람 부러워갖꼬 우짜노?","Right. Well, I'm envious of someone who would take you as a daughter-in-law.",
-q0.19,..~!!@#$%@%..!!!,..~!!@#$%@%..!!!,
-q0.20,"ㄱ,감사합니다..",T-thank you..,
-q0.21,(니는 와 부끄러워하는 긴데..!! 뭔데..!!!),(Why are you being so shy..!! What's this..!!!),
-q0.22,그럼 전 이만 가볼게요..!,Then I'll be going now..!,
-q0.23,"니콜라스, 쿠키..어땠는지 꼭 알려줘..!","Nicholas, please let me know how the cookies were..!",
-q0.24,아.. ...,Ah.. ...,
-q0.25,(갈 길이 멀고만…),(We’ve still got a long way to go…),
-q0.26,"뭐 하나, 빨리 창고나 치워라.","What are you doing, hurry up and clean the storage.",
-q0.27,(두고 보자..),(Just wait and see...),
-q1.1,창고방 정리,Clean storage room,
-q1.2,창고방이면.. 내 방 바로 위다.,The storage room is.. right above my room.,
-q1.3,안 치운지 10년도 더 된 것 같은디..,It feels like it hasn't been cleaned for over 10 years..,
-q1.4,여는 아부지 어무이가 치우겠다 몇 년째 장담만 했었재.. 여전히 꼬락서니가 말이 아니네.,Wolfwood and Vash have been promising to clean it for years.. It's still a mess.,
-q1.5,니콜라스는 깊은 한숨을 내쉬었다.,Nicholas let out a deep sigh.,
-q1.6,수리하려면 장비가 필요하 긋다.,I need equipment to repair it.,
-q1.6.1,아재네 가서 연장 좀 빌려야 쓰겄네.,I need to go to the uncle's woodshop and borrow some tools.,
-q1.7,창고방을 살펴보기,Examine the storage room,
-q1.8,"아따, 마루 꼴 봐라.","Wow, look at the state of the floor.",
-q1.9,이래가 정리는커녕 빡스 들고 댕기다 다리 뿐지르것다.,I'll break my leg carrying boxes instead of clean.,
-q1.10,아재네 가서 연장 좀 빌려야 쓰것네.,I need to go to the uncle's woodshop and borrow some tools.,
-q1.11,[리비오의 목공소]에서 장비 빌리기,Borrow equipment from [Livio's Woodshop],
-q1.12,아재는 출장 나간기가?,Did uncle Livio go on a business trip?,
-q1.13,니콜라스는 고민 없이 수리 도구를 챙겼다.,Nicholas took the repair tools without hesitation.,
-q1.14,...내 쫌만 빌릴게.,...I'm borrowing this for a second,
-q1.14.1,타이밍에 맞춰 확인 키를 누르자!,Press Confirm key at the right timing!,
-q1.14.2,망가진 바닥에 못질을 훌륭하게 해낸다면 수리 성공!,If you nail the broken floor perfectly the repair will be successful!,
-q1.14.3,내 솜씨를 보여주겠어.,I'll show my skills.,
-q1.15,타이밍에 맞춰 못 질을 하자!,Hammer the nail at just the right moment!,
-q1.16,이 바닥을 고칠까?,Should I fix this floor?,
-q1.17,이 박스를 옮길까?,Should I move this box?,
-q1.17.1,이 요람을 치울까?,Should we get rid of this cradle?,
-q1.18,"후, 빡스도 옮겨 놓으라 캤지.","Phew, they said to move the boxes too.",
-q1.19,이건 뭐 금방 한다이가.,This will be done quickly.,
-q1.20,...?,...?,
-q1.21,"…마, 이때나 지금이랑 똑같네.","…Well, he hasn’t changed a bit since then.",
-q1.22,니콜라스는 [사진]을 소중히 챙겨 넣었다.,Nicholas carefully put away the [photo].,
-q1.23,... ... ...,...,...
-q1.24,리비오 아재요?,Uncle Livio?,
-q1.25,"흠, 고쳐놓으니 보기 좋네.","Hmm, it looks good now that it's fixed.",
-q1.26,윽... 생각보다 쉽지 않고 마..,Ugh... it's not as easy as I thought..,
-q1.27,어렸을 때부터 보았던 기억이 있는 짐더미,A pile of stuff I remember seeing since childhood,
-q1.28,빗자루랑 숨바꼭질할 때 은폐물로 유용히 써먹었었지,I used it as cover when playing hide and seek with Spikey,
-q1.29,훗.. 이 정도야 가뿐하재!,Heh.. this is easy!,
-q1.30,큼.. 숨 좀 돌리고 할까.,Hmm.. let me catch my breath.,
-q1.31,박스 틈 사이에서 사진 한 장이 떨어졌다.,A photo fell from between the boxes.,
-q1.32,우와~ 방이 반짝반짝 깨끗해졌네!,Wow~ the room became sparkling clean!,
-q1.33,창고로 쓰는 게 아니라 세를 줘도 되겠는걸?,Instead of using it as storage we could rent it out?,
-q1.34,누굴 들이려는 긴데예?,Who are you planning to let in?,
-q1.35,글쎄..? 리비오라던가?,Well..? Livio perhaps?,
-q1.36,아재는 장가 안든답니꺼?,Uncle isn't married?,
-q1.37,"어머, 좋은 사람이 있어보였어?","Oh my, did he seem to have someone good?",
-q1.38,... ... ...,...,...
-q1.39,... ... ... ... ... ...,...,...
-q1.40,두 사람은 머쓱하게 창고를 나왔다,They awkwardly left the storage room,
-q2.1,제라늄 가꾸기,Gardening geraniums,
-q2.2,"꽃은 내 잘 몰라가, 어무이한테 물어봐야것다.","I don't know much about flowers, I should ask mother.",
-q2.3,이 시간이면 밭에 가 계시겠구만.,At this time Vash must be in the field.,
-q2.4,밭에 있는 밧슈에게 말을 걸자,Talk to Vash in the field,
-q2.5,"어서 와, 니코~ 울프우드가 맡긴 일은 잘 되어가?","Welcome, Nico~ How's the task Wolfwood gave you going?",
-q2.6,"예, 와 갑자기 이런 걸 시키는 지는 모르겠네예.","Well, I don't know why he suddenly gave me this kind of task.",
-q2.7,"우후후, 전부 니코를 위한 일이지 않을까?","Hehe, isn't it all for Nico's sake?",
-q2.8,그건 아닌 것 같은데예..,I don't think so...,
-q2.9,"자자, 어쨌든 꽃 심어야지?","Come on, you need to plant flowers anyway?",
-q2.10,이게 제라늄 씨앗이야. 받아!,These are geranium seeds. Take them!,
-q2.11,[제라늄 씨앗 주머니]를 얻었다.,Obtained [Geranium Seed Pouch].,
-q2.12,제라늄은 어떤 계절에도 꽃을 피울 수 있는 강한 식물이야.,Geraniums are strong plants that can bloom in any season.,
-q2.13,꽃말은 '결의'. 잘 어울리지?,"The flower’s meaning is ‘determination.’ It fits perfectly, doesn’t it?",
-q2.14,오늘 심는다고 당장 자라서 꽃이 피진 않겠지만..,Just because you plant them today doesn't mean they'll grow and bloom right away..,
-q2.15,"혹시 모르지, 니코의 사랑을 담는다면 기적이 일어날지도?","Who knows, maybe a miracle will happen if you put your love into it?",
-q2.16,"예예, 그케 말 안 해도 쎄 빠지게 심을 낍니더~","Yeah yeah, even if you don't say that I'll plant them quickly~",
-q2.17,쌀쌀해.. 니코가 어른이 되어버렸어…,So cold… Nico’s gone and turned into a grown-up...,
-q2.18,"아무튼, 씨앗은 손으로 땅을 살짝 판 후에 심으면 돼.","Anyway, you can plant the seeds after digging the ground lightly with your hands.",
-q2.19,집 왼편에 들판이 있지?,There's a field on the left side of the house.,
-q2.20,한가득 제라늄 꽃이 피면 아주 멋질 거야!,It'll be wonderful when the geranium flowers bloom all over!,
-q2.21,다 심고 나면 엄마한테 알려줘!,Let me know when you're done planting!,
-q2.22,여기에 씨앗을 심을까?,Should I plant seeds here?,
-q2.23,씨앗을 잘 묻어 주었다.,I buried the seeds well.,
-q2.24,"금방 끝냈구나! 수고했어, 니코~ ","You finished quickly! Good job, Nico~",
-q2.25,이제 됐심꺼?,Is it done now?,
-q2.26,응? 당연히 씨앗이 깨어날 수 있게 물도 줘야지!,Huh? Of course you need to water them so the seeds can sprout!,
-q2.27,아 맞지예..고럼 물뿌리개 좀 줘 보이소.,Ah right.. then please give me a watering can.,
-q2.28,"으응, 그래야 되는데, 그게 말이지~","Yes, that's what we need to do, but the thing is~",
-q2.29,(뭐고 이 불길한 기분은..),(I have a bad feeling about this...),
-q2.30,아침에 엄마가 밭에 물을 주다가 그만 나무뿌리에 걸려 넘어졌는데,This morning I was watering the field and tripped over a tree root,
-q2.31,물뿌리개 주둥이가 똑! 떨어졌지 뭐야?,The watering can spout broke right off!,
-q2.32,그래서 울프우드한테 수리를 맡겼는데,So I asked Wolfwood to fix it,
-q2.33,집에 없는 재료가 필요하다면서 들고나가버렸어!,He said he needed materials we don't have at home and took it away!,
-q2.33.1,슬픈 예감은 왜 틀리질 않는기가..,Why are my worst hunches always right…?,
-q2.33.2,응? 니코 뭐라고 했어?,Huh? What did you say Nico?,
-q2.33.3,"아, 아입니더. 그럼 아부지는예?","Oh, nothing. Then where is father?",
-q2.34,울프우드는 아마 마을로 갔을 거야! 한 번 찾아가봐!,Wolfwood probably went to the village! Go look for him!,
-q2.35,예.. 다녀올께예.,Yes.. I'll go and come back.,
-q2.35.1,연못에 가재를 키우는 거 어떻게 생각해?,What do you think about raising crayfish in the pond?,
-q2.35.2,가재? 왜 갑자기 가재를 키우고 싶어진건데예..?,Crayfish? Why do you suddenly want to raise crayfish..?,
-q2.35.3,그야 빨갛고..,Well they're red..,
-q2.35.4,…,…,
-q2.35.5,빨간색이고,And they're red,
-q2.35.6,… … …,… … …,
-q2.35.7,빨간색이니까?,Because they're red?,
-q2.35.8,어무이 가재는 익혀야 색이 빨개지는 거 알지예?,"Mom, crayfish only turn red when cooked, you know?",
-q2.35.9,…!!?,…!!?,
-q2.36,이상하다… 분명 여기서 잃어버렸는데..,Weird… I definitely lost it here...,
-q2.37,…?,…?,
-q2.37.1,빗자루 니 여서 뭐 하나?,"Spikey, what are you doing here?",
-q2.38,꺄아아악!,Kyaaah!,
-q2.39,"아따, 와 소리를 지르고 그르노!","Geez, why are you screaming!",
-q2.40,"ㅁ,미안.. 니콜라스인줄 몰랐어..",S-sorry.. I didn't know it was you...,
-q2.46,그래서 뭐 하고 있는데? 뭐 잃어뿟나.,So what are you doing? Did you lose something?,
-q2.47," 으응, 어제 여기 근처에서 소중한 걸 잃어버려서.."," Yes, I lost something precious around here yesterday..",
-q2.48,뭔데?,What is it?,
-q2.49,… … …,… … …,
-q2.50,..펜던트 목걸이야.,..A pendant necklace.,
-q2.51,"내 귀걸이랑 같은 금색에, 좀 낡은..","The same gold color as my earrings, a bit old..",
-q2.52,…마이 아끼는 거가.,...Is that something you really treasure?,
-q2.53,응? 으응.. 옛날부터 간직하던 물건이거든.,Huh? Yes.. it's something I've treasured since long ago.,
-q2.54,"니콜라스는 묵묵히 소매를 걷어붙이고, 덤불 속으로 들어간다.",Nicholas silently rolled up his sleeves and entered the bushes.,
-q2.55,"니,니콜라스..?",N-Nicholas..?,
-q2.56,와 그라고 있노. 아끼는 거면 찾아야될 거 아이가.,Don't just stand there. If it's precious we need to find it.,
-q2.57,"ㅇ,응! 고마워… ",Y-yes! Thank you…,
-q2.58,하…니 진짜 여서 떨군거 맞나?,Sigh… did you really drop it here?,
-q2.59,응… 여기가 맞는데…,Yes… this is the right place…,
-q2.60,"미안..니콜라스, 나 때문에… ","Sorry.. Nicholas, It's because of me...",
-q2.61,"ㅇ,와 울고 그르노? 내 화낸거 아이다!",W-why are you crying? I'm not angry!,
-q2.62,"그치만, 목걸이를 잃어버린 것도, 니콜라스를 고생시킨 것도, 전부 나니까..","But I'm the one who lost the necklace, I'm the one who made Nicholas suffer, I'm the one who...",
-q2.63,니는 쫌 사람이 말을 하면 똑띠 들어라.,You should listen carefully when someone is talking to you.,
-q2.64,"잃어뿐건 니지만, 찾아주겠다 해삔건 내다.","You're the one who lost it, but I'm the one who said I'd find it.",
-q2.65,그게 와 니 책임인데?,How is that your fault?,
-q2.66,뭐든지 다 끌어안을라 카지 마라. 그런다꼬 아무도 안 알아준다.,Don't try to take responsibility for everything. Nobody will appreciate it even if you do.,
-q2.67,… … …,… … …,
-q2.67.1,… … … 잖아..,… … … ciates it..,
-q2.68,뭐?,What?,
-q2.69,니콜라스는 알아주잖아…,You appreciates it.,
-q2.70,"…!! ㅁ,뭐라카노?! 내가 언제?!",…!! W-what are you saying?! When did I?!,
-q2.71,므오옹-,Meow-,
-q2.72,? 울 집서 밥 묵는 굉이가 와 여있노.,What’s that cat that always comes to my house for food doing here?,
-q2.73,"앗, 저거..! 내 목걸이!","Oh, that..! My necklace!",
-q2.74,맞나!? 저 잡아라!,Really?! Catch that cat!,
-q2.75,거기 서 - !!,Stop right there - !!,
-q2.76,….!!!,….!!!,
-q2.77,"아야야.. 니콜라스, 괜찮아…?","Ouch.. Nicholas, are you okay...?",
-q2.78,"…ㄴ,니..니..!!!!!!!",…Y-you..you..!!!!!!!,
-q2.79,응..?,Eh..?,
-q2.80,둘이 와 그라고 있노?,Why are you two like this?,
-q2.81,"ㅇ,울프우드씨! 그 고양이..!!","Oh, Mr. Wolfwood! That cat..!!",
-q2.82,아~ 야가 또 뭘 물고 왔고 마.,Ah~ That one brought something again.,
-q2.83,목걸이? 어서 째 빈 거 아이제? 안에 뭐가 든갑다.,"A necklace? You didn’t steal it from somewhere, did you? There's something inside.",
-q2.84,"ㅇ,우,울프우드씨!! 잠ㄲ…!","Oh, Mr. W-Wolfwood! Wait a sec...!",
-q2.85,마.. 주인이 바로 앞에 있었구먼. 민망 하구로..,Well... The owner was right in front of me. How embarrassing..,
-q2.86,… … … … …,… … … … …,
-q2.86.1,… ?,… ?,
-q2.87,멋대로 손대서 미안타. 여 가가라.,"Sorry for touching it without permission. Here, take it.",
-q2.88,"스탬피드는 울프우드의 손에서 펜던트를 낚아챈 뒤, 인사도 없이 사라졌다.",Stampede snatched the pendant from Wolfwood's hand and disappeared without saying goodbye.,
-q2.89,…..? …..??????,…..? …..??????,
-q2.90,내 도와준다 캣지?,Didn’t I say I’d help you?,
-q2.91,"ㄷ,도와주기는 먼..!!!! 물뿌리개나 주이소!!!",W-what are you talking about?! Just give me the watering can!!!,
-q2.92,오이야~,Yeah yeah-,
-q2.92.1,(야들은 진도가 느린 건지 빠른 건지 모르겠구마.),(Can’t tell if these kids are moving fast or taking it slow.),
-q2.92.2,울프우드로부터 물뿌리개를 받았다. 밧슈에게로 돌아가자!,Got the watering can from Wolfwood. Let's go back to Vash!,
-q2.93,니코~ 왜 이렇게 오래 걸렸어?,Nico~ Why did it take so long?,
-q2.94,오다가 무슨 일 있었던 거야?,Did something happen on the way?,
-q2.95,…암 것도 아입니더. 여 물뿌리개 가져왔심더.,"...Nothing happened. Here, I brought the watering can.",
-q2.96,고마워! 말끔하게 고쳐졌네~,Thanks! It's completely fixed~,
-q2.97,인제 물 주면 됩니꺼?,Should I water it now?,
-q2.98,"아, 사실 니코가 너무 안 와서…","Oh, actually, since you didn't come for so long...",
-q2.98.1,… … …,… … …,
-q2.98.2,… … … … …,… … … … …,
-q2.99,내가 다 줘버렸어!,I already watered them all!,
-q2.100,………아?,………What?,
-q2.101,물뿌리개는 여 있는데.. 뭘로…??,The watering can is right here.. what did you use...??,
-q2.102,"아~ 찾아보니까, 창고에 하나 더 있더라고!",Ah~ I looked around and found another one in the storage!,
-q2.103,…,…,
-q2.104,"에헤헤, 미안…~","Ehehe, sorry...~",
-q2.105,..마…됐심더… 줬음 됐지예… 하…,..Well... it's fine... as long as you watered them... sigh...,
-q2.106,"(너무 고생시켰나…? 그치만 어쩔 수 없지. 미안해, 니코…!)","(Did I make him suffer too much...? But I couldn't help it. Sorry, Nico...!)",
-q2.106.1,"자, 자~ 그럼 집에 돌아가자~","Come on, come on~ Let's go home~",
-q2.107,꽃밭이 넓게 펼쳐진 모습을 상상해 봐~ 황홀하지 않아?,Imagine a flower field spreading wide~ Isn't it enchanting?,
-q2.108,오늘은 밥 값 하는구마. 상으로 빗자루한테 간식 달라하래이.,Today you earned your keep. Ask Spikey for some snacks as a reward.,
-q3.1,장작 패오기,Chopping firewood,
-q3.2,장작 하는 건 아부지 일이었는데..,Chopping firewood was father's job..,
-q3.3,역시 짬처리 시키는 거 아이가?,Aren’t they just going to dump the work on me?,
-q3.4,일단 숲으로 가볼까.,Let's go to the forest first.,
-q3.5,숲에서 울프우드의 도끼를 찾자,Let's find Wolfwood's axe in the forest,
-q3.16,여 어디에 아부지가 쓰는 도끼가 있을긴데…,Father's axe should be somewhere around here...,
-q3.17,[낡은 도끼]를 얻었다.,Obtained [Old Axe].,
-q3.18,상태가 쫌 삐리한데…,The condition is a bit off...,
-q3.18.1,맨날 쓰는 거니까 괜찮겄지.,It's used every day so it should be fine.,
-q3.19,인제 나무 좀 찾아봐야겄다.,Now I need to find some trees.,
-q3.19.1,숲에서 나무하기,Chopping trees in the forest,
-q3.20,어데 힘 좀 써볼까.,"Alright, time to flex my muscles.",
-q3.21,과녁에 맞춰 확인 키를 누르자,Press spacebar to hit the target,
-q3.22,나무에 도끼질을 정확하게 하면 장작을 GET!,If you chop the tree accurately with the axe you GET firewood!,
-q3.23,휘유~ 시원하게 넘어가는구마.,Whew~ It falls down nicely.,
-q3.23.1,여는 더 쓸만한 나무가 없어 보이네.,There don't seem to be any more useful trees here.,
-q3.23.2,옆에 구역으로 가볼까.,Let's go to the next area.,
-q3.24,큼.. 손이 삐끗했다 아이가.,Hmm.. my hand slipped.,
-q3.25,다시 하면 다를 기다.,It'll be different if I try again.,
-q3.26,이 정도면 됐다. 집에서 제일 가까운 숲에서 패야 나르기 편한께 글로 가야겠다.,"This should be enough. I should chop in the forest closest to home since it's easier to carry, so I'll go there.",
-q3.27,후.. 안쪽 숲이라 그런가 나무가 억씨 고마..,Phew.. maybe because it's the inner forest the trees are really tough..,
-q3.27.1,... ?!!,... ?!!,
-q3.27.2,도끼의 손잡이가 부러지며 단면에 손이 긁혔다.,The axe handle broke and my hand got cut on the broken edge.,
-q3.28,악..!!!,Argh..!!!,
-q3.29,하~씨… 조져뿟네. 손잡이가 어쩐지 삐리하다켰다.,Damn... it's broken. I thought the handle seemed off.,
-q3.30,"피 봐라, 어무이한테 또 한소리 듣겄다…","Look at this blood, I'm going to get scolded by Vash again...",
-q3.31,니콜라스?,Nicholas?,
-q3.32,"아, 빗자루.  여서 뭐 하나.","Oh, Spikey. What are you doing here?",
-q3.33,"으응, 블루베리를 따러…","Uh-huh, picking blueberries...",
-q3.33.1,"어, 니콜라스?! 손에서 피가..!","Oh, Nicholas?! Your hand is bleeding..!",
-q3.34,괜찮아?! 상처가 너무 큰데…,Are you okay?! The wound is too big...,
-q3.35,마…이런 거 침 발라두면 낫는다.,Well... Just spit on it—it’ll be fine.,
-q3.36,무슨 소리야! 그러다 더 크게 덧나!,What are you saying! It'll get infected even worse!,
-q3.37,(이래 큰소리 내는 건 또 첨 보네..),(This is the first time I've seen him raise his voice like this..),
-q3.38,"ㅁ,맞나…",Y-yeah...,
-q3.39,손 이리 줘봐.,Give me your hand.,
-q3.40,….!!!,….!!!,
-q3.41,급하니까 소독은 집에 가서 하자. 일단 지혈부터…,It's urgent so let's disinfect it at home. Let's stop the bleeding...,
-q3.42,"ㄷ,됐다. 내 알아서…!",I-it's fine. I'll handle it myself...!,
-q3.43,움직이지 마. 꽉 묶어야 하니까.,Don't move. I need to tie it tightly.,
-q3.44,스탬피드가 힘주어 니콜라스 손에 손수건을 묶어준다.,Stampede firmly ties a handkerchief around Nicholas's hand.,
-q3.45,…손수건이 이래가 우짜노. 내 하나 새로 사주께.,...The handkerchief got ruined. I'll buy you a new one.,
-q3.46,괜찮아. 피는 미지근한 물에 빨면 금방 빠지니까.,It's okay. Blood comes out quickly if I wash it with lukewarm water.,
-q3.47,"…나중에 다 나으면, 돌려주러 와줘.","...When it's all healed, please come return it.",
-q3.48,"….ㅇ, 맞나.. …알겠다.",....Y-yeah.. ...I will.,
-q3.49,스탬피드는 자신도 모르게 너무 바짝 달라붙었단 걸 깨닫고 얼굴이 붉어져 떨어진다.,Stampede realizes he got too close without knowing it and backs away with a red face.,
-q3.50,"ㄱ,그럼 난 이만 가볼게!",T-then I'll be going now!,
-q3.50.1,집가서 깨끗하게 소독해야 해!,You need to go home and disinfect it properly!,
-q3.51,… … …,… … …,
-q3.51.1,장작은 이만하면 됐겠지.,This should be enough firewood.,
-q3.51.2,나도 슬슬 돌아가 볼까?,I should probably get back to home.,
-q3.52,울프우드의 도끼다.,It's Wolfwood's axe.,
-q3.53,"들고 다니는 게 귀찮은 지, 자주 여기에 두고 다니곤 한다.","Maybe because it's bothersome to carry around, he often leaves it here.",
-q3.54,꽤나 단단해 보이는 나무다.,It looks like a quite sturdy tree.,
-q3.55,굳이 이 나무를 벌목하시겠습니까?,Do you really want to cut down this tree?,
-q3.56,세상에 안되는 게 어딨나! 남자는 근성과 맷집 아이겠나!!!,Nothing is impossible in this world! Isn't a man about grit and endurance!!!,
-q3.57,"아이 뭐, 굳이 사서 고생할 거 없지예.","Well, there's no need to make trouble for myself.",
-q3.58,이까이 거 별거 아이고마.,This little thing is nothing.,
-q3.59,"음, 이 뭐, 그거다. 도끼가 맛이 간기다.","Hmm, well, you know. The axe is acting up.",
-q3.60.1,...지금은 왠지 집에 들어가고 싶지 않다.,"...For some reason, I don't want to go home right now.",
-q3.60.2,(집 안에서 어떤 소리가 들린다.),(Some sounds can be heard from inside the house.),
-q3.60.3,안 들어간다고.,I'm not going in.,
-q4.1,물 한잔 마시고 나갈까?,Should I drink some water before going out?,
-q4.2,"우루훗도~ 자, 아앙~♥","Wolfwood~ Give it a try, ahhh~♥",
-q4.3,낸 그런 거 안 묵는다.,I don't eat that stuff.,
-q4.4,"왜?! 한 입만 먹어봐, 이번엔 진짜 맛있게 됐다구!","Why?! Just try one bite, this time it really turned out delicious!",
-q4.5,안 무봐도 뻔하다.,I don't need to eat it to know.,
-q4.6,어제 밤에 묵은 게 더 맛나가…,What I ate last night was more delicious...,
-q4.7,…?! 뭐야! 바보! 에로 목사!,...?! What! Idiot! Perverted priest!,
-q4.8,(지랄을 하소서…),(Please stop the nonsense...),
-q4.9,"큼, 큼…","Ahem, ahem...",
-q4.10,"ㄴ,니코…~! 뭐 찾아? 엄마가 도와줄까…?!",N-Nico...~! What are you looking for? Should mom help you...?!,
-q4.11,아입니더. 하던 거 계속 하이소.,It's nothing. Please continue what you were doing.,
-q4.12,"오야, 퍼뜩 가서 일해라.","Okay, you go get to work.",
-q4.13,"ㄱ, 그런 거 아니야, 니코! 아, 쫌~!!!","I-it's not like that, Nico! Oh, come on~!!!",
-q4.14,(물이 문제가… 동상이 생길라 카는데…),(Drinking water’s no big deal—what really worries me is I might end up with a little brother or sister…),
-q4.15,(그냥 연못 물이라도 떠 묵어야겠다.),(I'll just have to drink pond water.),
-q4.16,울프우드! 너 니콜라스가 보고 있는 거 알고 있었지?!,"Wolfwood! You knew Nicholas was watching, didn't you?!",
-q4.17,왜 말 안 해줬어~!! 창피하단 말이야!!,Why didn't you tell me!! I'm so embarrassed!!,
-q4.18,… … …,… … …,
-q4.19,내는 니가 부끄러워하는 게 좋다,I like seeing you embarrassed,
-q4.20,…!!!,…!!!,
-q4.21,(염병… 더러운 커플들…),(Damn... disgusting couples...),
-s1.1,… … … ….,… … … ….,
-s1.2,"정말로…, 괜찮겠어?",Really... will it be okay?,
-s1.3,응.,Yeah.,
-s1.4,이거면 만족해.,I'm satisfied with this.,
-s1.5,"고맙다, 빗자루.","Thank you, Spikey.",
-s1.6.1,… … … … .,… … … … .,
-s1.6.2,"자, 술이나 마시자.","Come on, let's drink.",
-s1.6.3,너랑 같이 마시는 것도 오랜만인걸?,It's been a while since we drank together.,
-s1.6.4,… … … .,… … … .,
-s1.7,웃어 빗자루.,"Smile, Spikey.",
-s1.8,"넌 역시…,",You look better...,
-s1.9,웃고 있는 모습이 나아.,...when you're smile.,
-s1.10,텅 비었다는 식으로 말한 거 미안하다.,That was a bit harsh. Sorry.,
-s1.11,… … … … .,… … … … .,
-s1.12,저기,Um...,
-s1.13,울프우드… … .,Wolfwood... .,
-s1.14,쓸데없는 소리 하지 마… .,Please don't... say anything stupid...,
-s1.15,이상한 남자를 만났다.,I met a strange man.,
-s1.16,"이제야 좀 마음이 통하나 싶으면,","Every time I start to feel as though he and I are finally on the same wavelength,",
-s1.17,마음속 깊은 곳에선 꼭 의견이 갈렸다.,Our deepest thoughts inevitably pull us to opposite sides.,
-s1.18,"하지만, 난 그때 알아차리고 말았다.",But I realized it then.,
-s1.19,마음속 깊은 곳보다 더욱 깊은 곳에선,Even deeper than the depths of our hearts,
-s1.20,이 남자와 내가 아주 많이 닮았다는 것을,this man and I were very much alike,
-s1.21,"소중한 것, 그것을 지키려는 의지","Precious things, the will to protect them",
-s1.22,때문에 모든 것을 이룬 다음의 하얀 백지를 이 사내와 같이 나누고 싶다고 생각했다.,"Because of that, I wanted to share the blank white page after achieving everything with this man.",
-s1.23,… … .,… … .,
-s1.24,… … … … .,… … … … .,
-s1.25,아아… .,Ah... .,
-s1.26,신이시여.,Oh God.,
-s1.27,제 소망을 단 하나만 들어주십시오.,Please grant me just one wish.,
-s1.28,신이시여 … … .,Oh God ... … .,
-s1.101,"스탬피드, 간만이네","Stampede, it's been a while",
-s1.102,아 보러 온기가?,Did you come to see Nicholas?,
-s1.103,울프우드씨! 안녕하셨어요~?,Mr. Wolfwood! How have you been?,
-s1.104,니콜라스군이랑 함께 돌아오셨다고 들었어요! 건강히 돌아오셔서 얼마나 기쁜지 몰라요!,I heard you came back with Nico! I'm so happy you returned!,
-s1.105,실례가 아니면 니콜라스랑 인사를 해도 될까요?,Would you mind if I said hello to Nicolas?,
-s1.106,"하모, 빗자루가 니만 기다렸다 아이가.","Yes, Spikey has been waiting only for you.",
-s1.107,"퍼뜩 드가봐봐라, 아 밥 묵고 있을 기다.","Go quickly, he's probably nursing right now.",
-s1.108,감사해요! 울프우드씨!,Thank you! Mr. Wolfwood!,
-s1.109,"왜 자꾸 우는 거야, 니코..","Why do you keep crying, Nico..",
-s1.110,"우유가 너무 뜨거운가? 흐음, 아닌 것 같은데.. 어떡하지…","Is the milk too hot? Hmm, doesn't seem like it.. what should I do...",
-s1.111,"안녕하세요, 밧슈씨!","Hello, Vash!",
-s1.112,제가 혹시 안 좋은 타이밍에 온 걸까요..?,Did I come at a bad time..?,
-s1.113,"아, 스탬피드구나!","Oh, it's Stampede!",
-s1.114,"어라, 어라라?","Huh, huh?",
-s1.115,니코가 갑자기 웃잖아?,Nico suddenly smiled!,
-s1.116,뭐지? 어째서 갑자기 웃어주는 걸까?,What? Why did he suddenly smile?,
-s1.117,밧슈는 니콜라스와 스탬피드를 번갈아본다.,Vash looks back and forth between Nicholas and Stampede.,
-s1.118,… 설마..?,... No way..,
-s1.119,…? (어리둥절하기만 하다),…? (Just confused),
-s1.120,"방금까진 니코가 울상이었는데, 스탬피드를 만나서 기분이 좋은가 봐!","Just now Nico was crying, but he seems happy to meet you!",
-s1.121,정말요? 다행이에요. 니콜라스 군에게 잘 보이고 싶어서 아침부터 꾸몄거든요.,Really? That's good. I dressed up from the morning because I wanted to look good for Nico.,
-s1.122,니코군 안녕?,Hello Nico?,
-s1.123,니콜라스는 다시 뚱해진 표정으로 스탬피드에게 앙증맞은 손을 뻗는다. 스탬피드와는 초면인데도 할 말이 많은 건지 작은 입도 우물거리면서 옹알인다.,"Nicholas, with a pouty expression again, reaches out his cute little hand to Stampede. Even though it's his first time meeting Stampede, he seems to have a lot to say as his small mouth moves while babbling.",
-s1.124,"스탬피드, 괜찮으면 니코군을 안아볼래?","Stampede, if it's okay, would you like to hold Nico?",
-s1.125,네?! 정말요..?,Yes?! Really..?,
-s1.126,"하, 하지만.. 아기는 안아본 적이 없는걸요.. 제가 안으면 니콜라스군이 불편할 거예요.",B-but.. I've never held a baby before.. Nicholas would be uncomfortable if I held him.,
-s1.127,그렇지만 니코는 네가 마음에 든 것 같은데? 그러지 말고 한 번 안아줘~,But Nico seems to like you. Don't worry about it and just hold him once~,
-s1.128,스탬피드는 밧슈로부터 조심스레 아기를 받아든다. 품 안에 들어온 니콜라스는 우유 냄새가 나는 뜨끈한 식빵 같았다.,Stampede carefully takes the baby from Vash. Nicholas in his arms was like warm bread that smelled of milk.,
-s1.129,방금까지 울었던 게 거짓말인 것처럼. 스탬피드의 손을 잡고 의젓하게 옹알였다.,"As if his crying just moments ago was a lie, he grabbed Stampede's hand and babbled dignifiedly.",
-s1.130,"와아… 왠지, 갑자기 눈물이 날 거 같아요…","Wow... somehow, I feel like I'm going to cry suddenly...",
-s1.131,"하하! 그거 봐, 아주 편해 보이잖아?","Haha! See, he looks very comfortable, doesn't he?",
-s1.132,"반가워, 니콜라스군..","Nice to meet you, Nicholas..",
-s1.133,"이거 참, 스탬피드를 나보다 좋아하는 것 같아서 질투 날 정도인 걸.","Gee, it looks like he likes Stampede more than me, I'm almost jealous.",
-s1.134,이러다 너랑 결혼한다고 하면 어떡해~,What if he says he wants to marry you?,
-s1.135,"아하핫, 빨리 커서 데리러 와야 해? 니콜라스군.","Ahaha, so you’d better hurry up and grow big, then come whisk me away as your bride, okay, Nico?",
-s1.136,기다릴게..,I'll wait..,
-s1.137,부부의 침실에 함부로 들어가는 건 나쁜 행동이야!,It's bad to enter a married couple's bedroom carelessly!,
-s1.138,니콜라스의 방이구나!,This is Nicholas's room!,
-s1.139,벽지는 무슨 색으로 하셨을까? 노란색? 분홍색?,I wonder what color they chose for the wallpaper—yellow? Pink?,
-s1.140,클래식한 취향이셨구나..,"Oh, so they had classic taste…",
-s2.1,"Chapter 1. Home, sweet home.","Chapter 1. Home, sweet home.",
-s2.2,… …,… …,
-s2.3,… … … …,… … … …,
-s2.4,쟤는 아직도 저러고 있나?,Is he still doing that?,
-s2.5,으응.. 벌써 한 시간째네.,Uh-huh.. it's been an hour already.,
-s2.6,"하이고, 답답하고 마..","Sigh, it's frustrating..",
-s2.7,"니코, 무슨 고민이라도 있니?","Nico, do you have any worries?",
-s2.8,안 봐도 뻔~하다. 너 또 스탬피드 생각하고 있지?,It's obvious without looking. You're thinking about Stampede again?,
-s2.9,고민할 게 뭐가 있는데! 그냥 사나이답게 고백해라!,What's there to worry about! Just confess like a man!,
-s2.10,니코한테 봄이 오려나보다!,Looks like love is in the air for him!,
-s2.11,그래~! 아빠 말대로 고백 한번 해보는 건 어때~?,He's right! How about going for it and telling him how you feel—just like Dad said?,
-s2.12,왜~ 너 어릴 때 그 아이만 매일 좋다고 따라다녔었잖니~,He's right! How about going for it and telling him how you feel—just like Dad said?,
-s2.13,… …,… …,
-s2.14,니콜라스는 대꾸 없이 액자를 탁자 위에 내려놓았다. 그리곤 특유의 뚱한 얼굴로 부모님을 바라본다,Nicholas put the picture frame down on the table without responding. Then he looks at his parents with his characteristic pouty face,
-s2.15,"흐음, 이게 그 '사춘기'라는 건가?","Hmm, is this what they call 'puberty'?",
-s2.16,점마는 사춘기가 아니라 그 짝사랑인지 뭔지 하는 주접이다.,"Oh come on, that's not puberty, it's that one-sided love nonsense.",
-s2.17,으이고 누굴 닮아 저래 문디 같은지..,"Oh my, who does he take after to be so stubborn..",
-s2.18,… …,… …,
-s2.19,"어, 어쨌든!! 아이가 힘들어할 때 도와주는 게 부모의 역할이잖아!!!",A-anyway!! It's the parent's role to help when the child is struggling!!!,
-s2.20,아들이 저렇게 힘들어하면 도와줘야지! 안 도와줄 거야!?!,"If our son is struggling like that, we should help him! Won't you help him?!?",
-s2.21,누가 안 도와준다 캤나!?,Who said I wouldn't help?!,
-s2.22,쟤 꼬락서니가 답답해가 그런 거지.,It's because that kid's behavior is frustrating.,
-s2.23,그래서 빗자루. 뭐 좋은 생각이라도 있나?,"So, Spikey. Do you have any good ideas?",
-s2.24,음.. 내 생각에는,"Well.. I think,",
-s2.25,… … (속닥속닥),… … (whisper whisper),
-s2.26,이렇게 하는 건 어때?,How about we do this?,
-s2.27,좋네! 언제 이런 기발한 생각을 다했나!,Good! When did you come up with such a brilliant idea!,
-s2.28,그러면 언제부터 시작할 건데?,Then when should we start?,
-s2.28_1,오늘부터!! 니코와 우리 가정을 위하여..,From today!! For Nico and our family..,
-s2.29,작전명 러브 앤 피스다!!!!,Operation name: Love and Peace!!!!,
-s2.30,"아, 니콜라스!","Oh, Nicholas!",
-s2.31,오늘 날씨 정말 좋지!,The weather is really nice today!,
-s2.31_2,어디 가? 부모님 심부름?,Where are you going? Parents' errand?,
-s2.32,..아재네 간다.,..I'm going to uncle's house.,
-s2.33,일 도와드리러 가는 거야?,Are you going to help with work?,
-s2.33_1,"후후, 기특하네. 힘들지 않겠어? 내가 도와줄 일 없을까?","Hehe, how admirable. Won't it be hard? Is there anything I can help with?",
-s2.34,(언제까지고 얼라 취급 인기가..),(How long will I be treated like a kid...),
-s2.35,… 됐다. 내가 얼라도 아이고. 신경 끄라.,… It's fine. I'm not a kid. Don't mind me.,
-s2.36,"아… 그렇네, 미안.","Ah... that's right, sorry.",
-s2.37,"그럼 다음에 보자, 니콜라스. 오늘 일 힘내!","Then see you next time, Nicholas. Good luck with work today!",
-s2.38,하아…,Sigh...,
-s2.39,(얼라가 아이긴 뭐가 아이고. 완전 얼라다. 그것도 아주 엄살궂은.),(What do you mean I'm not a kid. I'm totally a kid. A very whiny one at that.),
-s2.40,이런 놈이 남자로 보이믄 눈이 아이고 눈깔 이제. 맞재..,If someone like this looks like a man then they must be blind. Right..,
-s2.40.1,일단은 자고 내일 생각할까..?,Should I sleep first and think about it tomorrow..?,
-s2.40.2,눈 깜빡할 새 아침이고마..,In the blink of an eye it's morning..,
-s2.40.3,그러고 보니 심부름 종이를 어디 뒀쟤?,Come to think of it where did I put the errand note?,
-s2.41,정체 모를 무덤이다,It's a grave of unknown identity,
-s2.42,"예전에 밧슈에게 누구의 무덤인지 물어보았는데, 지금은 쓰지 않는다고 한다..","I asked Vash before whose grave it was, but he said it's not used anymore..",
-s2.43,오늘은 숲에 딱히 볼 일이 없다.,There's nothing particular to see in the forest today.,
-s2.44,스탬피드의 집으로 갈 때가 아니야.,It's not time to go to Stampede's house.,
-s2.45,지금은 집에 돌아가고 싶지 않아..,I don't want to go home right now..,
-s2.46,Chapter 2. Never give up! Never surrender!,Chapter 2. Never give up! Never surrender!,
-s2.47,Chapter 3. Count Down,Chapter 3. Count Down,
-s2.48,Chapter 4. 미래로 가는 차표,Chapter 4. A ticket to the future,
-s3.1,"아재, 잘지냈심니꺼.","Uncle, have you been well?",
-s3.2,니콜라스!!! 어서 와-!!!!!!!!!!!!,Nicholas! Welcome-!!,
-s3.3,"마, 귀청 떨어지겠구로..;","Geez, you're going to make me go deaf..",
-s3.4,"아하핫, 왜냐면 니콜라스…","Ahaha, because...",
-s3.5,이제 다 컸다고 예전처럼 자주 와주지 않으니까…,"Now that you're all grown up, you don't come visit often like before...",
-s3.6,은제적 얘길 하는깁니꺼. 거 내 다슷살 때 입니더.,You're talking about old times. That was when I was five years old.,
-s3.7,삼촌한텐 바로 어제 같단다..,To uncle it feels like just yesterday..,
-s3.8,나이 묵으면 그리된다 카데예.,People often say that’s what happens when you get older,
-s3.9,칼이나 줘 보이소.,Give me the knife.,
-s3.10,리비오는 목공용 칼을 건네주었다,Livio handed over the woodworking knife,
-s3.11,손이 커져서 그런가? 이제 훨씬 깔끔하게 만드는걸!,Is it because your hands got bigger? Now you make it much more neatly!,
-s3.12,마…몸뚱이만 그리 커뿟지예.,Well... only my body grew like that.,
-s3.13,… … … … …,… … … … …,
-s3.14,와 그리 보심니꺼..?,Why are you looking at me like that..?,
-s3.15,리비오는 니콜라스에게만 보여주는 짖궂은 얼굴로 입가를 당겨 웃는다.,Livio pulls the corners of his mouth and smiles with a mischievous face that he only shows to Nicholas.,
-s3.16,"니콜라스, 무슨 고민 있구나?","Nicholas, you have some worries, don't you?",
-s3.17,"..없심니더, 그런 거.",..There's nothing like that.,
-s3.18,"하지만 네가 만든 새 날개, 한쪽이 더 작게 깎였는데?","But the bird wing you made, one side is carved smaller than the other?",
-s3.19,…!!,…!!,
-s3.20,그리고 공방에 올 때는 항상 진정하고 싶을 때였잖아.,And whenever you come to the workshop it's always when you want to calm down.,
-s3.21,형한테 처음으로 크게 혼난 날이었나?,Was it the day you got scolded badly by your dad for the first time?,
-s3.22,그때도 새를 깎았었지. 엉망진창이었지만!,You carved a bird then too. It was a mess though!,
-s3.23,10년도 더 된 일 아입니꺼. 고마 하이소..,That was more than 10 years ago. Please stop it..,
-s3.24,"그래도, 니콜라스는 그때 나 지금이나 항상 내 귀여운 조카니까 말이야!","Still, Nicholas is always my cute nephew, whether then or now!",
-s3.25,"…아무리 나이를 무도 얼라는 얼라, 이 말임니꺼!","...What, so I’m still just a kid no matter how old I get?!",
-s3.26,"니콜라스는 언성을 높이며 자리를 박차고 일어났다가, 머쓱하니 의자에 주저앉았다.","Nicholas raised his voice and stood up abruptly, then awkwardly sat back down on the chair.",
-s3.27,"맞아, 그러니까 혼자서 끌어안기보단 조금은 어리광 부리면 어때?","That's right, so instead of bearing it all alone, how about acting a little spoiled?",
-s3.28,그게 어린애의 특권이잖냐!,That's the privilege of being young!,
-s3.29,… 맞나. 그럼 내 생각해볼게예.,"... Right, let me think about that.",
-s3.30,니콜라스는 한결 가벼워진 마음으로 조각을 깎아나간다.,Nicholas carves the sculpture with a much lighter heart.,
-s3.31,가장 좋아하는 이의 웃는 얼굴을 떠올리면서…,While thinking of his loving person's smiling face...,
-s3.32,날이 어둑해질 즘엔 그럴듯한 새 조각이 완성되었다.,By the time it got dark a decent bird sculpture was completed.,
-s3.33,밖이 깜깜해졌네. 너무 늦게까지 붙잡고 있었다고 형한테 혼나겠는걸?,It's gotten dark outside. Won't you get scolded by your brother for keeping you too late?,
-s3.34,슬슬 가봐야겠습니더.,I should be going now.,
-s3.35,그래~ 오늘도 고생했어. 또 고민이 있으면 언제든 찾아와!,Alright~ You worked hard today too. Come visit anytime if you have worries again!,
-s3.36,니콜라스? 혹시 나에게 상담하고 싶은 게 있어?,Nicholas? Do you happen to have something you want to consult me about?,
-s3.37,(언젠가 이렇게 멋진 삼촌 역할을 하는 날이 오기만을 기다렸지),(I've been waiting for the day when I could play such a cool uncle role like this),
-s3.38,리비오는 기대감을 숨기지 못한다.,Livio cannot hide his anticipation.,
-s3.39,(역시 이런 건 커플에게 물어보는 게 낫겠지?),(I guess it's better to ask a couple about things like this.),
-s3.40,아니예. 오늘 감사했습니더.,No. Thank you for today.,
-s3.41,"그, 그래...","Well, alright...",
-s5.1,니코~!,Nico~!,
-s5.2,어디 다녀왔던 거니?! 밖이 깜깜하잖아,Where have you been?! It's dark outside,
-s5.3,내비 도라. 쟈는 도둑을 만나도 통째로 잡아올 텐데.,Let him be. He’s the kind of kid who’d nab a thief and drag him back alive.,
-s5.4,… 다녀왔습니다.,... I'm back.,
-s5.5,"아들. 여, 와본 나.",Son. Come here.,
-s5.6,니 먼 고민 있나? 며칠째 세상 망한 것 마냥 우중충해 다니지 않나.,Do you have some worries? You've been looking gloomy for days like the world has ended.,
-s5.7,… … …,… … …,
-s5.8,… … … … … …,… … … … … …,
-s5.9,아부지. 어무이.,Father. Mother.,
-s5.10,"그래, 니코!","Yes, Nico!",
-s5.11,아까… 말한 고백이라는 거.,Earlier... about that confession you mentioned.,
-s5.12,우예하믄 좋겠습니꺼?,How should I do it?,
-s5.13,… … ! ! !,… … ! ! !,
-s5.14,아부지 어무이도 커플이니까… 그런 거 잘 알지예…?,"Since father and mother are a couple... you know about these things well, right?",
-s5.15,… … …,… … …,
-s5.16,"하모, 니 어무이랑 내랑은 지지고 볶고 다해봐 연애는 도사지.","Well, your mother and I have been through it all - we're experts at romance.",
-s5.17,… … ?,… … ?,
-s5.18,그런데 …,But ...,
-s5.19,맨 입으로?,Just with words?,
-s5.20,… ? ! ! !,… ? ! ! !,
-s5.21,세상에 공짜가 어딨나?,Where in the world is there anything for free?,
-s5.22,원래 부모 자식 간이 셈을 가장 잘치뤄야 하는 기다.,Parents and children should settle accounts the best.,
-s5.23,여 적힌 거 다 해뿌면 그때 니 연애 도와주마.,"Do everything written here, then I'll help you with your love life.",
-s5.24,니콜라스는 울프우드가 내민 종이쪽지를 받았다.,Nicholas received the paper note that Wolfwood handed him.,
-s5.25,(기냥 건수 잡아가 조뺑이 시키는 거 아이가?),(Isn't he just finding an excuse to make me do chores?),
-s5.26,"오늘은 늦었으니까, 이만 자고 내일부터 부탁해~!","It's late today, so go to sleep and start tomorrow!",
-s5.27,그래. 퍼뜩 가서 자라. 새벽같이 인나야 밤에는 다 끝내재.,Yeah. Go to bed quickly. You need to get up early to finish everything by night.,
-s5.28,"(내 속은 거 같은데, 삼촌…?)","(I feel like he's scheming something, uncle...?)",
-s5.29,할 일이 태산이네.,There's a mountain of work to do.,
-s5.30,뭐부터 해볼까...,What should I start with...,
-s6.1,인자사 다 끝났구만…,Now it's all finished...,
-s6.2,"다 끝냈구나! 정말 수고했어, 니코~","You finished everything! Great job, Nico~",
-s6.3,연애하고 잡는 놈이 이 정도는 해야지.,Someone who wants to date should do at least this much.,
-s6.4,이제 더 할 일은 없는 거지 예?,There's nothing more to do now?,
-s6.5,다 했으니 이제 가장 중요한 고백 준비를 해야지!,"All the other tasks are done, so now it’s time to get ready for the most important part—telling stampede how you feel!",
-s6.6,프러포즈의 정석인 꽃과 반지를 준비하는 거야.,We need to prepare flowers and a ring - the basics of a proposal.,
-s6.7,꽃은 니코가 직접 키운 제라늄을 주면 되고,"For the flowers, just give him the geraniums you grew yourself.",
-s6.7.1,반지는 역시 직접 제작해서 주는 게 좋겠지?,And it would be best to make the ring yourself too?,
-s6.8,……!?!??!?!,……!?!??!?!,
-s6.8.1,"그래서 내보고 나무하고, 제라늄 키우라 한 거가!?",So that's why you made me chop wood and grow geraniums!?,
-s6.9,임마는 이걸 이제 안거가.,You're just realizing this now.,
-s6.10,멀어도 한~참 멀었다.,You're still far from being ready.,
-s6.10.1,가서 더 뺑이 쳐라!!!,Go and work harder!!!,
-s6.11,아 쫌!!!,Oh come on!!!,
-s7.0,"사각, 사각.","Scrape, scrape.",
-s7.0.1,늘 나무 새를 조각하던 니콜라스의 손이 오늘은 반지를 깎고 있다.,Nicholas's hands that usually carved wooden birds are carving a ring today.,
-s7.1,"…그나저나, 내 빗자루 반지 사이즈도 모르는데.","...By the way, I don't even know Spikey's ring size.",
-s7.1.1,하… 이리 중한 걸 내는 인제서야.. 미치겄다.,Sigh... I'm just realizing something this important now... I'm going crazy.,
-s7.2,준비 잘하고 있나~,Are you preparing well~?,
-s7.3,조졌심더. 뻥하고 차일 낍니더.,I'm screwed. I’m sure I’ll get turned down flat when I confess my feelings.,
-s7.4,저 줄라이꺼정 날라뿌겠지예…,Then I’ll end up flat as a pancake…,
-s7.5,야가 와이라 노. 장래희망이 이온포가.,What’s with you? You look like you want the ground to swallow you up.,
-s7.6,…빗자루 반지 사이즈를 모릅니더.,...I don't know Spikey's ring size.,
-s7.7,여즉 손도 안 잡아봤나?,You haven’t even held his hand yet?,
-s7.8,아부지한테선 듣기 싫심니더.,I don't want to hear that from you.,
-s7.9,…아픈 데 찌르지 마라.,...Don’t rub salt in the wound.,
-s7.10,"어쨌든, 사내가 고작 그딴 걸로 죽상을 쓰고 그라나.","Anyway, a man shouldn't look so miserable over something like that.",
-s7.11,"아나, 이거 받으라.","Here, take this.",
-s7.12,울프우드는 작은 상자에서 반지 하나를 꺼냈다.,Wolfwood took out a ring from a small box.,
-s7.13,? 이게 뭔데예?,What is this?,
-s7.14,니 엄마 반지.,Your mother's ring.,
-s7.15,끼는 거 못 봤는데.,I've never seen him wear it.,
-s7.16,"하모, 아직 안 줬은께.","Well, I haven't given it to him yet.",
-s7.17,…대체 결혼식에선 뭘 한깁니꺼?,…What exactly did you do on your wedding day?,
-s7.18,남자의 사정이 있는기라.,Men have their own reasons.,
-s7.19,"갸 손을 보아하니, 니 엄마랑 비슷하다 카이.","Looking at his hands, they're similar to your mother's.",
-s7.20,이거 맹키로 맹글면 대강 맞을끼다.,If you resize this roughly it should fit.,
-s7.21,"예, 고맙심데이.","Okay, thank you.",
-s7.22,뿌사뿌지말고.,Don't be too grateful.,
-s7.23,"울프우드는 니콜라스의 어깨를 두드린 뒤, 자리에서 일어났다.","Wolfwood patted Nicholas's shoulder, then got up from his seat.",
-s7.24,…결혼반지라.,"...A wedding ring, huh...",
-s7.25,니콜라스는 낯선 반지를 손 위에 올려 이리저리 살펴보았다.,Nicholas placed the unfamiliar ring on his hand and examined it from all angles.,
-s7.26,…내도 얼른 끼워주고 싶다.,...I want to put it on Spikey soon too.,
-s7.27,잠깐 바람이라도 씰까…,Should I get some fresh air...,
-s7.28,이 새벽엔 꽃 밭에 아무도 없겠지.,There should be no one in the flower field at this dawn.,
-s8.1,시원한 밤바람이 강 쪽에서 불어온다.,A cool night breeze blows from the river.,
-s8.2,어느새 몽우리가 진 제라늄이 바람에 산들산들 흔들리고 있다.,The geraniums that have formed buds are swaying gently in the wind.,
-s8.3,? 이게 벌써 꽃이 필라 카네. 벨 일이 다 있다…,These are already about to bloom. All sorts of things happen...,
-s8.4,오늘 심는다고 당장 자라서 꽃이 피진 않겠지만..,Just because I planted them today doesn't mean they'll grow and bloom right away..,
-s8.5,"혹시 모르지, 니코의 사랑을 담는다면 기적이 일어날지도?","Who knows, maybe a miracle will happen if you put your love into it?",
-s8.6,기적…,A miracle...,
-s8.7,진짜면 을매나 좋켔노.,How wonderful it would be if it were real.,
-s8.8,사랑을 알아준다는 거 자체가 기적인디.,Just having my love acknowledged would be a miracle.,
-s8.9,그치만 기다리기만 하진 않을끼다.,But I won't just wait around.,
-s8.10,"선물도, 멋진 말도, 제대로 전해가…",I want to give him the present and say just the right words—,
-s8.11,웃게 해주고 싶다.,so I can make him smile.,
-s8.12,"니가 제일 좋다고 말해줬으니께,",I’ll tell you you’re the one I love most—,
-s8.13,내가 제일 좋아하는 얼굴 한 번만 보여도.,"So please, just once, show me that face I adore more than anything.",
-s8.14,…내는 그걸로 괜찮다.,...I'd be fine with that.,
-s8.15,…,…,
-s8.16,………,………,
-s8.17,…괜찮기는 머슨!!!!!!!!!,…What do you mean fine!!!!!!!!!,
-s8.18,고 사이 딴 놈이 채가면 우짤라카는데?,What if someone else takes him in the meantime?,
-s8.19,"아니, 이미 만나는 놈이 있으면…?","No, what if he's already dating someone...?",
-s8.20,"내는 그렇다 쳐도, 쟈는 이미 혼기도 찼다카이!","Never mind me, but he's already at marriageable age!",
-s8.21,고라모 다 말짱 도로묵이다!!!,Then it's all for nothing!!!,
-s8.22,"퍼뜩, 퍼뜩 자라라!!! 빤니!!!!!!!!!","Quickly, grow quickly!!! Please!!!!!!!!!",
-s9.1,평화로운 나날 어느덧 날짜는 7월 18일을 가리키고 있다.,In the peaceful days the date has already reached July 18st.,
-s9.2,"들판 너머, 니콜라스가 정성을 다해 가꾼 제라늄도 어느덧 꽃 몽우리가 피어날 준비를 하고 있다.","Beyond the fields, the geraniums that Nicholas carefully tended are also ready to bloom.",
-s9.3,"제라늄이 활짝 피는 날을 기준으로, 스탬피드에게 고백하는 상상을 괜스레 해보는 니콜라스다.",Nicholas imagines confessing to Stampede on the day when the geraniums bloom fully.,
-s9.4,꽃이 만개한 제라늄 들판에 바람이 휘날린다.,Wind swirls through the geranium field in full bloom.,
-s9.6,어렸을 때부터 니만 좋아했었다.,I've only loved you since I was young.,
-s9.7,내 마음을 받아도…!!,Please accept my feelings...!!,
-s9.8,니코…,Nico...,
-s9.9,정말로 기뻐.,I'm truly happy.,
-s9.9.1,나도 네가… 좋아.,I also... love you.,
-s9.10,달콤한 바람을 타고 꽃잎이 흩날린다.,Flower petals scatter on the sweet breeze.,
-s9.10.1,서툴지만 진실한 방식으로 서로의 마음을 확인한 두 사람.,"The two of them, clumsy yet sincere, finally affirmed each other’s feelings.",
-s9.10.2,마주하는 것만으로도 떨리는 눈을 서로에게 마주한 채,With trembling eyes that flutter just from facing each other,
-s9.10.3,손을 맞잡고 입을…,Holding hands and their lips...,
-s9.10.4,… … … …,… … … …,
-s9.11,미쳤는 갑다. 얼라도 아이고…!!!!,I must be crazy. I'm not even a kid...!!!!,
-s9.12,…나가서 꽃이나 솎아내야지.,...I should go out and thin the flowers.,
-s9.13,아드으을!!!!!,SON!!!!!,
-s9.14,니코!!!!! 이러고 있을 때가 아냐!!,Nico!!!!! This is no time for this!!,
-s9.15,스탬피드…! 스탬피드가 오늘 떠난대…!!,Stampede...! Stampede is leaving today...!!,
-s9.16,짐도 벌써 다 실어서 갈 준비를…,He's already packed everything and is ready to go...,
-s9.17,뭐라고예!?,What!?,
-s9.18,떠난다고예?! 우데를예?!,He's leaving?! Where to?!,
-s9.19,형을 따라서 줄라이로 간다고…,He's going to July City to follow his brother...,
-s9.20,…?!,…?!,
-s9.21,내는… 내는 아직 좋아한다고… 말도 못 했는데…!!,I... I haven't even told him I love him yet...!!,
-s9.22,갔나?,Did he go?,
-s9.23,응 다급한 표정으로 뛰어갔어.,Yes. he ran off with an urgent expression.,
-s9.24,…괜찮겠지?,…Will he be okay?,
-s9.25,지 하기에 달려있데이.,It depends on what he does.,
-s9.26,… …,… …,
-s9.27,기다려봐라,Wait and see,
-s9.28,차표는 쟈가 갖고 있는기라.,The path he needs to take is for him to decide.,
-s9.29,우리는 그저… 지켜봐 주면 된다.,We just... need to watch over him.,
-s9.30,빗자루가 떠나기 전에 고백해야 해…!!,I have to tell him how I feel before he leaves...!!,
-s9.31,스탬피드가 떠나기까지 남은 시간은 3분…!,Time remaining until Stampede leaves is 3 minutes...!,
-s9.32,"고백을 위해 준비했던, [제라늄 꽃]과 [반지]를 준비해서 스탬피드를 만나야 해!",I need to prepare the [Geranium Flower] and [Ring] that I prepared for the confession and meet Stampede!,
-s9.33,제라늄 꽃 준비하기,Prepare the geranium flower,
-s9.33.1,꽃을 준비하지 않고선 스탬피드를 만날 수 없어!,I can't meet Stampede without preparing the flower!,
-s9.34.1,"바람이 솔솔 부는 들판인지라, 어느새 제라늄 말고도 다른 꽃들이 많이 자리를 잡았다.","Since the wind blows gently through the field, many other flowers besides geraniums have settled in.",
-s9.34.2,으아아악…!! 이 중에 제라늄이 있을 텐데…? 대체 어떤 거지?!,Ahhh...!! There must be geraniums among these...? Which ones are they?!,
-s9.34.3,"제길, 이 녀석이 맞겠지?!","Damn, this must be the right one?!",
-s9.34.4,니콜라스는 힘차게 꽃을 꺾어들었다!,Nicholas vigorously plucked the flower!,
-s9.35.1,자세히 보니 제라늄과 비슷한 꽃이었다. 임파첸스… 였었나?,Looking closely it was a flower similar to geranium. Was it Impatiens...?,
-s9.35.2,자세히 보니 제라늄과 비슷한 꽃이었다. 홑겹 장미…였었나…?,Looking closely it was a flower similar to geranium. Was it a Single rose...?,
-s9.35.3,자세히 보니 제라늄과 비슷한 꽃이었다. 베고니아… 였었나?,Looking closely it was a flower similar to geranium. Was it Begonia...?,
-s9.35.4,니콜라스는 제라늄을 정확히 알아봤다! 이게 다 밧슈의 교육 덕분인 걸까?!,Nicholas correctly identified the geranium! Is this all thanks to Vash's education?!,
-s9.35.5,니콜라스는 낯선 꽃을 집어던졌다!!!,Nicholas threw away the unfamiliar flower!!!,
-s9.36,"머꼬, 왠 잡초가 끼어 든기고?!! 제라늄은 어딨는기가?!","What, why are there weeds mixed in?!! Where are the geraniums?!",
-s9.37,"휴, 꽃은 챙겼고. 이제 반지만 찾으면 된다…!!","Phew, I got the flower. Now I just need to find the ring...!!",
-s9.38,저번에 옷 주머니에 넣어놨던건  기억이 나는데…,I remember putting it in my clothes pocket last time...,
-s9.39,일단 방으로 가자!! 가면 기억이 나겠쟤!!,Let's go to my room first!! I'll remember when I get there!!,
-s9.40.1,방에 도착한 니콜라스는 정작 어떤 옷에서 반지를 찾아야 할지 몰라 혼돈에 빠졌다!,Nicholas arrived at his room but fell into confusion not knowing which clothes to search for the ring!,
-s9.40.2,아 그러니까… 내가 그날 뭘 입었지…?!,Oh right... what did I wear that day...?!,
-s9.41,꺼믕 옷이었던 거 같은데…,I think it was the black clothes...,
-s9.42,이 옷이 아니었다…,This isn’t the right outfit…,
-s9.43,주머니에서 반지를 찾았다…!!,I found the ring in the pocket...!!,
-s9.44,"하, 반지… 여 있었나?!!!","Ah, the ring... was it here?!!!",
-s9.45,앞으론 입은 옷은 재깍 재깍 치워야겠데이…,From now on I should put away the clothes I’ve worn more neatly...,
-s9.46.1,….?,….?,
-s9.46.2,주머니에 뭔가 들어있는 것 같다…,There seems to be something in the pocket...,
-s9.47,됐다…!!,All set...!!,
-s9.48,반지도 꽃도 준비가 끝났다…!,Both the ring and flower are ready...!,
-s9.49,이제 빗자루를 만나러 가면 된데이…!!!,Now I just need to go meet Spikey...!!!,
-s9.50,제한 시간이 끝나기 전에 스탬피드를 만나러 가자!,Let's go meet Stampede before time runs out!,
-s9.51,너무 늦으면 스탬피드가 떠나버릴지도 모른다…! 서둘러야 해…!,If I'm too late Stampede might leave...! I need to hurry...!,
-s9.52,으아아악…!! 머꼬!! 왜 나무가 여기 쓰러져 있는 기가?!!,Ahhh...!! What the—?! Why is there a tree fallen here?!!,
-s9.53,급해 죽겠는데…. 어쩔 수 없지! 뿌쑤고 지나간다…!!!,I’m in such a rush.... Can't help it! I'll break through...!!!,
-s9.54,[확인 키]를 연타해 나무를 부수고 지나가자!,Press [spacebar] to break the tree and pass through!,
-s9.55,제한 시간 내에 나무를 부수면 성공!,Success if you break the tree within the time limit!,
-s9.56,"헉,헉…. 별것도 아닌 게, 앞 길을 막고 있어…!!","Huff, huff... Something so trivial is blocking the way...!!",
-s9.56.1,기다려라 빗자루! 내 금방 간다…!!,Wait! Spikey! I'm coming right now...!!,
-s9.57,"제길, 다시!! 이딴 걸로 포기할 순 없데이…! 다시 해보자!!!","Damn, again!! I can't give up over something like this...! Let's try again!!!",
-s11.0,빗자루-!!!,Spikey-!!!,
-s11.1,떠돌이 개 한 마리가 기어들어왔군.,A stray dog has crawled in.,
-s11.2,헉…헉 비키쇼.,"Huff... huff, get out of the way.",
-s11.3,지금 그쪽이랑 말장난할 시간 따위 없심더.,I don't have time to play word games with you right now.,
-s11.4,제 앞가림도 못하는 놈에게 들을 말은 없다.,I have nothing to hear from someone who can't even take care of himself.,
-s11.5,나이 나 준비 다 끝났어~,"Knives, I'm all ready~",
-s11.6,앗 니코..?! 둘이 왜 그러고 있어?,Oh Nico..?! Why are you two like this?,
-s11.7,"아무것도 아니야. 짐, 이리 줘.",It's nothing. Give me the luggage.,
-s11.8,응 여기. 고마워 다음에 놀러 올 거지?,Here you go. Thanks. Will you come visit?,
-s11.9,생각해 보지.,I'll think about it.,
-s11.9.1,허튼짓을 하면 죽여버리겠다.,I'll kill you if you do anything foolish.,
-s11.10,니코..? 여기까지 뛰어온 거야? 숨찬 것 같은데 괜찮아..?,Nico..? Did you run all the way here? You look out of breath..,
-s11.11,… …,… …,
-s11.11.1,니 오늘 이사가나..?,Are you moving today..?,
-s11.12,어..? 으응.. 맞아. 그래서 나이가 도와주러-,Huh..? Yeah.. that's right. So Knives came to help-,
-s11.13,니는 내가 못 미덥나..!!!,Don't you trust me...?!,
-s11.14,왜..! 내한테는 말도 안 하고…!!,Why..! You didn't even tell me…!!,
-s11.15,초조했던 마음이 터져 나오듯 목소리가 높아졌던 니콜라스는 얼어붙은 스탬피드를 보고 입을 다문다.,"Nicholas’s voice rose, his anxiety spilling over, but he fell silent at Stampede’s frozen expression.",
-s11.16,(아냐. 저런 표정을 짓게 만들고 싶었던 게 아닌데..),(No. I didn’t mean to make you look like that...),
-s11.17,"숨이 목 끝까지 차오르고, 심장이 터질 것 같아도..",Even though my breath rises to my throat and my heart feels like it's going to burst...,
-s11.18,다리를 움직여 달려와서 전하고 싶었던 말은..!,The words I wanted to say after moving my legs and running here are..!,
-s11.19,니콜라스는 손에 들고 있던 제라늄을 불쑥 들이민다.,Nicholas suddenly thrust forward the geranium he was holding in his hand.,
-s11.20,"급히 달려온 탓에 줄기가 군데군데 꺾여있고, 조금이나마 피어있던 꽃들은 꽃잎이 날려 성치 않다.",Because of rushing here the stems are broken in places and the few flowers that were blooming have their petals blown away and are not intact.,
-s11.21,….내는 남들처럼 예쁜 말도 몬한다.,…I can't say pretty words like others.,
-s11.22,말도 등신처럼 하고 니한테 상처만 주는 놈이라 별로겠재..,I speak like an idiot and only hurt you so you probably don't like me..,
-s11.23,니콜라스…?,Nicholas…?,
-s11.24,내도 내가 뭐라 하는지 모르겠다!!!,I don't even know what I'm saying!!!,
-s11.25,니는 어떨지 모르겠지만 내가 하고 싶은 말은..,I don't know how you feel but what I want to say is..,
-s11.26,니가 안 갔으면 좋겠다.,I wish you wouldn't go.,
-s11.27,내 옆에 있어주면 좋겠데이…,I wish you would stay by my side…,
-s11.28,"빗자루, 니 안 가믄 안 되나..?",Spikey can't you not go..?,
-s11.29,…,…,
-s11.30,… 내 니 좋아한데이. 가지 마.,... I love you. Don't go.,
-s11.31,(멋지게 고백하고 싶었는데..),(I wanted to confess to him in style…),
-s11.32,니콜라스는 모든 것 망쳤음을 직감적으로 깨달았다.,Nicholas intuitively realized that he had ruined everything.,
-s11.33,그의 볼품없는 고백에 실망한 탓일까. 스탬피드는 아무 말 없이 니콜라스를 바라본다.,"Perhaps disappointed by his shabby confession, Stampede looks at Nicholas without saying anything.",
-s11.34,스탬피드는 니콜라스가 건넨 꽃다발을 받아들었다.,Stampede accepted the bouquet that Nicholas handed to him.,
-s11.35,…내 품에 안겼을 때가 엊그제 같은데..,…It feels like yesterday when you were in my arms..,
-s11.36,…?,…?,
-s11.37,니코는 어려서 기억 안 나겠지만 ..,You probably don't remember because you were young Nico but..,
-s11.38,어릴 때 나랑 결혼하겠다고 그랬거든,When you were little you said you would marry me,
-s11.39,그때는 그냥 어린아이의 투정이라고 생각했었어..,Back then I thought it was just a child's whim..,
-s11.39.1,…!!!,…!!!,
-s11.40,"그런데, 언제 이렇게 커서 나한테..",But when did you grow up like this and to me...,
-s11.42,니콜라스는 춤을 청하듯 스탬피드의 손을 자신의 손 위에 올렸다.,Nicholas placed Stampede's hand on his own as if asking for a dance.,
-s11.42.1,"어째서인지, 허겁지겁 달렸던 방금 보다 지금 더 심장이 뛰는 것 같다.",For some reason my heart seems to be beating faster now than when I was running frantically just now.,
-s11.42.2,주머니 안쪽에 소중히 보관한 나무 반지를 꺼내 스탬피드 손에 끼워준다.,He takes out the wooden ring he had carefully kept in his pocket and puts it on Stampede's hand.,
-s11.43,"… 니코. 후회할 것 같으면, 아직 그만둬도 돼.",…Nico. If you think you'll regret it you can still stop.,
-s11.43.1,내는 두 말 안 한다.,I won't say anything twice.,
-s11.44,니도 내도. 이젠 무르고 싶어도 못 무르는 거래이.,You and I both. Now we can't take it back even if we want to.,
-s11.45,!,!,
-s11.46,응! 너도 나중에 딴소리하면 안 돼?,Yes! And you’d better not change your tune later! okay?,
-s11.47,스탬피드는 제라늄처럼 발개진 코를 훌쩍이고 꽃다발을 와락 끌어안는다.,Stampede sniffles with his nose red like a geranium and hugs the bouquet tightly.,
-s11.49,"헤헤, 꽃향기 좋다~",Hehe the flowers smell nice~,
-s11.51,…,…,
-s11.52,그..있제 혹시..,Um.. by any chance..,
-s11.53,니만 괜찮으면 우리 집으로 오는건 어때?,If you're okay with it how about coming to our house?,
-s11.54,우리 집에 빈 방 하나 있어가..,We have one empty room in our house..,
-s11.55,"물론 정리는 쪼매 해야 하지만, 니 오면 내가 광나게 닦아놓을게.",Of course I need to clean up a bit but if you come I'll polish it until it shines.,
-s11.56,"우리 집에 살면..! 내가 키운 제라늄들 맨날 볼 수 있다. 그리고, 내도…",If you live in our house..! You can see the geraniums I grew every day. And I also…,
-s11.57,…응?,…Yes?,
-s11.57.1,"저기, 니콜라스.. 아까부터 뭔가 이상한 것 같아서.",Um Nicholas.. something seems strange since earlier.,
-s11.57.2,나 니코네 집으로 이사 가는 건데?,I'm moving to Nico's house.,
-s11.58,?,?,
-s11.59,어라? 부모님께서 안 알려주셨어?,Huh? Didn't your parents tell you?,
-s11.60,혼자 있기엔 집에 너무 큰 것 같아서 고민이었거든!,My house seemed too big for me to live alone so I was worried!,
-s11.61,"그런데 울프우드씨가 빈 방이 하나 있다고, 얼른 들어오라고 하셨어.",But Mr. Wolfwood said there's one empty room and told me to come in quickly.,
-s11.62,지금 짐 싸서 리비오씨를 부르려는 참이었는데..,I was just about to pack my things and call Mr. Livio..,
-s11.63,(망할… 아버지..!!),(Damn it… Father..!!),
-s11.64,"니 연애, 내가 도와 줄기다.",I'll help you with your romance.,
-s11.64.1,순간 자신의 부모님이 머릿속에서 껄껄 웃으며 주마등처럼 스쳐 지나간다.,For a moment his parents pass through his mind like a panorama laughing heartily.,
-s11.65,어떻게 된 건진 잘 모르겠지만..,I don't really know what happened but..,
-s11.66,그래도 앞으로 니코랑 같이 지낼 수 있어서 좋아.,But I'm happy that I can live with Nico from now on.,
-s11.67,약속 지켜줘서 정말 기뻐.,I'm really happy that you kept your promise.,
-s11.68,내도 좋다..,I'm happy too..,
-s11.69,그렇게 두 사람의 이야기는 끝나지 않고 계속된다.,Thus the story of the two continues without ending.,
-s11.70,누군가의 간절했던 기도가 푸른 하늘에 닿아,Someone's earnest prayer reaches the blue sky,
-s11.71,그 염원을 들어 준 것처럼,As if their wish was granted,
-s11.72,더 이상 이 세상에 눈물 흘리는 이가 없기를,May there be no more tears in this world,
-s11.73,사랑하는 이를 두고 홀로 떠나는 이가 없기를,May there be no one who leaves alone leaving their loved one behind,
-s11.74,연인들의 앞에 끝없는 축복만이 가득하기를…,May endless blessings be full before the lovers…,
-s11.75,… … … …,… … … …,
-s12.2,다행이야. 솔직하게 마음을 전했구나..!,I’m glad they were able to express their feelings honestly!,
-s12.3,내가 말했재.,I told you.,
-s12.4,이번'생'에는 별 탈 없을 거라고,This 'life' will be without any problems,
-s12.5,..푸흐 그렇네! 이번엔 정말 별일 없어서 다행이야.,That's right! I'm glad nothing really happened this time.,
-s12.6,울프우드도 아이들도!,Wolfwood and the children too!,
-s12.7,우리가 멀쩡하니 또 다른 '우리'도 괜찮은 게 당연한 거재.,Since we're fine it's natural that another 'us' is also okay.,
-s12.7.1,… … … …,… … … …,
-s12.7.2,빗자루. 내도 줄 게 있다.,Spikey. I also have something to give you.,
-s12.8,울프우드는 품 속에서 나무 반지를 꺼낸다.,Wolfwood takes out a wooden ring from his chest.,
-s12.9,… !,… !,
-s12.10,오랜 시간 주인을 기다린 반지는 약지에 딱 맞게 들어갔다.,The ring that had been waiting for its owner for a long time fit perfectly on the ring finger.,
-s12.11,우리 결혼할 때 반지 하나 못 나눴다 아이가.,We couldn't even share a ring when we got married.,
-s12.12,닌 슬퍼하느라 기억 못 하겠지만..,You probably don't remember because you were grieving but..,
-s12.13,오늘 우리 결혼기념일이다. 쪼매 늦었어서 미안타.,Today is our wedding anniversary. Sorry I'm a little late.,
-s12.14,..!!,..!!,
-s12.15,기억 못할 리 없잖아..이 바보 목사가…!!,How could I not remember.. you silly priest…!!,
-s12.16,흑…. 우루훗도오…..~!!,(Sob…) Wolfwood…..~!!,
-s12.17,멍청이.. 웃으라니까..,Silly.. I told you to smile..,
-s12.18,울프우드는 품속에서 울고 있는 밧슈를 떼어놓고 자신의 손을 내민다.,Wolfwood separates the crying Vash from his chest and extends his hand.,
-s12.19,빗자루. 너도 언젠가 선택할 순간이 온다고 했던 거 기억하나?,Spikey. Do you remember I said that someday you would have a moment to choose?,
-s12.20,니 이번엔 제대로 선택해라.,You choose properly this time.,
-s12.20.1,"계속 울고만 있을지, 내한테도 니랑 똑같은 반지를 끼워줄지.","Keep crying or put a ring on my finger, too.",
-s12.21,우..우에에엥..!!!,Wah.. wahhh..!!!,
-s12.22,넌 항상 못된 말을 하더라..!!,You always say mean things..!!,
-s12.23,밧슈는 눈물을 닦아내고 울프우드의 손가락에 반지를 끼워주었다.,Vash wiped away his tears and put the ring on Wolfwood's finger.,
-s12.24,훌쩍.. 미래로 가는 차표는 아직 우리 것도 있었구나..!,(Sniff..) we still have our tickets to the future..!,
-s12.25,이거야말로 최고의 종착지 아니겠나.,This is truly the best destination isn't it.,
-s12.26,뭐고. 뭔 소리고. 저 아부지 어무이 아인가?,What is this sound? Aren't those father and mother?,
-s12.27,앗?! 어머님이 아버님 품에 안겨서 울고 계시는데..?,Ah?! Your mother is crying in father's arms..?,
-s12.28,저기는 허구한 날 스킨ㅅ…,Those two are always skinsh-,
-s12.29,방금 뭐라고..?,What did you just say..?,
-s12.30,"어머님, 아버님?",Mother Father?,
-s12.31,…..??? ?? ???? ???,…..??? ?? ???? ???,
-s12.32,하하핫..!,Hahaha..!,
-s12.33,"푸하, 아하하핫..!","Ha, Hahahaha..!",
-s12.34,하늘이 시리도록 맑은 날에,On a day when the sky is crystal clear,
-s12.35,그는 더 이상 신에게 기도하지 않아도 되는 세상이 되기를 기도했다.,He prayed for a world where he no longer needed to pray to God.,
-s12.36,"아득한 저쪽, 보이지 않는 머나먼 곳에서는 노랫소리가 끊임없이 이어지기를…",In that distant place far beyond sight may the sound of singing continue endlessly…,
-s12.37,그 기도가 푸른 하늘이 이어진 곳에 닿아 작은 기적을 일으켰다면…,If that prayer reached the place where the blue sky extends and caused a small miracle…,
-s12.37.1,… … … …,… … … …,
-s12.38,이건 더 이상 신에게 기도하지 않아도 되는,This is about a world where you no longer need to pray to God,
-s12.39,그런 세상에 대한 이야기이다.,This is a story about such a world.,
-s13.1,휴… …,Phew… …,
-s13.2,이게 마지막 박스였재?,Was this the last box?,
-s13.3,"멋부린다 카긴 했지만, 이래 옷이 많은 줄은 몰랐다…",I knew he was fashionable but I didn't know he had so many clothes…,
-s13.4,니코~ 빨리 와~!,Nico~ Come quickly~!,
-s13.5,어어 나간다. 기다리래이.,Okay I'm coming. Wait for me.,
-town1.1,인간 태풍'에 대해 들어본 적 있어?,Have you ever heard of the 'Human Typhoon'?,
-town1.2,예전에 전 세계 사람들을 공포에 떨게 했었나 봐,It seems he once made people all over the world tremble in fear,
-town1.3,소문에 의하면 도넛을 좋아하고..,According to rumors he likes donuts and..,
-town1.4,무시무시한 미인이래,He's said to be a terrifying beauty,
-town1.5,"역시, 옛날 사람들이 지어낸 농담이겠지?",Still it's probably just a joke made up by people in the past right?,
-town2.1,옛날엔 우리 마을에 목사가 없었거든.,In the old days our village didn't have a priest.,
-town2.2,울프우드씨가 있어서 정말 다행이야.,I'm really glad we have Mr. Wolfwood.,
-town2.3,처음 봤을 땐 오해했었어. 정장을 입은 목사라니!,I misunderstood when I first saw him. A priest in a suit!,
-town2.4,하지만 왜 그런지 알 것 같아.,But I think I know why.,
-town2.5,울프우드씨가 수단을 입으면 기도할 때 아무도 눈을 감지 않을 거잖아?,If Mr. Wolfwood wore a cassock no one would close their eyes during prayer right?,
-town3.1,아이스 아메리카노 한 잔 주이소,One cold americano please,
-town3.2,"미안하지만, 우리 가게는 바나나 선데이만 가능해.",Sorry but our shop only serves banana sundae.,
-town3.3,"(아니, 뭐 이딴 가게가 다 있나..?)",(What kind of shop is this..?),
-town4.1,영업시간이 끝났다. 나중에 다시 오자.,Business hours are over. Let's come back later.,
-town5.1,총..?,Gun..?,
-town5.2,요즘 같은 세상에 그런 걸 팔리 없잖아?,There's no way they'd sell such things in a world like this right?,
-town6.1,무거워 보이는 통나무들이 차곡차곡 쌓여있다.,Heavy-looking logs are neatly stacked.,
-town7.1,"오, 니코!",Oh Nico!,
-town7.2,"삼촌 우예 목공소가 아이라, 여 있습니꺼?",Uncle why are you at the carpentry shop instead of home?,
-town7.3,"아, 만나기로 한 사람이 있어서!",Oh I have someone I'm supposed to meet!,
-town7.4,"아하...? 아, 저 수리도구가 필요한데 빌려도 되지예?",Ah...? Oh I need some repair tools can I borrow them?,
-town7.5,물론~! 목공소 입구 맞은 편의 도구걸이를 확인해 봐!,Of course~! Check the tool rack across from the woodshop entrance!,
-town7.6,고맙십니더.,Thank you.,
-town7.7,(누구를 기다리는 거재..?),(Who is he waiting for..?),
-town7.8,(리비오는 다소 설레어 보인다),(Livio seems somewhat excited),
-town8.1,"3시간에 5실버, 하룻 밤은 10실버야.",3 hours for 5 silver a full night is 10 silver.,
-town8.2,뭐? 3시간만 자고 가는 사람이 있냐고?,What? Are there people who only sleep for 3 hours?,
-town8.3,푸흡. 부모님께 물어보지 그래?,Hehe. Why don't you ask your parents?,
-town9.1,"오, 니콜라스군 아냐?","Oh, Nicholas?",
-town9.2,나 아까 스탬피드랑 닮은 것 같은 사람을 봤어.,I saw someone who looked like Stampede earlier.,
-town9.3,뭐? 닮으면 닮았지. 닮은 것 같은 게 뭐냐고?,What? If they look alike they look alike. What do you mean 'looks like'?,
-town9.4,"하하, 너도 직접 보면 알게 될걸?",Haha you'll understand when you see for yourself?,
-town10.1,무럭무럭 자라라~,Grow big and strong~,
-town10.2,울프우드씨에게 특제 우동을 배우기로 했다고?,I decided to learn special udon from Mr. Wolfwood,
-town11.1,"있잖아, 나.. 사실..",You know what..,
-town11.2,너를...,I always...,
-town12.1,안녕하세요 올리브 샵입니다~,Hello this is Wolfmart~,
-town12.2,찾으시는 게 있으시면 말씀해 주세요~,If you're looking for something please let me know~,
-town13.1,이 우동 맛있는걸!,This udon is delicious!,
-town13.2,쫀득한 면발과\n섬세한 국물의 하모니..!,The harmony of chewy noodles\n and delicate broth..!,
-town14.1,뭐야? 왜 그렇게 쳐다봐?,What? Why are you staring at me like that?,
-town14.2,한 끼 대접하고 싶지만 이집 카레는 특별히 맛있는 게 아니라..,I'd like to treat you to a meal but this place's curry isn't particularly delicious..,
-town15.1,"어어, 울프우드씨~",Oh Mr. Wolfwood~,
-town15.2,가 아니라 니콜라스잖아?,Wait no. You're Nicholas isn't it?,
-town16.1,응? 나를 어디서 본 것 같다고?,Hm? You think you've seen me somewhere?,
-town16.2,에이~ 금발 미인 쌍둥이는 흔하잖아~,Hey~ blonde beautiful twins are common~,
-town16.3,랄랄라~ 라랄라라~,Lalala~ Lalalala~,
-town17.1,이 너머엔 볼 일이 없어,There's nothing to see beyond here,
-town18,"이 앞, 나무 있다",Amazing tree ahead!,
-town19.1,...?,...?,
-town19.2,빗자루잖아?,Isn't that Spikey?,
-town19.3,옆은 누구지..?,Who's next to him..?,
-town19.4,빗자루랑 닮은 것 같기도.. 아닌 것 같기도 한데?,He looks similar to Spikey.. but also not?,
-town19.5,"니콜라스는 귀를 기울였지만, 시냇물이 흐르는 소리에 섞여 대화가 잘 들리지 않는다.",Nicholas listened carefully but the conversation was hard to hear mixed with the sound of flowing stream water.,
-town19.6,― ... ... .,― ... ... .,
-town19.7,"하지만, 나이..",But Knives..,
-town19.8,"여태까지 계속 네 의견을 존중해왔어, 밧슈.",I've been respecting your opinion all this time Vash.,
-town19.9,너야말로 한 번이라도 내 말을 들어줄 순 없는 거냐?,Can't you just listen to me for once?,
-town19.10,... ... ...,...  ... ...,
-town19.11,미안... 그래도 나는 ―가 ...,Sorry... but I still think ― is ...,
-town19.12,... 딱 이번 달까지만 기다려주마.,... I'll wait just until this month.,
-town19.13,잘 생각해 봐.,Think about it carefully.,
-town19.14,"니콜라스는 스탬피드에게 말을 걸고 싶었지만, 중요한 대화 중인 둘을 방해하지 않기로 했다.",Nicholas wanted to talk to Stampede but decided not to disturb the two who were having an important conversation.,
-town20.1,무너지지 않는 침대를\n어떻게 만들란 거야?,How am I supposed to make\n a bed that won't collapse?,
-town20.2,형도 정말...,"Please, bro...",
-town21.1,지금은 방해하지 말자..,Let's not disturb them now..,
-home28.1,다양한 동화책들이 있다. 한 권 펼쳐보시겠습니까? ,There are many different fairy tale books. Would you like to try one? ,
-home28.2,맞아. 동화책을 읽을 나이는 지났지.,"You're right, I'm past the age of storybooks.",
-home28.3,[늑대와 빨간 모자],The Wolf and Little Red Riding Hood,
-home28.4,"옛날 옛적에, 빨간 모자를 쓴 아주 착한 아이가 살고 있었어요.","Once upon a time, there lived a very nice little boy named Little Red Riding Hood.",
-home28.5,햇살이 따스한 7월에 빨간 모자는 따끈따끈한 쿠키를 바구니에 담고 사랑하는 할머니를 만나러 숲속 길을 걸었어요.,"On a sunny July day, Little Red Riding Hood walked through the woods with a basket of warm cookies to visit his beloved grandmother.",
-home28.6,"그런데, 할머니 집에 도착하자 그곳엔... 할머니가 아닌, 까만 늑대가 기다리고 있었어요!","But when he got to her house... Instead of her grandmother, a black wolf was waiting for her!",
-home28.7,"빨간 모자는 깜짝 놀랐지만, 용감하게 바구니에서 쿠키 하나를 꺼내 늑대에게 건넸어요.","Little Red Riding Hood was surprised, but she bravely took a cookie out of her basket and gave it to the wolf.",
-home28.8,"늑대는 쿠키를 한 입 먹고는 ""니, 이런걸로 내를 꼬실 수 있다고 생각한기냐"" 하며 화를 냈답니다.","The wolf took one bite of the cookie and was furious, saying, ""You think you can lure me with this?""",
-home28.9,하지만 늑대는 사실 용감한 빨간 모자가 마음에 들었어요.,But the wolf actually liked the brave Little Red Riding Hood.,
-home28.10,빨간 모자와 늑대는 힘을 합쳐 달콤한 쿠키 가게를 열었어요. [늑대와 빨간 모자의 베이커리]는 숲 속 친구들이 줄을 서서 쿠키를 사러 올 만큼 정말 인기 있는 가게가 되었습니다!,Little Red Riding Hood and the wolf joined forces and opened a sweet cookie shop. [Wolf and Red Riding Hood's Bakery] became so popular that all the forest friends lined up to buy cookies!,
-home28.11,- 해피 엔딩 -,- Happy Ending,
-home28.12,다양한 동화책들이 있다.,There are many different fairy tales.,
-intro1.1,"울프우드씨랑 밧슈씨, 돌아오셨구나!",Mr. Wolfwood and Mr. Vash back!,
-intro1.2,니콜라스군의 목소리인가 봐,I think that's Mr. Nicholas' voice.,
-intro1.3,아기여도 꽤 목청이 큰걸?,"He's quite a vocal boy, even for a baby.",
-intro1.4,"첫인상을 잘 보이고 싶어서 신경 썼는데, 괜찮으려나..?",I've been trying to make a good first impression... Will it be okay?,
-intro2.1,흠.. 저러다 빗자루 잡겠네,Hmm.. I should have brought\nmore baby and toddler toys.,
-intro2.2,유모차를 준비해야긋다,I need to get\nthe stroller ready.,
-intro3.1,니코 왜 우는 거니?,"Nico, why did you crying?",
-intro3.2,배가 고픈 걸까?,Did you hungry?,
-intro3.3,졸려서 그래?,Did you sleepy?,
-menu.newGame,새 게임,New game,
-menu.continue,이어하기,Continue,
-menu.toTitle,타이틀로,Title,
-menu.cancle,취소,Cancel,
-option.alwaysRun,항상 달리기,Always run,
-option.rememberControl,명령 기억,Remember commands,
-option.touchUI,터치 UI,Touch UI,
-option.BGM,BGM 볼륨,BGM volume,
-option.BGS,BGS 볼륨,BGS volume,
-option.ME,ME 볼륨,ME volume,
-option.SE,SE 볼륨,SE volume,
-option.remining,갖고 있는 수,How many do you have,
-option.saveFileMessage,어느 파일에 저장할까요?,Which file should I save to?,
-option.loadFileMessage,어떤 파일을 로드할까요?,Which file should I load?,
-option.file,파일,File,
-option.autoSave,자동 저장,Autosave,
-stat.level,레벨,Level,
-stat.HP,최대 HP,Max HP,
-stat.MP,최대 MP,Max MP,
-stat.attack,공격,Attack,
-stat.defense,방어,Defense,
-stat.magicAttack,마법 공격력,Magic Attack,
-stat.magicDefense,마법 방어력,Magic Defense,
-stat.Agility,민첩성,Agility,
-stat.Luck,운,Luck,
-stat.hit,명중률,Hit Chance,
-stat.dodge,회피율,Dodge Chance,
-command.option,옵션,Options,
-command.save,저장,Save,
-command.endGame,게임 종료,End Game,
-command.stats,스탯,Stats,
-command.attack,공격,Attack,
-command.defense,방어,Defense,
-command.items,아이템,Items,
-command.sort,정렬,Sort,
-command.skills,스킬,Skills,
-command.fight,싸우기,Fight,
-command.flee,도망,Flee,
-command.equipment,장비,Equipment,
-command.weapons,무기,Weapons,
-command.armor,방어구,Armor,
-command.coreItems,핵심 아이템,Core Items,
-command.gear,장비,Gear,
-command.optimization,최적화,Optimization,
-command.unlockAll,모두 해제,Unlock All,
-command.buy,구매,Buy,
-command.sell,판매,Sell,
-item1.1,수리 도구,Repair tools,
-item1.2,리비오의 목공소에서 빌린 망치. 못과 세트이다.,A hammer borrowed from a woodshop in Livio. Nails and set.,
-item2.1,물뿌리개,Watering can,
-item2.2,울프우드의 솜씨로 새것같이 고쳐진 물뿌리개,Wolfwood's craftsmanship has made this watering can good as new,
-item3.1,사진,Photo,
-item3.2,어릴 적 니콜라스와 스탬피드. 스탬피드는 나이를 먹지 않는 걸까?,Nicholas and Stampede as children. Does Stampede never age?,
-item4.1,도끼,Axe,
-item4.2,울프우드가 애용하는 도끼. 세월을 타서 이음새가 헐거워졌다.,Wolfwood's favorite axe. The seams have come loose with age.,
-item5.1,제라늄 씨앗,Geranium seeds,
-item5.2,홑겹 제라늄 씨앗이 한 움큼 든 주머니,A pocket full of geranium seeds.,
-item6.1,체크 셔츠,Check Shirt,
-item6.2,무난한 체크 셔츠. 울프우드와 가끔 바꿔 입기도 한다.,A plain check shirt. Sometimes worn interchangeably with Wolfwood.,
-item7.1,붉은 조끼,Red Vest,
-item7.2,부드러운 알파카 모로 짜인 붉은 조끼.,A red vest woven from soft alpaca moro.,
-job.undertaker,장의사,Undertaker,
-job.plants,플랜트,Plant,
-etc1.1,무기,Weapons,
-etc1.2,방패,Shields,
-etc1.3,머리,Head,
-etc1.4,몸,Body,
-etc1.5,장신구,Jewelry,
-etc1.6,마법,Magic,
-etc1.7,필살기,Special Power,
-skill.sadSmile1,슬픈 미소,Sad Smile,
-skill.sadSmile2,적에게 자비를 일깨워 주기 위한 슬픈 미소. 때때로 역효과를 일으키기도 한다.,Sad smile to inspire mercy in your enemies. Sometimes it backfires.,
-skill.loveAndPeace1,러브 앤 피스,Love and Peace,
-skill.loveAndPeace2,세상 모든 사람들에게 나누어주는 의지,The will to give to all the people in the world,
-skill.handsomeSmile1,잘생긴 미소,Handsome smile,
-skill.handsomeSmile2,때때로 어떤 옷을 입었는지 기억나지 않게 하는 효과가 있다,Sometimes has the effect of making you not remember what you're wearing,
-skill.pray1,장례 예식 기도문,Funeral Service Pray,
-skill.pray2,기도를 부탁하려면 2만 더블 달러가 필요하다,"You need 20,000 double dollars to ask for him",
-skill.body1,튼튼한 몸,Strong body,
-skill.body2,어떤 상처든 순식간에 회복할 수 있다,Can recover from any wound in a flash,
-home30.1,단정한 얼굴이 거울에 비친다 ,Pretty face in the mirror,
-home31.1,...굳이 뒤져보시겠습니까?,...Do you dare to look it up?,
-home31.2,부모님들의 휴식 공간,Parent's Rest Area,
-home31.3,현명하다,It's a smart choice,
-home31.4,여러 가지 방식으로...,In many ways...,
-home32.1,방치해둔 지 오래된 듯 먼지가 쌓여있다. ,"It looks like it's been sitting around for a while, gathering dust.",
-home33.1,상자 안에 무언가 먼지투성이 천으로 덮여져 있다. 걷어내 보시겠습니까? ,There's something in the box covered with a dusty cloth. Would you like to take it off?,
-home33.2,"...콜록, 콜록! 이 먼지 봐라! 좀 치우라 캐도","Cough, Cough! Look at all this dust! Clean it up dad!",
-home33.3,...음? 뭐고 이건. 총? 와 이런 위험한 게 집에. 아부지 꺼가? ,"Hmm? What is this? A gun? Wow, such a dangerous thing in the house. Are you going to take it out?",
-home33.4,45구경 리볼버 타입의 총이 들어있다. ,It's a .45 caliber revolver.,
-home33.5,괜히 건들였다 얻어터져라 혼나는 건 사양이다.,I don't want you to get beaten up for touching it.,
-town22.1,기도하는 모습 보고 싶네~,I'd like to see wolfwod pray~,
-town22.2,아이스 아메리카노는 안 팔아,We don't sell cold coffee.,
-town22.3,"역시, 옛날 사람들이 지어낸 농담이겠지? ",I'm sure it's an old wives' tale.,
-town22.4,그럼 가토 밀푀유는 어때? ,How about a gateau mille-feuille?,
-town22.5,미안하지만 우리 가게는 세이론 티 세트만 판매해,"I'm sorry, but we only sell the Ceylon tea set.",
-town23.1,다양한 공구들이 걸려있다.,There are various tools hanging around.,
-town23.2,날카로운 것들도 있으니 주의하자. ,"Some of them are sharp, so be careful.",
-town24.1,복잡한 도면.,A complicated drawing.,
-town24.2,호신용 퍼니셔 제조법이라고 써있다.,It says it's a recipe for a self-defense punisher.,
-town24.3,퍼니셔가 뭐지?,What is a punisher?,
-town25.1,어린이 실습용 목재들이다,These are woods for children's practice,
-town26.1,가족용 텐트,Family Tent,
-town26.2,어릴 적 여기서 간이 캠핑을 했던 적이 있다.,I remember camping here when I was a kid.,
-town26.3,엄마랑 요리를 하다 실수로 불을 낼뻔하기도 했었지..,We almost started a fire while cooking with my mom.,
-town27.1,이 채소가 다 자라면 마을의 가게에 납품하기로 했어,I've decided to sell these veggies to a shop in town when they're grown,
-town27.2,그럼 바나나 선데이 말고도 다른 걸 먹을 수 있겠지..?,So we'll have something other than Banana Sunday...?,
-home34.1,밧슈는 충격받아 멍한 얼굴로 연못을 보고 있다...,Vash stares at the pond in shock...,
-home35.1,투덜댈 시간에 가서 일이나 봐라.,Go and do the work instead of complaining.,
-home36.1,어렸을 땐 귀여웠는데...,You were cute when you were little....,
-home37.1,(말을 걸고 싶지 않다..),(I don't want to talk to my parents...),
-home38.1,옷장에 아기 옷이 가득 들어있다.,A closet full of baby clothes.,
-home38.2,대부분 검은 색이다.,Mostly black.,
-home38.3,대부분 빨간 색이다.,Most of them are red.,
-home39.1,동화책이 나란히 정리되어 있다.,The storybooks are lined up side by side.,
-home39.2,한 권 읽어볼까?,Would you like to read one?,
-home39.3,[야수와 미녀],[The Beast and the Beauty],
-home39.4,"옛날, 옛적 어느 마을에 마음씨 고운 미녀가 살고 있었어요.","Once upon a time, in a village, there lived a kind-hearted beauty.",
-home39.5,마을 근처를 산책하던 미녀는 우연히 야수와 만났습니다. 미녀는 야수를 보고 놀랐지만 누구에게 그러해왔듯 다정하게 그를 대했어요.,"While walking around the village, she happened to meet a beast. She was surprised to see him, but she treated him as she would anyone else.",
-home39.6,사실 껄렁한 야수를 보고 처음엔 그를 의심하기도 했었죠. 하지만 어느샌가 그의 맘 속에 다정함과 배려심이 있다는 것을 알게 되었습니다.,"In fact, she was suspicious of him at first because he was so rough, but then she realized that he had a kind and caring heart.",
-home39.7,미녀는 야수가 좋아졌어요. 야수도 고운 마음씨를 가진 미녀가 점점 좋아졌습니다.,"The beauty grew fond of the beast, and the beast grew fond of the beauty, who also had a kind heart.",
-home39.8,하지만 사실 야수는 미녀에게 거짓말을 하고 있었어요. 그는 사실 미녀를 감시하기 위해 파견된 요원이었습니다.,But the beast was lying to the beauty. He was actually an agent sent to spy on the beauty.,
-home39.9,야수는 자신의 잘못을 미녀에게 고했어요. 그리고 놀랍게도 미녀는 이미 알고 있다고 대답했습니다.,"He confessed his misdeeds to her, and to his surprise, she replied that she already knew.",
-home39.10,서로의 사랑을 확인한 두 사람은 행복하게 오래오래 살았답니다~,They realized that they loved each other and lived happily ever after.,
-home39.11,감동적인 이야기였다.,It was an inspiring story.,
-home40,남의 집을 함부로 뒤지는 건 무례한 일이야!,It's rude to rummage through someone's house!,
-home40.1,노란 장미가 꽂힌 꽃병,Vase with yellow roses,
-home41.1,"어렸을 때, 우물에서 귀신이 올라오는 공포 영화를 봤었다.","When I was a kid, I saw a horror movie where a ghost came up from a well.",
-home41.2,"걱정이 되어 부모님께 귀신이 되살아나오지 않게 우물을 묻어버리자고 했더니, 부모님의 표정이 이상해졌었다.","I was worried and asked my parents if we should bury the well so the ghosts wouldn't come back, and they got a strange look on their faces.",
-home41.3,우물에 귀신은 없어.,There are no ghosts in wells.,
-home42.1,당근.,Carrots.,
-home42.2,맛이 없다...,Tasteless...,
-home42.3,아무도 보고 있지 않을 때 몰래 뽑아버릴까?,Shall I sneak and pull it out when no one is looking?,
-home42.4,아들? 니 뭐하나?,Son? What are you doing?,
-home42.5,"헉, 아부지..? 그게 아이라예..","Hmph, dad...? It's a misunderstanding.",
-home42.6,니 제정신이가!!! 니 어무이랑 내랑 피땀 흘려 니보다 소중하게 키워온 텃밭에 뭐 하는 기고!!!!!!!!,Are you crazy! What are you doing to the garden that your mother and I have sweated over and grown more precious than you!!!!!!!!,
-home42.7,맞다. 아무리 당근이 싫어도 그건 아니지.,"That's right. No matter how much you hate carrots, that's not it.",
-home42.8,콜라비.,Collavi. ,
-home42.9,맞다. 아무리 콜라비가 싫어도 그건 아니지.,"That's right. No matter how much you hate Collavi, you shouldn't do that.",
-home42.10,양배추.,Cabbage.,
-home42.11,맞다. 아무리 양배추가 싫어도 그건 아니지.,"That's right. No matter how much you hate cabbage, you shouldn't do that.",
-home42.12,피망.,Bell peppers.,
-home42.13,맞다. 아무리 피망이 싫어도 그건 아니지.,"That's right. No matter how much you hate bell peppers, you shouldn't do that.",
-home43.1,넌 뭐야? 눈치 없이 끼어들지 말아 줄래?,What are you?! Can you please not barge in unannounced?,
-home43.2,(속삭이며) 고백받고 싶지 않아. 제발 도와줘...,"(whispering) I don't want to be confessed to by her, please help me...",
-home43.3,그는 간절해 보인다... 도와줄까?,He looks desperate... Can I help you?,
-home43.4,"너, 끼어들지 말라고 했지!!!",I told you to stay out of it!,
-home43.5,하지만 남자애가 싫어하지 않나..,But doesn't the boy hate it?,
-home43.6,뭐?! 너 솔직히 말해봐 정말 내가 싫어?!,"What?! Tell me honestly, do you really hate me?!",
-home43.7,"그야, 그 쪽이 더 자극되니까...",Because it's more sexually arousing that way...,
-woman,여자,Woman,
-man,남자,Man,
-home43.10,....?,....?,
-home43.11,둘은 여관으로 사라졌다...,They disappeared into the inn...,
-home43.12,"내 사랑 문제도 복잡한데, 남의 문제에 끼어들 여력이 없다.",My love life is complicated enough that I can't afford to get involved in other people's problems.,
-home44.1,어릴 적 내가 썼던 요람이다.,This is my cradle as a baby.,
-home44.2,내가 이렇게 작았다고? ,I was this small?,
-home45.1,상자 안에 여러 가지 육아 용품들이 있다.,There's a bunch of baby stuff in the box.,
-home45.2,아직까지 쟁여두고 있는 모양이다.,I'm still holding on to them.,
-home45.3,10년도 지났는데. ,It's been over a decade.,
-home46.1,<무너지지 않는 침대 설계도> 라고 적혀있다.,It says “bed plans that won't fall apart”.,
-home46.2,이런 걸 누가 필요로 하는거지?,Who needs this?,
-home47.1,나비야 안녕~,"Hi, kitty~",
-home47.2,고양이는 새카만 눈으로 스탬피드를 올려다본다,The cat looks up at Stampede with her black eyes,
-home47.3,으응~? 하고 싶은 말이 있니?,Umm? Is there something you want to say?,
-home47.4,...? ??? ?????,...? ??? ?????,
-home48.1,쿠로네코 산책가는 기가~,Are you going for a walk in Kuroneko~?,
-home48.2,고양이는 새카만 눈으로 니콜라스를 올려다본다,The cat stares up at Nicholas with its black eyes.,
-home48.3,"머꼬, 니 할 말 있나?",Why? Do you have something to say?,
-home48.4,...? ??? ???????????,...? ??? ???????????,
-home49.1,... ... ...,... ... ...,
-home49.2,... ... ... ... ... ...,... ... ... ... ... ... ...,
-home49.3,니 또 노래 부를기가,Are you going to sing again?,
-home49.4,어데서 그런 노래를 배워오는기고,Where did you learn to sing like that?,
-home50.1,빨빨대고 다니는걸 보니 기분 좋은갑네,"You must be in a good mood today, because you're all over the place.",
-home50.2,어데 한 곡 뽑아본나,Sing for me.,
-home50.3,... ... ...,... ... ...,
-home50.4,...????? 머꼬..?? 먼데..?????,...????? Why..?? What is it...?????,
-home50.5,검은 고양이가 아쉽냐는 듯이 바라본다.,The black cat looks at me as if it's disappointed.,
+[Fast Forward] Hold Confrim Key"
+ctr.title,조작 방법 안내,操作方法案内,Control Guide
+m_wolfwood,울프우드,ウルフウッド,Wolfwood
+m_vash,밧슈,バッシュ,Vash
+s_wolfwood,니콜라스,ニコラス,Nicholas
+s_vash,스탬피드,スタンピード,Stampede
+livio,리비오,リビオ,Livio
+s_knives,나이브스,ナイブス,Knives
+neco,검은 고양이,黒猫,The black cat
+ev1,울프우드가의 가족사진,ウルフウッド家の家族写真,Family photo of the Wolfwood family
+ev2,밧슈는 엄청난 동안인듯하다. 비결이 뭘까?,バッシュはものすごい間があるようだ。秘訣は何だろう？,Vash looks incredibly youthful. What's the secret?
+ev3,새 조각,新しい彫刻,A wooden bird carving
+ev4,지금은 양 날개의 밸런스가 잘 맞는다,今は両翼のバランスがよく合っている,The balance of both wings is perfect now
+ev5,오래된 나무에 균열이 갔다.,古い木に亀裂が入った。,The old wood floor has cracked.
+ev6,조만간 수리해야겠지?,そのうち修理しないとね。,I'll need to fix it soon.
+ev7,"아부지 한티 속은 것 같지만, 약속한 일은 처리해야겠지..",お父さんに騙されたみたいだけど、約束したことはやり遂げないとね。,"I feel like I was tricked by father, but I need to handle the promised task.."
+ev8,무슨 일을 시작할까?,どんな仕事を始めようか？,What task should I start?
+ev9,좋다. 함 해보자!,いいぞ。やってみよう！,Good. Let's try it!
+ev10,진행 중인 심부름을 먼저 마무리하자.,進行中の用事を先に終わらせよう。,Let's finish the current task first.
+ev11,이걸 고치려면 수리 도구가 필요하긋다.,これを直すには修理道具が必要だな。,I need repair tools to fix this.
+ev12,아재한테 빌려야 쓰겄네.,おじさんに借りるしかないな。,I need to borrow some from the uncle.
+ev13,퀘스트: 장작을 패자!,クエスト：薪を倒そう！,Quest: Chop firewood!
+ev14,퀘스트: 창고방을 정리하자!,クエスト：倉庫の部屋を片付けよう！,Quest: Organize the storage room!
+ev15,퀘스트: 제라늄을 키우자!,クエスト：ゼラニウムを育てよう！,Quest: Gardening geraniums!
+ev16,창고방을 살펴보기,倉庫の部屋を調べる,Check the storage room
+ev17,리비오의 목공소에서 수리 도구를 빌리기,リビオの木工所で修理道具を借りる,Borrow repair tools from Livio's workshop
+ev18,바닥 수리하기,床の修理をする,Repair the floor
+ev19,박스 치우기,箱を片付ける,Move the boxes
+ev20,울프우드에게 보고하기,ウルフウッドに報告する,Report to Wolfwood
+ev21,예,例,Yes
+ev22,아니오,いいえ,No
+ev23,"어랏, 니콜라스 일하는 중이야?",あら、ニコラス、仕事中なの？,"Oh, Nicholas! Are you running errands for Dad?"
+ev24,예에.. 어무이는예?,はい、どうしたの？,Yeah.. What are you doing?
+ev25,"아, 오늘따라 가족사진에 눈이 가서 말야~",ああ、今日も家族写真に目が行ってね〜,"Oh, today I was drawn to the family photo—"
+ev26,니콜라스는 무심결에 그동안 궁금했던 것을 질문했다.,ニコラスは思わず今まで気になっていたことを質問した。,Nicholas unconsciously asked something he had been curious about.
+ev27,동안의 비결?,その秘訣は？,The secret to looking young?
+ev28,규칙적인 생활과 10시 취침 아닐까?,規則正しい生活と10時就寝じゃないの？,Regular lifestyle and sleeping at 10 PM?
+ev29,(거짓말. 매일 새벽까지 바쁘면서...),(嘘。毎日夜明けまで忙しいのに...),(Lies. He's busy until dawn every day...)
+ev30,아부지예,父さん,Father
+ev31,뭐꼬,何？,What?
+ev32,역시 이런저런 핑계로 저한테 짬처리 하는 거 아입니꺼,やっぱりあれこれ言い訳して私を甘やかしているんでしょう？,You're just making excuses to dump work on me
+ev33,"쓰읍. 아이니까, 투덜댈 시간에 가서 일이나 봐라.",は？ いや、愚痴ってる暇があったら仕事でもしてろよ。,"Ha! Don't be like that, go and do the work instead of complaining."
+ev34,...,...,...
+ev35,텃밭에 있는 밧슈에게 말을 걸자,菜園にいるバシューに話しかけよう,Let's talk to Vash in the garden
+ev36,파릇파릇,青々と,Fresh and green
+ev37,들판에 씨앗을 심자,畑に種を植えよう,Plant seeds in the field
+ev38,마을로 향한 울프우드를 찾자,村に向かったウルフウッドを探そう,Find Wolfwood who went to the village
+ev39,제라늄 꽃밭에 물을 주기,ジェラニウムの花畑に水をやろう,Water the geranium flower bed
+ev40,이쯤 하믄 충분하겠재?,これくらいでいいかな？,This should be enough.
+ev41,다음은 우째야카는지 어무이한테 물어보자,次は何をすればいいのかお母さんに聞いてみよう,Let's ask mother what to do next
+ev42,밧슈에게 돌아가기,バシューに戻ろう,Return to Vash
+ev43,다음엔 방울토마토를\n심을까?,次はミニトマトを植えようか？,Should I plant\ncherry tomatoes next?
+ev44,꽃을 볼 수 있는\n지오 플랜트는 귀여워~,花が見えるジオプラントはかわいい～,The geoplant with\n visible flowers is cute~
+ev45,거북이 커플이\n생겼잖아?!,亀のカップルができたでしょ？,A turtle couple\nappeared?!
+ev45.1,귀여워라~\n많이 많이 먹으렴~!,かわいい～たくさんたくさん食べてね～！,So cute~\nEat lots and lots~!
+ev46,... ... ...,... ... ...,... ... ...
+ev47,잘생겼다.,ハンサムだ。,Handsome.
+ev48,밧슈의 사랑이 담긴 토스트.,芭蕉の愛が詰まったトースト。,A toast filled with Vash's love.
+ev49,맛이 담기진 않은 것 같다.,味は入っていないようだ。,"Love, yes—flavor, not so much."
+ev.50,엉망으로 벗어둔 옷가지들.,乱雑に脱ぎっぱなしの衣類。,Clothes scattered in a mess.
+ev.51,청소하지 않으면 한 소리 들을게 뻔하다.,片付けないと怒られそうだ。,I'll definitely get scolded if I don't clean up.
+ev.52,하지만 치우지 않을 것이다.,でも片付けないだろう。,But I won't clean it up.
+ev.53,그는 질풍노도의 시기니까.,彼は怒涛の時期だから。,I’m going through my rebellious phase.
+ev.53.1,... ... ... ...,... ... ... ...,... ... ... ...
+ev.54,옷을 정리할까?,服を整理しようか？,Should I organize the clothes?
+ev.55,아무래도 혼나기 전에 정리해야겠다.,どうやら怒られる前に片付けないといけないようだ。,I should organize before getting scolded.
+ev.56,한.. 내일쯤...,一応。明日ぐらいに...。,Well... maybe tomorrow...
+ev.57,현명한 선택이다.,賢明な選択だ。,That's a wise choice.
+ev58,"좋아, 남은 일도 해치워보실까",よし、残りの仕事も片付けようか。,"Alright, let's finish the remaining tasks"
+ev59,빗자루!!!,トンガリ!!!,Spikey!!!
+ev60,고요한 저택에서는 아무 대답이 돌아오지 않는다..,静かな邸宅からは何の返事も返ってこない...。,No response came from the quiet mansion..
+ev61,제길... 내가 너무 늦은 기가..?,ちくしょう...。俺が遅すぎたのか...？,Damn... Am I too late..?
+ev62,니콜라스는 허무한 말과 함께 들고 있던 제라늄 꽃을 놓쳤다.,ニコラスは虚無的な言葉と共に、持っていたゼラニウムの花を手放した。,Nicholas let the geranium slip from his hand as he muttered hollow words.
+ev63,만약 시간을 되돌릴 수 있다면...,もし時間を戻せるなら...。,If only I could turn back time…
+ev64,리비오의 목공소로 가기,リビオの木工所へ,Go to Livio's workshop
+ev65,마을의 끝에 있는 리비오의 목공소로 가자!,街の端にあるリビオの木工所へ行こう！,Let's go to Livio's workshop at the end of the village!
+ev66,집으로 돌아가기,家へ帰る,Return home
+ev67,부모님이 기다리는 집으로 돌아가자,両親が待っている家に帰りましょう,Let's return to the house where my parents are waiting
+ev68,이때나 지금이나 변한 게 없는 것 같다.,今も昔も変わらないようだ。,Nothing seems to have changed from then to now.
+ev69,스탬피드가 떠나기 전에 고백해야해!,スタンピードが去る前に告白しなきゃ！,I’ve got to tell Stampede how I feel before he leaves!
+ev70,제라늄 꽃을 준비하기,ジェラニウムの花を準備する,Prepare geranium flowers
+ev71,방으로 돌아가 반지 찾기,部屋に戻って指輪を探す,Return to the room and find the ring
+ev72,스탬피드 저택으로 달리기,スタンピード邸へ走る,Run to Stampede's mansion
+ev73,이럴 때가 아냐! 더 늦기 전에 스탬피드를 만나러 가야 해!!,こんな時じゃない！これ以上遅くなる前にスタンピードに会いに行かなきゃ！,No time for this! I need to go meet Stampede before it's too late!!
+home1.1,검은색 정장 몇 벌과 모노톤의 옷 몇 벌이 가지런히 정리되어 있다.,黒のスーツ数着とモノトーンの服数着が整然と並んでいる。,Several black suits and monotone clothes are neatly arranged.
+home1.2,빨간색 옷으로 가득 차 있다. ... 지겨울 정도로.,赤い服で溢れている。...飽きるほど。,It's full of red clothes. ...To a boring extent.
+home1.3,성경과 관련된 서류들이 널브러져 있다. 아멘.,聖書に関連する書類が散乱している。アーメン。,Bible-related documents are scattered around. Amen.
+home1.4,침대 아래에 떨어진 빨간색 코트 자락이 보인다.,ベッドの下に落ちた赤いコートの裾が見える。,I can see the hem of a red coat fallen under the bed.
+home1.5,뭐 부모님이 알아서 치우겠지.,まあ、親が片付けてくれるだろう。,Well the parents will clean it up themselves.
+home2.1,제라늄이 담긴 꽃병이다.,ゼラニウムが入った花瓶だ。,It's a vase with geraniums.
+home2.2,오늘 아침 물을 준 모양인지 이슬이 맺혀있다.,今朝水をあげたのか、露がついている。,It looks like it was watered this morning—there are still drops of water on it.
+home3.1,독서용 1인 의자.,読書用の1人用椅子。,A single chair for reading.
+home3.2,엄마한테 대들때 마다 생각 의자로 썼었다...,母に怒られるたびに思考椅子として使っていたのだが...。,I used it as a ‘thinking chair’ whenever I talked back to mom...
+home3.3,사실 독서용으로 사용된 적은 없다.,実は読書用に使ったことはない。,It's never actually been used for reading.
+home4.1,제라늄이 담긴 화분이다.,ゼラニウムの鉢植え。,It's a pot with geraniums.
+home4.2,아주 오래전부터 키워왔다.,ずっと前から育てている。,It seems to have been grown for a very long time.
+home4.3,우리 집은 왜 허구한 날 제라늄만 키우는 걸까?,なぜ我が家は虚しい日にゼラニウムばかり育てているのだろう？,Why is it always geraniums with mother?
+home5.1,15살 때 생일선물로 받은 로퍼.,15歳の時に誕生日プレゼントでもらったローファー。,Loafers received as a birthday gift at age 15.
+home5.2,빗자루가 예쁘다며 칭찬해 줬었다.,ほうきがきれいだと褒めてもらった。,Spikey praised them saying they were pretty.
+home6.1,제라늄.,ゼラニウム。,Geranium.
+home7.1,LOVE & PEACE!,LOVE & PEACE！,LOVE & PEACE!
+home8.1,부모님께서 취미로 키우고 있는 밭이다.,両親が趣味で育てている畑です。,It's a field that my parents are growing as a hobby.
+home8.2,많은 시행착오가 있었지만 결과는 성공적으로 보인다.,多くの試行錯誤があったが、結果は成功したようだ。,There were many trials and errors but the results look successful.
+home8.3,밥상에 오르게 되려나?,食卓に上がるかな？,Will it make it to the dinner table?
+home9.1,크진 않지만 깨끗한 연못이다.,大きくはないが、きれいな池だ。,It's not big but it's a clean pond.
+home9.2,부모님 친구분들이 놀러 올 때 세미 피크닉이 열리곤 한다.,両親の友達が遊びに来るとき、セミピクニックが開かれることがある。,Picnics are held when my parents' friends come to visit.
+home9.3,...굉장히 큰 사람과 작은 사람으로 기억한다.,...すごく大きい人と小さい人がいた記憶がある。,...I remember them as a very tall person and a short person.
+home10.1,바닥이 까맣게 탄 냄비.,底が真っ黒に焦げた鍋。,A pot with a blackened bottom.
+home10.2,누군가 또 요리를 실패했나 보다..,誰かがまた料理に失敗したようだ。,Someone must have failed at cooking again..
+home11.1,도넛으로 가득 차 있다.,ドーナツでいっぱいだ。,It's full of donuts.
+home12.1,빨간 소파.,赤いソファ。,Red couch.
+home12.2,"슬슬 다른 색으로 바꿀 때가 되지 않았나, 파란 소파를 추천했더니 엄마가 기겁하셨다.",そろそろ他の色に変える時期ではないかと、青いソファを勧めたら、母はびっくりした。,"Isn't it time to change to a different color? When I recommended a blue couch, mom was shocked."
+home13.1,머 하나. 뺑이 치지 않고?,まあまあ。仕事してないの？,"What are you doing, not speeding?"
+home13.2,(숨길 생각도 없구먼...),(隠す気もないな...),(He's not even thinking of hiding it...)
+home13.3,내 심부름 쪽지 주이소,私の用事のメモをください。,Give me my task note
+home13.4,어제 니 가져갔잖나?,昨日君が持っていったでしょ？,You took it yesterday
+home13.5,잘 찾아봐라. 책상 위라던가.,よく探してみろ。机の上とか,Look carefully. Like on the desk.
+home13.6,그랬나..?,そうだったかな...？,Did I..?
+home14.1,...,...,...
+home14.2,... ... ...,... ... ...,...
+home14.3,...?,...？,...?
+home14.4,니코는 탄 빵도 좋아하지?,ニコは焦げたパンも好きなんだろ？,You likes burnt bread too?
+home14.5,... ... 하모예...,... .......うん。,... ... Yeah...
+home15.1,칠을 새로 하였는지 페인트 냄새가 난다.,ペンキを塗り替えたのか、ペンキの匂いがする。,There's a paint smell as if it was newly painted.
+home16.1,"앗, 저 위에 사는 집 아이 아니니?",あ、上の家の子じゃないの？,"Oh, aren't you the child from the house up there?"
+home16.2,정말 언제 보아도 그 집 남편분과 똑 닮았네~,本当にいつ見てもその家のご主人にそっくりね〜,You really look exactly like Wolfwood every time I see you~
+home16.3,아...예. (이런 얘긴 귀에 딱지가 앉을 만큼 들은 것 같다.),ああ...そうなんだ。 (こういう話は耳にタコができるほど聞いたことがあるような気がする。),Ah...yes. (I feel like I've heard this story so many times my ears are numb.)
+home17.1,생각이 많을 때 누군가와 상담하기 좋아 보인다.,思考が多いときに誰かに相談するのに良さそうだ。,It looks like a good place to consult with someone when you have a lot on your mind.
+home18.1,게임기.,ゲーム機。,Game console.
+home18.2,7살쯤 스탬피드에게 선물 받았다.,7歳頃にスタンピードにプレゼントされた。,I received it as a gift from Stampede when I was around 7.
+home18.3,스탬피드에게 격투 게임 대전을 300번쯤 지고 난 뒤론 켜지 않고 있다...,スタンピードに格闘ゲーム対決に300回くらい負けて以来、電源を入れていない...。,It hasn't been turned on since losing about 300 fighting game matches to Stampede...
+home19.1,흠.. 그거 어데 갔나..,うーん、あれはどこに行ったんだろう。,Hmm.. where did that go..
+home19.2,정말 언제 이렇게 큰 거지..?,いつからこんなに大きくなったんだろう...？,When did he get so big...?
+home19.3,어렸을 땐 귀여웠는데..,小さい頃は可愛かったのに。,He was cute when he was young..
+home20.1,헉.. 어떡하지..?,うーん、どうしよう...？,(Gasp..) what should I do..?
+home21.1,흠흠...,うーん...うーん...。,Hmm hmm...
+home22.1,너무 많이 시켰나..?,やりすぎたかな...？,Did I order too much..?
+home23.1,어서오세요~!,いらっしゃいませ～！,Welcome~!
+home24.1,하아...,はあ...,(Sigh...)
+home24.2,목공소에나 가봐야긋다.,木工所に行けばいいのに。,I should go to the woodshop.
+home25.1,아 잘 키워두니 편하고 마.,ああ、育てておいてよかった。,It's convenient to have raised son well.
+home26.1,무럭무럭 자라렴~,すくすく育ってね～,Grow big and strong~
+home26.2,램이 봤다면 좋아했을 텐데..,ラムが見たら喜んだのに...,Rem would have liked this if she saw this..
+home27.1,묵직한 쇳덩이 떨어지는 소리가 났다.,重い鉄の塊が落ちる音がした。,There was a sound of heavy metal falling.
+home27.2,...? 이거 리볼버 아이가?,......これはリボルバーの子供？,...? Is this a revolver?
+home27.3,와 집에 이런 게 있는 기고..?,と、家にこんなものがあるギゴ...？,Why there's something like this at home..?
+q0.1,"앗, 니콜라스..! 집에 있었구나~!",あっ、ニコラス 家にいたのか～！,"Oh, Nicholas..! You were home~!"
+q0.2,오늘따라 쿠키가 정말 잘 구워졌거든!,今日ばかりは、クッキーが本当によく焼けたから！,The cookies turned out really well today!
+q0.3,스탬피드는 라탄 바구니를 한 팔에 안고 있다. 살포시 덮인 흰 천 아래로 산더미처럼 쌓인 쿠키가 보인다.,スタンピードは籐のバスケットを片腕に抱えている。ふわっと覆われた白い布の下に山ほど積まれたクッキーが見える。,Stampede is holding a rattan basket in one arm. Cookies piled like a mountain can be seen under the lightly covered white cloth.
+q0.4,모두랑 나눠먹고 싶어서 가져왔어!,みんなと一緒に食べたいから持ってきたんだ！,I brought them to share with everyone!
+q0.5,니콜라스도 있는 시간에 와서 다행이다..,ニコラスもいる時間に来てよかった。,Good thing I came when Nicholas had time.
+q0.6,"ㅁ,맞나.. 고맙다..",そうなの？ありがとうございます。,"Um, right.. thank you.."
+q0.7,두 사람이 머쓱하게 웃으며 마주 본 채로 조용한 시간이 흘렀다.,二人が照れくさそうに笑いながら向かい合ったまま、静かな時間が流れる。,They smiled awkwardly at each other as quiet time passed.
+q0.8,적당히 말문을 열지 못해 식은땀이 날 때쯤 뒤에서 불쑥 밧슈가 나타났다.,なかなか言葉を発することができず、冷や汗をかいていると、後ろから突然バシューが現れた。,When they couldn't find words to say and cold sweat was forming Vash suddenly appeared from behind.
+q0.9,"어머! 선물을 가져온 거니, 스탬피드?!",あら！ プレゼント持ってきたの、スタンピード？,"Oh my! Did you bring a gift, Stampede?!"
+q0.10,"아, 안녕하세요! 밧슈씨..!",あ、こんにちは！ バシューさん...！,"Oh, hello! Vash..!"
+q0.11,스탬피드는 화들짝 놀라며 안고 있던 쿠키 바구니를 쏟을 뻔했다.,スタンピードはびっくりして、抱えていたクッキーバスケットをこぼしそうになった。,Stampede was startled and almost spilled the cookie basket he was holding.
+q0.12,"어디, 스탬피드의 솜씨 좀 볼까?",ほら、スタンピードの腕前を見ようか？,"Well, let me see Stampede's handiwork?"
+q0.13,밧슈는 니콜라스 옆으로 손을 뻗어 쿠키를 집어 든다.,バシューはニコラスの横に手を伸ばし、クッキーを手に取る。,Vash reaches next to Nicholas and picks up a cookie.
+q0.14,"자, 잠깐…!!",ほら、待って...！？,"Wait, wait…!!"
+q0.15,니콜라스가 끼어들 틈도 없이 쿠키를 양 볼 가득 물고 우물대고 있었다.,ニコラスが口を挟む間もなく、クッキーを両頬いっぱいに頬張っている。,Before Nicholas could intervene Vash was already chewing with both cheeks full of cookies.
+q0.16,오~ 아가씨 수제 쿠키가? 우리 빗자루보다 훨씬 나아 보이는데?!,おお～お嬢さん手作りクッキー？ 俺たちのトンガリよりずっと美味しそうだけど？,Oh- your homemade cookies? They look much better than MY Spikey's!
+q0.17,울프우드도 쿠키를 한웅큼 집어 든다. 바구니가 순식간에 비어갔다.,ウルフウッドもクッキーを一口ずつ手に取る。バスケットはあっという間に空っぽになった。,Wolfwood also grabs a handful of cookies. The basket emptied in an instant.
+q0.18,"맞다. 마, 메느리 삼을 사람 부러워갖꼬 우짜노?",おいしいね～、スタンピードを嫁にする人はいいな～。,"Right. Well, I'm envious of someone who would take you as a daughter-in-law."
+q0.19,..~!!@#$%@%..!!!,..~!!@#$%@%..!!!,..~!!@#$%@%..!!!
+q0.20,"ㄱ,감사합니다..",あ、ありがとうございます。,T-thank you..
+q0.21,(니는 와 부끄러워하는 긴데..!! 뭔데..!!!),(あんた、恥ずかしがってるんだ...！！何だ...！！),(Why are you being so shy..!! What's this..!!!)
+q0.22,그럼 전 이만 가볼게요..!,では、私はこれで失礼します...！,Then I'll be going now..!
+q0.23,"니콜라스, 쿠키..어땠는지 꼭 알려줘..!",ニコラス、クッキー...どうだったか、ぜひ教えてね！,"Nicholas, please let me know how the cookies were..!"
+q0.24,아.. ...,ああ。...,Ah.. ...
+q0.25,(갈 길이 멀고만…),(行く道は遠いけど...),(We’ve still got a long way to go…)
+q0.26,"뭐 하나, 빨리 창고나 치워라.",まあ一つ、早く倉庫を片付けろよ。,"What are you doing, hurry up and clean the storage."
+q0.27,(두고 보자..),(見てみよう...),(Just wait and see...)
+q1.1,창고방 정리,倉庫部屋整理,Clean storage room
+q1.2,창고방이면.. 내 방 바로 위다.,倉庫部屋なら. 私の部屋のすぐ上だ。,The storage room is.. right above my room.
+q1.3,안 치운지 10년도 더 된 것 같은디..,もう10年以上片付けてないような気がするけど...,It feels like it hasn't been cleaned for over 10 years..
+q1.4,여는 아부지 어무이가 치우겠다 몇 년째 장담만 했었재.. 여전히 꼬락서니가 말이 아니네.,ここは父と母が何年も前から片付けると約束してたのに...。相変わらずひどい状態だ。,Wolfwood and Vash have been promising to clean it for years.. It's still a mess.
+q1.5,니콜라스는 깊은 한숨을 내쉬었다.,ニコラスは深くため息をついた。,Nicholas let out a deep sigh.
+q1.6,수리하려면 장비가 필요하 긋다.,修理するには道具が必要だな。,I need equipment to repair it.
+q1.6.1,아재네 가서 연장 좀 빌려야 쓰겄네.,おっちゃんの家に行って延長を借りないといけないね。,I need to go to the uncle's woodshop and borrow some tools.
+q1.7,창고방을 살펴보기,倉庫の部屋を見てみる,Examine the storage room
+q1.8,"아따, 마루 꼴 봐라.",床がめちゃくちゃだ。,"Wow, look at the state of the floor."
+q1.9,이래가 정리는커녕 빡스 들고 댕기다 다리 뿐지르것다.,これじゃあ、倉庫の整理はおろか、つまづいて足を骨折してしまう。,I'll break my leg carrying boxes instead of clean.
+q1.10,아재네 가서 연장 좀 빌려야 쓰것네.,おっちゃんの家に行って延長を借りてこよう。,I need to go to the uncle's woodshop and borrow some tools.
+q1.11,[리비오의 목공소]에서 장비 빌리기,[リビオの木工所】で道具を借りる,Borrow equipment from [Livio's Woodshop]
+q1.12,아재는 출장 나간기가?,アザエは出張中なのか？,Did uncle Livio go on a business trip?
+q1.13,니콜라스는 고민 없이 수리 도구를 챙겼다.,ニコラスは迷わず修理道具を取り出した。,Nicholas took the repair tools without hesitation.
+q1.14,...내 쫌만 빌릴게.,...ちょっと借りるよ。,...I'm borrowing this for a second
+q1.14.1,타이밍에 맞춰 확인 키를 누르자!,タイミングを合わせて確認キーを押そう！,Press Confirm key at the right timing!
+q1.14.2,망가진 바닥에 못질을 훌륭하게 해낸다면 수리 성공!,壊れた床の釘打ちをうまくやれば修理成功！,If you nail the broken floor perfectly the repair will be successful!
+q1.14.3,내 솜씨를 보여주겠어.,俺の腕前を見せよう。,I'll show my skills.
+q1.15,타이밍에 맞춰 못 질을 하자!,タイミングを合わせて釘打ちをしよう！,Hammer the nail at just the right moment!
+q1.16,이 바닥을 고칠까?,この床を直そうか？,Should I fix this floor?
+q1.17,이 박스를 옮길까?,この箱を移そうか？,Should I move this box?
+q1.17.1,이 요람을 치울까?,この揺りかごを片付けようか？,Should we get rid of this cradle?
+q1.18,"후, 빡스도 옮겨 놓으라 캤지.",その後、像も移せと言った。,"Phew, they said to move the boxes too."
+q1.19,이건 뭐 금방 한다이가.,これはまあすぐできる。,This will be done quickly.
+q1.20,...?,.......,...?
+q1.21,"…마, 이때나 지금이랑 똑같네.",... スタンピードは当時も今も変わらないね。,"…Well, he hasn’t changed a bit since then."
+q1.22,니콜라스는 [사진]을 소중히 챙겨 넣었다.,ニコラスは【写真】を大事にしまっておいた。,Nicholas carefully put away the [photo].
+q1.23,... ... ...,... ... ... ...,...
+q1.24,리비오 아재요?,リビオおじさんですか？,Uncle Livio?
+q1.25,"흠, 고쳐놓으니 보기 좋네.",うーん、直すと見栄えがいいな。,"Hmm, it looks good now that it's fixed."
+q1.26,윽... 생각보다 쉽지 않고 마..,うっ...。子供の頃から見た記憶がある荷物の山,Ugh... it's not as easy as I thought..
+q1.27,어렸을 때부터 보았던 기억이 있는 짐더미,箒とかくれんぼをするときに隠れ蓑として重宝したものだ。,A pile of stuff I remember seeing since childhood
+q1.28,빗자루랑 숨바꼭질할 때 은폐물로 유용히 써먹었었지,ふふっ、この程度でいいや！,I used it as cover when playing hide and seek with Spikey
+q1.29,훗.. 이 정도야 가뿐하재!,ちょっと。ちょっと一息つくか。,Heh.. this is easy!
+q1.30,큼.. 숨 좀 돌리고 할까.,箱の隙間から一枚の写真が落ちた。,Hmm.. let me catch my breath.
+q1.31,박스 틈 사이에서 사진 한 장이 떨어졌다.,うわ～、部屋がピカピカになったね！,A photo fell from between the boxes.
+q1.32,우와~ 방이 반짝반짝 깨끗해졌네!,うわ～、部屋がピカピカになったね！,Wow~ the room became sparkling clean!
+q1.33,창고로 쓰는 게 아니라 세를 줘도 되겠는걸?,倉庫として使うんじゃなくて、貸してもいいんじゃないの？,Instead of using it as storage we could rent it out?
+q1.34,누굴 들이려는 긴데예?,誰に貸すの？,Who are you planning to let in?
+q1.35,글쎄..? 리비오라던가?,リビオとか？リビオとか？,Well..? Livio perhaps?
+q1.36,아재는 장가 안든답니꺼?,オヤジは結婚しないらしいですよ？,Uncle isn't married?
+q1.37,"어머, 좋은 사람이 있어보였어?",あら、いい人がいるみたい？,"Oh my, did he seem to have someone good?"
+q1.38,... ... ...,... ... ...,... ... ...
+q1.39,... ... ... ... ... ...,... ... ... ... ... ...,... ... ... ... ... ...
+q1.40,두 사람은 머쓱하게 창고를 나왔다,二人はそそくさと倉庫を出た,They awkwardly left the storage room
+q2.1,제라늄 가꾸기,ジェラニウムの手入れ,Gardening geraniums
+q2.2,"꽃은 내 잘 몰라가, 어무이한테 물어봐야것다.",花はよくわからないけど、母に聞いてみよう。,"I don't know much about flowers, I should ask mother."
+q2.3,이 시간이면 밭에 가 계시겠구만.,この時間なら畑に行ってるだろう。,At this time Vash must be in the field.
+q2.4,밭에 있는 밧슈에게 말을 걸자,畑にいるバシューに話しかけよう,Talk to Vash in the field
+q2.5,"어서 와, 니코~ 울프우드가 맡긴 일은 잘 되어가?",ようこそ、ニコ〜 ウルフウッドに任された仕事は順調か？,"Welcome, Nico~ How's the task Wolfwood gave you going?"
+q2.6,"예, 와 갑자기 이런 걸 시키는 지는 모르겠네예.",ええ、なぜ急にこんなことを言われたのかはわからないけど。,"Well, I don't know why he suddenly gave me this kind of task."
+q2.7,"우후후, 전부 니코를 위한 일이지 않을까?",うふふ、全部ニコのためなんじゃないの？,"Hehe, isn't it all for Nico's sake?"
+q2.8,그건 아닌 것 같은데예..,それはないような気がするけど...,I don't think so...
+q2.9,"자자, 어쨌든 꽃 심어야지?",さあ、とにかく花を植えようぜ！,"Come on, you need to plant flowers anyway?"
+q2.10,이게 제라늄 씨앗이야. 받아!,これがゼラニウムの種だよ。 受け取って！,These are geranium seeds. Take them!
+q2.11,[제라늄 씨앗 주머니]를 얻었다.,[ゼラニウムの種袋】を手に入れた。,Obtained [Geranium Seed Pouch].
+q2.12,제라늄은 어떤 계절에도 꽃을 피울 수 있는 강한 식물이야.,ゼラニウムはどんな季節にも花を咲かせる強い植物だよ。,Geraniums are strong plants that can bloom in any season.
+q2.13,꽃말은 '결의'. 잘 어울리지?,花言葉は「決意」。似合うでしょ？,"The flower’s meaning is ‘determination.’ It fits perfectly, doesn’t it?"
+q2.14,오늘 심는다고 당장 자라서 꽃이 피진 않겠지만..,今日植えたからといって、すぐに育って花が咲くわけではありませんが...,Just because you plant them today doesn't mean they'll grow and bloom right away..
+q2.15,"혹시 모르지, 니코의 사랑을 담는다면 기적이 일어날지도?",もしかしたら、ニコの愛を込めたら奇跡が起こるかも？,"Who knows, maybe a miracle will happen if you put your love into it?"
+q2.16,"예예, 그케 말 안 해도 쎄 빠지게 심을 낍니더~",はいはい、そんな包装しなくても頑張りますよ〜。,"Yeah yeah, even if you don't say that I'll plant them quickly~"
+q2.17,쌀쌀해.. 니코가 어른이 되어버렸어…,寒いです。ニッコが大人になってしまった...,So cold… Nico’s gone and turned into a grown-up...
+q2.18,"아무튼, 씨앗은 손으로 땅을 살짝 판 후에 심으면 돼.",とにかく、種は手で地面を少し掘ってから植えればいい。,"Anyway, you can plant the seeds after digging the ground lightly with your hands."
+q2.19,집 왼편에 들판이 있지?,家の左側に畑があるでしょ？,There's a field on the left side of the house.
+q2.20,한가득 제라늄 꽃이 피면 아주 멋질 거야!,たくさんのゼラニウムの花が咲いたら、とても素敵になるよ！,It'll be wonderful when the geranium flowers bloom all over!
+q2.21,다 심고 나면 엄마한테 알려줘!,終わったらママに教えてね！,Let me know when you're done planting!
+q2.22,여기에 씨앗을 심을까?,ここに種を植えようかな？,Should I plant seeds here?
+q2.23,씨앗을 잘 묻어 주었다.,種をしっかり埋めてくれた。,I buried the seeds well.
+q2.24,"금방 끝냈구나! 수고했어, 니코~ ",あっという間に終わったね！お疲れさま、ニッコ～,"You finished quickly! Good job, Nico~"
+q2.25,이제 됐심꺼?,もういいでしょ？,Is it done now?
+q2.26,응? 당연히 씨앗이 깨어날 수 있게 물도 줘야지!,え？ もちろん、種が目覚めるように水もあげないとね！,Huh? Of course you need to water them so the seeds can sprout!
+q2.27,아 맞지예..고럼 물뿌리개 좀 줘 보이소.,あ、わかりました。 じゃあ、水撒き器ください。,Ah right.. then please give me a watering can.
+q2.28,"으응, 그래야 되는데, 그게 말이지~",うーん、そうなんだけどね、それが～,"Yes, that's what we need to do, but the thing is~"
+q2.29,(뭐고 이 불길한 기분은..),(何だこの不吉な感じは...),(I have a bad feeling about this...)
+q2.30,아침에 엄마가 밭에 물을 주다가 그만 나무뿌리에 걸려 넘어졌는데,朝、お母さんが畑に水をやろうとしたら、木の根に引っ掛かって転んでしまったんだ。,This morning I was watering the field and tripped over a tree root
+q2.31,물뿌리개 주둥이가 똑! 떨어졌지 뭐야?,そうしたら、スプリンクラーの注ぎ口がポキッと落ちたんだ。,The watering can spout broke right off!
+q2.32,그래서 울프우드한테 수리를 맡겼는데,それでウルフウッドに修理を頼んだんだけど、,So I asked Wolfwood to fix it
+q2.33,집에 없는 재료가 필요하다면서 들고나가버렸어!,家にない材料が必要だと言って持って行ってしまった！,He said he needed materials we don't have at home and took it away!
+q2.33.1,슬픈 예감은 왜 틀리질 않는기가..,悲しい予感はなぜ当たらないのか...。,Why are my worst hunches always right…?
+q2.33.2,응? 니코 뭐라고 했어?,え？ ニコちゃん何て言ったの？,Huh? What did you say Nico?
+q2.33.3,"아, 아입니더. 그럼 아부지는예?",あ、いいえ。じゃあお父さんはどこ？,"Oh, nothing. Then where is father?"
+q2.34,울프우드는 아마 마을로 갔을 거야! 한 번 찾아가봐!,ウルフウッドはたぶん村に行ってるはずよ！ 一度行ってみてね！,Wolfwood probably went to the village! Go look for him!
+q2.35,예.. 다녀올께예.,はい。行ってくるね。,Yes.. I'll go and come back.
+q2.35.1,연못에 가재를 키우는 거 어떻게 생각해?,池にザリガニを飼うってどう思う？,What do you think about raising crayfish in the pond?
+q2.35.2,가재? 왜 갑자기 가재를 키우고 싶어진건데예..?,ザリガニ？ なぜ急にザリガニを飼いたくなったんだ...,Crayfish? Why do you suddenly want to raise crayfish..?
+q2.35.3,그야 빨갛고..,だって赤だし...,Well they're red..
+q2.35.4,…,...,…
+q2.35.5,빨간색이고,赤だし,And they're red
+q2.35.6,… … …,... ... ...,… … …
+q2.35.7,빨간색이니까?,赤だから？,Because they're red?
+q2.35.8,어무이 가재는 익혀야 색이 빨개지는 거 알지예?,お母さん、ザリガニは火を通さないと色が赤くならないって知ってるでしょ？,"Mom, crayfish only turn red when cooked, you know?"
+q2.35.9,…!!?,...!!!,…!!?
+q2.36,이상하다… 분명 여기서 잃어버렸는데..,変だ...確かここで失くしたはずなんだけど...,Weird… I definitely lost it here...
+q2.37,…?,...?,…?
+q2.37.1,빗자루 니 여서 뭐 하나?,ほうきんちゃん、ここで何してるの？,"Spikey, what are you doing here?"
+q2.38,꺄아아악!,きゃあああああああ！,Kyaaah!
+q2.39,"아따, 와 소리를 지르고 그르노!",いや、何で怒鳴ってるんだよ！,"Geez, why are you screaming!"
+q2.40,"ㅁ,미안.. 니콜라스인줄 몰랐어..",ごめん。ニコラスとは知らなかったよ...,S-sorry.. I didn't know it was you...
+q2.46,그래서 뭐 하고 있는데? 뭐 잃어뿟나.,で、何してるの？ 何を失くしたの？,So what are you doing? Did you lose something?
+q2.47," 으응, 어제 여기 근처에서 소중한 걸 잃어버려서..",うーん、昨日ここの近くで大事なものを失くしてしまって...。," Yes, I lost something precious around here yesterday.."
+q2.48,뭔데?,大切なもの？,What is it?
+q2.49,… … …,… … …,… … …
+q2.50,..펜던트 목걸이야.,...ペンダントネックレスです。,..A pendant necklace.
+q2.51,"내 귀걸이랑 같은 금색에, 좀 낡은..",私のイヤリングと同じ金色で、ちょっと古い...,"The same gold color as my earrings, a bit old.."
+q2.52,…마이 아끼는 거가.,...だいぶ大事にしてるのか？,...Is that something you really treasure?
+q2.53,응? 으응.. 옛날부터 간직하던 물건이거든.,え？ うん。昔から持っていたものなんだ。,Huh? Yes.. it's something I've treasured since long ago.
+q2.54,"니콜라스는 묵묵히 소매를 걷어붙이고, 덤불 속으로 들어간다.",ニコラスは黙って袖を通し、茂みの中に入っていく。,Nicholas silently rolled up his sleeves and entered the bushes.
+q2.55,"니,니콜라스..?",ニ、ニコラス...？,N-Nicholas..?
+q2.56,와 그라고 있노. 아끼는 거면 찾아야될 거 아이가.,何してるんだ？ 大切なものなら探せばいいだろ。,Don't just stand there. If it's precious we need to find it.
+q2.57,"ㅇ,응! 고마워… ",うん！ ありがとう...,Y-yes! Thank you…
+q2.58,하…니 진짜 여서 떨군거 맞나?,は...本当にここで震えたのか？,Sigh… did you really drop it here?
+q2.59,응… 여기가 맞는데…,うん...ここが正しいんだけど...,Yes… this is the right place…
+q2.60,"미안..니콜라스, 나 때문에… ",ごめんね...ニコラス、私のせいで...,"Sorry.. Nicholas, It's because of me..."
+q2.61,"ㅇ,와 울고 그르노? 내 화낸거 아이다!",なんで泣いてるの？ 私は怒ってない！,W-why are you crying? I'm not angry!
+q2.62,"그치만, 목걸이를 잃어버린 것도, 니콜라스를 고생시킨 것도, 전부 나니까..",でも、ネックレスを失くしたのも、ニコラスを困らせたのも、全部私だから...,"But I'm the one who lost the necklace, I'm the one who made Nicholas suffer, I'm the one who..."
+q2.63,니는 쫌 사람이 말을 하면 똑띠 들어라.,お前は人の話をよく聞けよ！,You should listen carefully when someone is talking to you.
+q2.64,"잃어뿐건 니지만, 찾아주겠다 해삔건 내다.",失くしたのはお前だけど、探してあげると言ったのは私だ。,"You're the one who lost it, but I'm the one who said I'd find it."
+q2.65,그게 와 니 책임인데?,なんでそれがお前の責任なんだよ！,How is that your fault?
+q2.66,뭐든지 다 끌어안을라 카지 마라. 그런다꼬 아무도 안 알아준다.,何でもかんでも抱きしめんなよ。そんなことしても誰もわかってくれないよ。,Don't try to take responsibility for everything. Nobody will appreciate it even if you do.
+q2.67,… … …,... ... ...,… … …
+q2.67.1,… … … 잖아..,... ... .. わかって..,… … … ciates it..
+q2.68,뭐?,何？,What?
+q2.69,니콜라스는 알아주잖아…,ニコラスはわかってくれるじゃん...,You appreciates it.
+q2.70,"…!! ㅁ,뭐라카노?! 내가 언제?!",...!!! え、何？俺がいつ？,…!! W-what are you saying?! When did I?!
+q2.71,므오옹-,ニャー～,Meow-
+q2.72,? 울 집서 밥 묵는 굉이가 와 여있노.,うちの家でご飯食べてる猫がなんでここにいるの？,What’s that cat that always comes to my house for food doing here?
+q2.73,"앗, 저거..! 내 목걸이!",あ、あれ......あれ......！私の首輪！,"Oh, that..! My necklace!"
+q2.74,맞나!? 저 잡아라!,本当に！？あいつを捕まえろ！,Really?! Catch that cat!
+q2.75,거기 서 - !!,あそこに立ってー！,Stop right there - !!
+q2.76,….!!!,....!!!,….!!!
+q2.77,"아야야.. 니콜라스, 괜찮아…?",うわっ...。ニコラス、大丈夫...？,"Ouch.. Nicholas, are you okay...?"
+q2.78,"…ㄴ,니..니..!!!!!!!",...な、お前、お前...!!!!!!!,…Y-you..you..!!!!!!!
+q2.79,응..?,うん...？,Eh..?
+q2.80,둘이 와 그라고 있노?,二人で何してたの？,Why are you two like this?
+q2.81,"ㅇ,울프우드씨! 그 고양이..!!",ウルフウッドさん！ あの猫...！,"Oh, Mr. Wolfwood! That cat..!!"
+q2.82,아~ 야가 또 뭘 물고 왔고 마.,あ～、こいつまた何か噛んできたね。,Ah~ That one brought something again.
+q2.83,목걸이? 어서 째 빈 거 아이제? 안에 뭐가 든갑다.,首輪？ どこから盗んだのか？ ああ、中身が入ってるね。,"A necklace? You didn’t steal it from somewhere, did you? There's something inside."
+q2.84,"ㅇ,우,울프우드씨!! 잠ㄲ…!",ウ、ウルフウッドさん！！ ちょっと待って...！,"Oh, Mr. W-Wolfwood! Wait a sec...!"
+q2.85,마.. 주인이 바로 앞에 있었구먼. 민망 하구로..,オーナーが目の前にいた。... ... ... ... ... ... ...,Well... The owner was right in front of me. How embarrassing..
+q2.86,… … … … …,… … … … …,… … … … …
+q2.86.1,… ?,… ?,… ?
+q2.87,멋대로 손대서 미안타. 여 가가라.,勝手に触ってごめんね。ここに持っていけ。,"Sorry for touching it without permission. Here, take it."
+q2.88,"스탬피드는 울프우드의 손에서 펜던트를 낚아챈 뒤, 인사도 없이 사라졌다.",スタンピードはウルフウッドの手からペンダントを奪い、挨拶もなく姿を消した。,Stampede snatched the pendant from Wolfwood's hand and disappeared without saying goodbye.
+q2.89,…..? …..??????,.....? .....??????,…..? …..??????
+q2.90,내 도와준다 캣지?,俺が助けてくれるって言っただろ？,Didn’t I say I’d help you?
+q2.91,"ㄷ,도와주기는 먼..!!!! 물뿌리개나 주이소!!!",助けてくれるってなんだよ...!!!!！スプリンクラーちょうだい!!!,W-what are you talking about?! Just give me the watering can!!!
+q2.92,오이야~,そうだ〜,Yeah yeah-
+q2.92.1,(야들은 진도가 느린 건지 빠른 건지 모르겠구마.),(この子たちは進度が遅いのか早いのかわからないね〜),(Can’t tell if these kids are moving fast or taking it slow.)
+q2.92.2,울프우드로부터 물뿌리개를 받았다. 밧슈에게로 돌아가자!,ウルフウッドからスプリンクラーをもらった。バシューに戻ろう！,Got the watering can from Wolfwood. Let's go back to Vash!
+q2.93,니코~ 왜 이렇게 오래 걸렸어?,ニッコ～なんでこんなに時間がかかったの？,Nico~ Why did it take so long?
+q2.94,오다가 무슨 일 있었던 거야?,来る途中で何かあったの？,Did something happen on the way?
+q2.95,…암 것도 아입니더. 여 물뿌리개 가져왔심더.,...なんでもないよ。 ここに水撒き器持ってきたよ。,"...Nothing happened. Here, I brought the watering can."
+q2.96,고마워! 말끔하게 고쳐졌네~,ありがとう！きれいに直ったね～,Thanks! It's completely fixed~
+q2.97,인제 물 주면 됩니꺼?,これでゼラニウムに水やればいいんじゃないの？,Should I water it now?
+q2.98,"아, 사실 니코가 너무 안 와서…",あ、実はニッコがあんまり来ないから...,"Oh, actually, since you didn't come for so long..."
+q2.98.1,… … …,… … …,… … …
+q2.98.2,… … … … …,… … … … …,… … … … …
+q2.99,내가 다 줘버렸어!,俺が全部あげちゃった！,I already watered them all!
+q2.100,………아?,......... あ？,………What?
+q2.101,물뿌리개는 여 있는데.. 뭘로…??,散水器はここにあるんだけど...どう...？,The watering can is right here.. what did you use...??
+q2.102,"아~ 찾아보니까, 창고에 하나 더 있더라고!",あ～探したら、倉庫にもう一つあった！,Ah~ I looked around and found another one in the storage!
+q2.103,…,...,…
+q2.104,"에헤헤, 미안…~",えへへ、ごめんね...～,"Ehehe, sorry...~"
+q2.105,..마…됐심더… 줬음 됐지예… 하…,...ま...いいんだよ...終わればいいんだよ...ハ...,..Well... it's fine... as long as you watered them... sigh...
+q2.106,"(너무 고생시켰나…? 그치만 어쩔 수 없지. 미안해, 니코…!)",(苦労させすぎたかな...？ でも仕方ないね。ごめんね、ニッコ...！),"(Did I make him suffer too much...? But I couldn't help it. Sorry, Nico...!)"
+q2.106.1,"자, 자~ 그럼 집에 돌아가자~",さあ、さあ～、家に帰りましょう～,"Come on, come on~ Let's go home~"
+q2.107,꽃밭이 넓게 펼쳐진 모습을 상상해 봐~ 황홀하지 않아?,花畑が広々と広がっている姿を想像してみてください～ 恍惚じゃないですか～,Imagine a flower field spreading wide~ Isn't it enchanting?
+q2.108,오늘은 밥 값 하는구마. 상으로 빗자루한테 간식 달라하래이.,今日はご飯代だ。ご褒美にトンガリにおやつをくれって。,Today you earned your keep. Ask Spikey for some snacks as a reward.
+q3.1,장작 패오기,薪割り,Chopping firewood
+q3.2,장작 하는 건 아부지 일이었는데..,薪割りは父親の仕事だったのに...,Chopping firewood was father's job..
+q3.3,역시 짬처리 시키는 거 아이가?,やっぱり面倒な仕事を俺にさせるのか？,Aren’t they just going to dump the work on me?
+q3.4,일단 숲으로 가볼까.,とりあえず森に行こう,Let's go to the forest first.
+q3.5,숲에서 울프우드의 도끼를 찾자,森でウルフウッドの斧を探そう,Let's find Wolfwood's axe in the forest
+q3.16,여 어디에 아부지가 쓰는 도끼가 있을긴데…,ここのどこかに父親が使う斧があるはずなのに...。,Father's axe should be somewhere around here...
+q3.17,[낡은 도끼]를 얻었다.,[古い斧】を手に入れた。,Obtained [Old Axe].
+q3.18,상태가 쫌 삐리한데…,ちょっと調子が悪そうだけど...,The condition is a bit off...
+q3.18.1,맨날 쓰는 거니까 괜찮겄지.,いつも使うものだから大丈夫だ。,It's used every day so it should be fine.
+q3.19,인제 나무 좀 찾아봐야겄다.,これから切る木を探そう。,Now I need to find some trees.
+q3.19.1,숲에서 나무하기,森で薪割り,Chopping trees in the forest
+q3.20,어데 힘 좀 써볼까.,どこに力を入れようか？,"Alright, time to flex my muscles."
+q3.21,과녁에 맞춰 확인 키를 누르자,的を絞って確認キーを押そう,Press spacebar to hit the target
+q3.22,나무에 도끼질을 정확하게 하면 장작을 GET!,木に正確に斧を打ち込むと薪がGET！,If you chop the tree accurately with the axe you GET firewood!
+q3.23,휘유~ 시원하게 넘어가는구마.,ぴゅーっと〜かっこよく倒れるね。,Whew~ It falls down nicely.
+q3.23.1,여는 더 쓸만한 나무가 없어 보이네.,ここにはこれ以上使えそうな木がなさそうだ。,There don't seem to be any more useful trees here.
+q3.23.2,옆에 구역으로 가볼까.,隣のエリアに行ってみよう。,Let's go to the next area.
+q3.24,큼.. 손이 삐끗했다 아이가.,ほど。手が痛くなった。,Hmm.. my hand slipped.
+q3.25,다시 하면 다를 기다.,もう一度やれば違うだろう。,It'll be different if I try again.
+q3.26,이 정도면 됐다. 집에서 제일 가까운 숲에서 패야 나르기 편한께 글로 가야겠다.,このくらいで十分だ。家から一番近い森で叩いて運ぶのが楽な方に行くことにする。,"This should be enough. I should chop in the forest closest to home since it's easier to carry, so I'll go there."
+q3.27,후.. 안쪽 숲이라 그런가 나무가 억씨 고마..,ふ。奥の森だからか、木々が茂ってますね...。,Phew.. maybe because it's the inner forest the trees are really tough..
+q3.27.1,... ?!!,......！？,... ?!!
+q3.27.2,도끼의 손잡이가 부러지며 단면에 손이 긁혔다.,斧の柄が折れ、断面に手を引っかいた。,The axe handle broke and my hand got cut on the broken edge.
+q3.28,악..!!!,ウアアッ!!!,Argh..!!!
+q3.29,하~씨… 조져뿟네. 손잡이가 어쩐지 삐리하다켰다.,ハンドルがなんか緩いって..,Damn... it's broken. I thought the handle seemed off.
+q3.30,"피 봐라, 어무이한테 또 한소리 듣겄다…",血が出てるじゃん、また母に怒られるぞ...。,"Look at this blood, I'm going to get scolded by Vash again..."
+q3.31,니콜라스?,ニコラス？,Nicholas?
+q3.32,"아, 빗자루.  여서 뭐 하나.",ああ、トンガリ。 ここで何か。,"Oh, Spikey. What are you doing here?"
+q3.33,"으응, 블루베리를 따러…",うーん、ブルーベリー狩りに...,"Uh-huh, picking blueberries..."
+q3.33.1,"어, 니콜라스?! 손에서 피가..!",え、ニコラス？手から血が..！,"Oh, Nicholas?! Your hand is bleeding..!"
+q3.34,괜찮아?! 상처가 너무 큰데…,大丈夫？傷が大きすぎるけど...,Are you okay?! The wound is too big...
+q3.35,마…이런 거 침 발라두면 낫는다.,まあ...これくらい唾液を塗っておけば治るよ。,Well... Just spit on it—it’ll be fine.
+q3.36,무슨 소리야! 그러다 더 크게 덧나!,何言ってんだ！ そうするともっと大きくなるよ！,What are you saying! It'll get infected even worse!
+q3.37,(이래 큰소리 내는 건 또 첨 보네..),(こんなに大声で怒るのは初めて...),(This is the first time I've seen him raise his voice like this..)
+q3.38,"ㅁ,맞나…",そうかな？,Y-yeah...
+q3.39,손 이리 줘봐.,手を貸して。,Give me your hand.
+q3.40,….!!!,....!!!,….!!!
+q3.41,급하니까 소독은 집에 가서 하자. 일단 지혈부터…,急いでるから消毒は家に帰ってやろう。とりあえず止血から...,It's urgent so let's disinfect it at home. Let's stop the bleeding...
+q3.42,"ㄷ,됐다. 내 알아서…!",ㄷ、できた。俺がやるから...！,I-it's fine. I'll handle it myself...!
+q3.43,움직이지 마. 꽉 묶어야 하니까.,動くなよ。スタンピードが力強くニコラスの手にハンカチを結ぶ。,Don't move. I need to tie it tightly.
+q3.44,스탬피드가 힘주어 니콜라스 손에 손수건을 묶어준다.,...ハンカチが汚れたから、新しいのを買ってあげるよ。,Stampede firmly ties a handkerchief around Nicholas's hand.
+q3.45,…손수건이 이래가 우짜노. 내 하나 새로 사주께.,大丈夫、血はぬるま湯で洗えばすぐ落ちるから。,...The handkerchief got ruined. I'll buy you a new one.
+q3.46,괜찮아. 피는 미지근한 물에 빨면 금방 빠지니까.,...後で治ったら、返しに来てね。,It's okay. Blood comes out quickly if I wash it with lukewarm water.
+q3.47,"…나중에 다 나으면, 돌려주러 와줘.",...わかったよ。,"...When it's all healed, please come return it."
+q3.48,"….ㅇ, 맞나.. …알겠다.",スタンピードは、知らず知らずのうちに密着しすぎたことに気づき、顔を真っ赤にして落ちる。,....Y-yeah.. ...I will.
+q3.49,스탬피드는 자신도 모르게 너무 바짝 달라붙었단 걸 깨닫고 얼굴이 붉어져 떨어진다.,スタンピードは自分でも気づかぬうちに密着しすぎたことに気づき、顔を真っ赤にして落ちる。,Stampede realizes he got too close without knowing it and backs away with a red face.
+q3.50,"ㄱ,그럼 난 이만 가볼게!",あ、じゃあ俺はもう行くよ！,T-then I'll be going now!
+q3.50.1,집가서 깨끗하게 소독해야 해!,家に帰ってきれいに消毒しないと！,You need to go home and disinfect it properly!
+q3.51,… … …,... ... ... ... ...,… … …
+q3.51.1,장작은 이만하면 됐겠지.,薪はこれくらいでいいかな。,This should be enough firewood.
+q3.51.2,나도 슬슬 돌아가 볼까?,私もそろそろ帰ろうかな？,I should probably get back to home.
+q3.52,울프우드의 도끼다.,ウルフウッドの斧だ。,It's Wolfwood's axe.
+q3.53,"들고 다니는 게 귀찮은 지, 자주 여기에 두고 다니곤 한다.",持ち歩くのが面倒なのか、よくここに置いておくことが多い。,"Maybe because it's bothersome to carry around, he often leaves it here."
+q3.54,꽤나 단단해 보이는 나무다.,かなり硬そうな木だ。,It looks like a quite sturdy tree.
+q3.55,굳이 이 나무를 벌목하시겠습니까?,わざわざこの木を伐採しますか？,Do you really want to cut down this tree?
+q3.56,세상에 안되는 게 어딨나! 남자는 근성과 맷집 아이겠나!!!,この世にダメなものはないでしょう！男は根性と斧!!!,Nothing is impossible in this world! Isn't a man about grit and endurance!!!
+q3.57,"아이 뭐, 굳이 사서 고생할 거 없지예.",いや、わざわざ買って苦労する必要はないな。,"Well, there's no need to make trouble for myself."
+q3.58,이까이 거 별거 아이고마.,斧なんて大したことないな！,This little thing is nothing.
+q3.59,"음, 이 뭐, 그거다. 도끼가 맛이 간기다.",うーん、これは、これだ。斧の刃が錆びてるから。,"Hmm, well, you know. The axe is acting up."
+q3.60.1,...지금은 왠지 집에 들어가고 싶지 않다.,...今は何となく家に入りたくない。,"...For some reason, I don't want to go home right now."
+q3.60.2,(집 안에서 어떤 소리가 들린다.),(家の中から何か音が聞こえる。),(Some sounds can be heard from inside the house.)
+q3.60.3,안 들어간다고.,入れないって。,I'm not going in.
+q4.1,물 한잔 마시고 나갈까?,水でも飲んで出ようか？,Should I drink some water before going out?
+q4.2,"우루훗도~ 자, 아앙~♥",ウルフウッド～ほら、あ～ん～♥,"Wolfwood~ Give it a try, ahhh~♥"
+q4.3,낸 그런 거 안 묵는다.,そんなの食べないよ。,I don't eat that stuff.
+q4.4,"왜?! 한 입만 먹어봐, 이번엔 진짜 맛있게 됐다구!",なんで？一口食べてみろよ、今回は本当においしくなったんだ！,"Why?! Just try one bite, this time it really turned out delicious!"
+q4.5,안 무봐도 뻔하다.,食べてみないとわからない。,I don't need to eat it to know.
+q4.6,어제 밤에 묵은 게 더 맛나가…,昨夜食べた方が美味しいだろうから...,What I ate last night was more delicious...
+q4.7,…?! 뭐야! 바보! 에로 목사!,......？何だ！ 愚か者！エロ牧師！,...?! What! Idiot! Perverted priest!
+q4.8,(지랄을 하소서…),(くそー...),(Please stop the nonsense...)
+q4.9,"큼, 큼…",(咳き込む),"Ahem, ahem..."
+q4.10,"ㄴ,니코…~! 뭐 찾아? 엄마가 도와줄까…?!",ニ、ニコ...～?！何探してるの？ ママが手伝おうか...？,N-Nico...~! What are you looking for? Should mom help you...?!
+q4.11,아입니더. 하던 거 계속 하이소.,いいえ。今まで通りやってください。,It's nothing. Please continue what you were doing.
+q4.12,"오야, 퍼뜩 가서 일해라.",そうだ、お前は早く仕事に行け。,"Okay, you go get to work."
+q4.13,"ㄱ, 그런 거 아니야, 니코! 아, 쫌~!!!",あ、そんなことないよ、ニコ！ あ、頼むよ〜！！！,"I-it's not like that, Nico! Oh, come on~!!!"
+q4.14,(물이 문제가… 동상이 생길라 카는데…),(水に問題が...弟ができそうだ...),(Drinking water’s no big deal—what really worries me is I might end up with a little brother or sister…)
+q4.15,(그냥 연못 물이라도 떠 묵어야겠다.),(池の水を飲むしかないな。),(I'll just have to drink pond water.)
+q4.16,울프우드! 너 니콜라스가 보고 있는 거 알고 있었지?!,ウルフウッド！ ニコラスが見てるの知ってたでしょ！！,"Wolfwood! You knew Nicholas was watching, didn't you?!"
+q4.17,왜 말 안 해줬어~!! 창피하단 말이야!!,なんで言ってくれなかったの〜！！ 恥ずかしいよ！！！,Why didn't you tell me!! I'm so embarrassed!!
+q4.18,… … …,… … …,… … …
+q4.19,내는 니가 부끄러워하는 게 좋다,私は君が恥ずかしがり屋なのがいい,I like seeing you embarrassed
+q4.20,…!!!,…!!!,…!!!
+q4.21,(염병… 더러운 커플들…),(くそ...汚いカップル...),(Damn... disgusting couples...)
+s1.1,… … … ….,… … … ….,… … … ….
+s1.2,"정말로…, 괜찮겠어?",本当に...、大丈夫かな？,Really... will it be okay?
+s1.3,응.,うん。,Yeah.
+s1.4,이거면 만족해.,これで満足だ。,I'm satisfied with this.
+s1.5,"고맙다, 빗자루.",ありがとう、トンガリ。,"Thank you, Spikey."
+s1.6.1,… … … … .,… … … … .,… … … … .
+s1.6.2,"자, 술이나 마시자.",さあ、飲もうぜ。,"Come on, let's drink."
+s1.6.3,너랑 같이 마시는 것도 오랜만인걸?,君と一緒に飲むのも久しぶりだね。,It's been a while since we drank together.
+s1.6.4,… … … .,… … … .,… … … .
+s1.7,웃어 빗자루.,笑ってトンガリ。,"Smile, Spikey."
+s1.8,"넌 역시…,","君はやっぱり...,",You look better...
+s1.9,웃고 있는 모습이 나아.,笑ってる姿の方がいい。,...when you're smile.
+s1.10,텅 비었다는 식으로 말한 거 미안하다.,空っぽという言い方でごめんね。,That was a bit harsh. Sorry.
+s1.11,… … … … .,… … … … .,… … … … .
+s1.12,저기,あのね,Um...
+s1.13,울프우드… … .,ウルフウッド... ... ...,Wolfwood... .
+s1.14,쓸데없는 소리 하지 마… .,無駄なこと言うなよ... ... ...,Please don't... say anything stupid...
+s1.15,이상한 남자를 만났다.,奇妙な男に出会った,I met a strange man.
+s1.16,"이제야 좀 마음이 통하나 싶으면,",やっと心が通じるかと思えば、,"Every time I start to feel as though he and I are finally on the same wavelength,"
+s1.17,마음속 깊은 곳에선 꼭 의견이 갈렸다.,心の奥底ではきっと意見が分かれた,Our deepest thoughts inevitably pull us to opposite sides.
+s1.18,"하지만, 난 그때 알아차리고 말았다.",でも、私はその時気づいた。,But I realized it then.
+s1.19,마음속 깊은 곳보다 더욱 깊은 곳에선,心の奥底よりもさらに奥底では,Even deeper than the depths of our hearts
+s1.20,이 남자와 내가 아주 많이 닮았다는 것을,この男と私がとても似ていることを,this man and I were very much alike
+s1.21,"소중한 것, 그것을 지키려는 의지",大切なもの、それを守ろうとする意志,"Precious things, the will to protect them"
+s1.22,때문에 모든 것을 이룬 다음의 하얀 백지를 이 사내와 같이 나누고 싶다고 생각했다.,だから、すべてを成し遂げた後の白い白紙をこの男と一緒に共有したいと思った。,"Because of that, I wanted to share the blank white page after achieving everything with this man."
+s1.23,… … .,… … .,… … .
+s1.24,… … … … .,… … … … .,… … … … .
+s1.25,아아… .,ああ...。,Ah... .
+s1.26,신이시여.,神よ。,Oh God.
+s1.27,제 소망을 단 하나만 들어주십시오.,私の願いを一つだけ聞いてください。,Please grant me just one wish.
+s1.28,신이시여 … … .,神よ ... ... ... 。,Oh God ... … .
+s1.101,"스탬피드, 간만이네",スタンピード、久しぶりだな,"Stampede, it's been a while"
+s1.102,아 보러 온기가?,子供に会いに来たのか？,Did you come to see Nicholas?
+s1.103,울프우드씨! 안녕하셨어요~?,ウルフウッドさん！こんにちわ～？,Mr. Wolfwood! How have you been?
+s1.104,니콜라스군이랑 함께 돌아오셨다고 들었어요! 건강히 돌아오셔서 얼마나 기쁜지 몰라요!,ニコラス君と一緒に帰ってきたって聞いたわよ！元気で戻ってきてくれて本当に嬉しいわ！,I heard you came back with Nico! I'm so happy you returned!
+s1.105,실례가 아니면 니콜라스랑 인사를 해도 될까요?,失礼だけど、ニコラスと挨拶してもいいかしら？,Would you mind if I said hello to Nicolas?
+s1.106,"하모, 빗자루가 니만 기다렸다 아이가.",そう、トンガリが君を待っていたんだ。,"Yes, Spikey has been waiting only for you."
+s1.107,"퍼뜩 드가봐봐라, 아 밥 묵고 있을 기다.",さっさと赤ちゃんの部屋に入りなさい、ニコラスはご飯を食べているよ。,"Go quickly, he's probably nursing right now."
+s1.108,감사해요! 울프우드씨!,ありがとう！ウルフウッドさん！,Thank you! Mr. Wolfwood!
+s1.109,"왜 자꾸 우는 거야, 니코..",何で泣いてるの、ニッコちゃん。,"Why do you keep crying, Nico.."
+s1.110,"우유가 너무 뜨거운가? 흐음, 아닌 것 같은데.. 어떡하지…",牛乳が熱すぎるかな？ うーん、そうでもないような......どうしよう......,"Is the milk too hot? Hmm, doesn't seem like it.. what should I do..."
+s1.111,"안녕하세요, 밧슈씨!",こんにちは、芭蕉さん！,"Hello, Vash!"
+s1.112,제가 혹시 안 좋은 타이밍에 온 걸까요..?,私、もしかしてタイミングが悪かったのかな...？,Did I come at a bad time..?
+s1.113,"아, 스탬피드구나!",あ、スタンピードか！,"Oh, it's Stampede!"
+s1.114,"어라, 어라라?",あ、あれれ？,"Huh, huh?"
+s1.115,니코가 갑자기 웃잖아?,ニッコが急に笑ってるじゃん？,Nico suddenly smiled!
+s1.116,뭐지? 어째서 갑자기 웃어주는 걸까?,何だ、なんで急に笑うんだろう？,What? Why did he suddenly smile?
+s1.117,밧슈는 니콜라스와 스탬피드를 번갈아본다.,バシューはニコラスとスタンピードを交互に見る。,Vash looks back and forth between Nicholas and Stampede.
+s1.118,… 설마..?,.......まさか......？,... No way..
+s1.119,…? (어리둥절하기만 하다),......？ (戸惑うばかり),…? (Just confused)
+s1.120,"방금까진 니코가 울상이었는데, 스탬피드를 만나서 기분이 좋은가 봐!",さっきまでニッコは鬱陶しそうだったけど、スタンプピードに会えて気分がいいみたい！,"Just now Nico was crying, but he seems happy to meet you!"
+s1.121,정말요? 다행이에요. 니콜라스 군에게 잘 보이고 싶어서 아침부터 꾸몄거든요.,ホント？ よかった。 ニコラス君によく見せたかったから、朝からオシャレしてたんだ。,Really? That's good. I dressed up from the morning because I wanted to look good for Nico.
+s1.122,니코군 안녕?,ニコくん、こんにちは！,Hello Nico?
+s1.123,니콜라스는 다시 뚱해진 표정으로 스탬피드에게 앙증맞은 손을 뻗는다. 스탬피드와는 초면인데도 할 말이 많은 건지 작은 입도 우물거리면서 옹알인다.,ニコラスはまた太った表情で、スタンプピードに可愛らしく手を差し伸べる。スタンピードとは初対面なのに、言いたいことがたくさんあるのか、小さな口もぐずぐずと喋る。,"Nicholas, with a pouty expression again, reaches out his cute little hand to Stampede. Even though it's his first time meeting Stampede, he seems to have a lot to say as his small mouth moves while babbling."
+s1.124,"스탬피드, 괜찮으면 니코군을 안아볼래?",スタンピード、よかったらニコくんを抱きしめてみる？,"Stampede, if it's okay, would you like to hold Nico?"
+s1.125,네?! 정말요..?,え？本当ですか...？,Yes?! Really..?
+s1.126,"하, 하지만.. 아기는 안아본 적이 없는걸요.. 제가 안으면 니콜라스군이 불편할 거예요.",は、でも 赤ちゃんは抱っこしたことないですよ。私が抱っこするとニコラス君が不快になっちゃうよ。,B-but.. I've never held a baby before.. Nicholas would be uncomfortable if I held him.
+s1.127,그렇지만 니코는 네가 마음에 든 것 같은데? 그러지 말고 한 번 안아줘~,でも、ニコはあなたが気に入ったみたいよ？ そんなこと言わないで、一度抱きしめてよ～,But Nico seems to like you. Don't worry about it and just hold him once~
+s1.128,스탬피드는 밧슈로부터 조심스레 아기를 받아든다. 품 안에 들어온 니콜라스는 우유 냄새가 나는 뜨끈한 식빵 같았다.,スタンピードはロープから慎重に赤ちゃんを抱き上げる。腕の中に入ったニコラスは、ミルクの匂いがする熱々の食パンのようだった。,Stampede carefully takes the baby from Vash. Nicholas in his arms was like warm bread that smelled of milk.
+s1.129,방금까지 울었던 게 거짓말인 것처럼. 스탬피드의 손을 잡고 의젓하게 옹알였다.,さっきまで泣いていたのが嘘のように。スタンピードの手を握りしめて、堂々と喃語をしゃべる。,"As if his crying just moments ago was a lie, he grabbed Stampede's hand and babbled dignifiedly."
+s1.130,"와아… 왠지, 갑자기 눈물이 날 거 같아요…",うわぁ...なんだか、急に涙が出そう...,"Wow... somehow, I feel like I'm going to cry suddenly..."
+s1.131,"하하! 그거 봐, 아주 편해 보이잖아?",ハハ！ほら、とっても楽そうでしょ？,"Haha! See, he looks very comfortable, doesn't he?"
+s1.132,"반가워, 니콜라스군..",ニコラス君...,"Nice to meet you, Nicholas.."
+s1.133,"이거 참, 스탬피드를 나보다 좋아하는 것 같아서 질투 날 정도인 걸.",なんていうか、私よりスタンプ帳が好きみたいで嫉妬しちゃうわね。,"Gee, it looks like he likes Stampede more than me, I'm almost jealous."
+s1.134,이러다 너랑 결혼한다고 하면 어떡해~,このまま君と結婚しちゃったらどうしよう～,What if he says he wants to marry you?
+s1.135,"아하핫, 빨리 커서 데리러 와야 해? 니콜라스군.",あははは、早く大きくなって迎えに行かないとね。 ニコラス君。,"Ahaha, so you’d better hurry up and grow big, then come whisk me away as your bride, okay, Nico?"
+s1.136,기다릴게..,待ってるよ。,I'll wait..
+s1.137,부부의 침실에 함부로 들어가는 건 나쁜 행동이야!,夫婦の寝室に勝手に入るのはよくないよ！,It's bad to enter a married couple's bedroom carelessly!
+s1.138,니콜라스의 방이구나!,ニコラスの部屋だね！,This is Nicholas's room!
+s1.139,벽지는 무슨 색으로 하셨을까? 노란색? 분홍색?,壁紙は何色にしたのかな？黄色？ ピンク？,I wonder what color they chose for the wallpaper—yellow? Pink?
+s1.140,클래식한 취향이셨구나..,クラシックな好みだったんだね。,"Oh, so they had classic taste…"
+s2.1,"Chapter 1. Home, sweet home.","Chapter 1. Home, sweet home.","Chapter 1. Home, sweet home."
+s2.2,… …,… …,… …
+s2.3,… … … …,… … … …,… … … …
+s2.4,쟤는 아직도 저러고 있나?,あいつはまだやってるのか？,Is he still doing that?
+s2.5,으응.. 벌써 한 시간째네.,うーん。もう1時間経ってるね。,Uh-huh.. it's been an hour already.
+s2.6,"하이고, 답답하고 마..",やれやれ、イライラする。,"Sigh, it's frustrating.."
+s2.7,"니코, 무슨 고민이라도 있니?",ニコ、何か悩みでもあるの？,"Nico, do you have any worries?"
+s2.8,안 봐도 뻔~하다. 너 또 스탬피드 생각하고 있지?,見なくてもわかるよ。お前、またスタンピードのこと考えてるんだろ？,It's obvious without looking. You're thinking about Stampede again?
+s2.9,고민할 게 뭐가 있는데! 그냥 사나이답게 고백해라!,悩むことなんてあるわけないだろ！ 男らしく告白してみろよ！,What's there to worry about! Just confess like a man!
+s2.10,니코한테 봄이 오려나보다!,ニッコに春が来たようだ！,Looks like love is in the air for him!
+s2.11,그래~! 아빠 말대로 고백 한번 해보는 건 어때~?,そうだ～！パパの言う通り、告白してみたらどうだ～？,He's right! How about going for it and telling him how you feel—just like Dad said?
+s2.12,왜~ 너 어릴 때 그 아이만 매일 좋다고 따라다녔었잖니~,なんで～、お前は子供の頃、あの子だけ毎日好きでついて回ってただろ～？,He's right! How about going for it and telling him how you feel—just like Dad said?
+s2.13,… …,… …,… …
+s2.14,니콜라스는 대꾸 없이 액자를 탁자 위에 내려놓았다. 그리곤 특유의 뚱한 얼굴로 부모님을 바라본다,ニコラスは無言で額縁をテーブルの上に置いた。そして独特の太った顔で両親を見つめる,Nicholas put the picture frame down on the table without responding. Then he looks at his parents with his characteristic pouty face
+s2.15,"흐음, 이게 그 '사춘기'라는 건가?",うーん、これがあの「思春期」ってやつか,"Hmm, is this what they call 'puberty'?"
+s2.16,점마는 사춘기가 아니라 그 짝사랑인지 뭔지 하는 주접이다.,あいつは思春期じゃなくて、あの片思いか何かの時期なんだろう。,"Oh come on, that's not puberty, it's that one-sided love nonsense."
+s2.17,으이고 누굴 닮아 저래 문디 같은지..,誰に似てるんだ、馬鹿みたい。,"Oh my, who does he take after to be so stubborn.."
+s2.18,… …,… …,… …
+s2.19,"어, 어쨌든!! 아이가 힘들어할 때 도와주는 게 부모의 역할이잖아!!!",え、とにかく！！！子供が困ってるときに助けるのが親の役目だろ！！！,A-anyway!! It's the parent's role to help when the child is struggling!!!
+s2.20,아들이 저렇게 힘들어하면 도와줘야지! 안 도와줄 거야!?!,息子があんなに困ってるなら助けてやれよ！助けないのか！？,"If our son is struggling like that, we should help him! Won't you help him?!?"
+s2.21,누가 안 도와준다 캤나!?,誰が助けてくれないの！？,Who said I wouldn't help?!
+s2.22,쟤 꼬락서니가 답답해가 그런 거지.,あのクソガキが悔しいからそうなるんだよ。,It's because that kid's behavior is frustrating.
+s2.23,그래서 빗자루. 뭐 좋은 생각이라도 있나?,それで、トンガリ。何かいい考えでもあるのか？,"So, Spikey. Do you have any good ideas?"
+s2.24,음.. 내 생각에는,うーん。私の考えでは、,"Well.. I think,"
+s2.25,… … (속닥속닥),... ... ... (ざくざく),… … (whisper whisper)
+s2.26,이렇게 하는 건 어때?,こんなのはどうだ！,How about we do this?
+s2.27,좋네! 언제 이런 기발한 생각을 다했나!,いい！ いつこんな気まぐれな発想をしたんだ！?,Good! When did you come up with such a brilliant idea!
+s2.28,그러면 언제부터 시작할 건데?,じゃあ、いつから始めるんだ！,Then when should we start?
+s2.28_1,오늘부터!! 니코와 우리 가정을 위하여..,今日から！！ニコと我が家のために...,From today!! For Nico and our family..
+s2.29,작전명 러브 앤 피스다!!!!,作戦名ラブ＆ピースだ!!!!,Operation name: Love and Peace!!!!
+s2.30,"아, 니콜라스!",あ、ニコラス！,"Oh, Nicholas!"
+s2.31,오늘 날씨 정말 좋지!,今日の天気は本当に良いね！,The weather is really nice today!
+s2.31_2,어디 가? 부모님 심부름?,どこ行くの？ 両親の用事？,Where are you going? Parents' errand?
+s2.32,..아재네 간다.,...リビオおじさんの家に行くの？,..I'm going to uncle's house.
+s2.33,일 도와드리러 가는 거야?,仕事の手伝いに行くの？,Are you going to help with work?
+s2.33_1,"후후, 기특하네. 힘들지 않겠어? 내가 도와줄 일 없을까?",ふふふ、偉いね。大変だろう？ 俺が手伝ってあげようか？,"Hehe, how admirable. Won't it be hard? Is there anything I can help with?"
+s2.34,(언제까지고 얼라 취급 인기가..),(いつまでも子供扱いされてる...),(How long will I be treated like a kid...)
+s2.35,… 됐다. 내가 얼라도 아이고. 신경 끄라.,...いや、俺は子供じゃないから気にするな。,… It's fine. I'm not a kid. Don't mind me.
+s2.36,"아… 그렇네, 미안.",あ...そうか、ごめんね。,"Ah... that's right, sorry."
+s2.37,"그럼 다음에 보자, 니콜라스. 오늘 일 힘내!",じゃあまたね、ニコラス。今日の仕事頑張れ！,"Then see you next time, Nicholas. Good luck with work today!"
+s2.38,하아…,はあ...,Sigh...
+s2.39,(얼라가 아이긴 뭐가 아이고. 완전 얼라다. 그것도 아주 엄살궂은.),(子供じゃないわけないだろ。 完全に子供だ。 それもクソ野郎...),(What do you mean I'm not a kid. I'm totally a kid. A very whiny one at that.)
+s2.40,이런 놈이 남자로 보이믄 눈이 아이고 눈깔 이제. 맞재..,こんな俺が男に見えるわけないだろ。 そうだろうな。,If someone like this looks like a man then they must be blind. Right..
+s2.40.1,일단은 자고 내일 생각할까..?,とりあえず寝て明日考えるか...？,Should I sleep first and think about it tomorrow..?
+s2.40.2,눈 깜빡할 새 아침이고마..,目も覚めぬうちに朝になるね...,In the blink of an eye it's morning..
+s2.40.3,그러고 보니 심부름 종이를 어디 뒀쟤?,そういえば、用事用紙はどこに置いたっけ？,Come to think of it where did I put the errand note?
+s2.41,정체 모를 무덤이다,正体不明の墓場だ,It's a grave of unknown identity
+s2.42,"예전에 밧슈에게 누구의 무덤인지 물어보았는데, 지금은 쓰지 않는다고 한다..",以前、芭蕉に誰の墓か聞いたことがあるが、今は使っていないそうだ。,"I asked Vash before whose grave it was, but he said it's not used anymore.."
+s2.43,오늘은 숲에 딱히 볼 일이 없다.,今日は森に特に用事がない。,There's nothing particular to see in the forest today.
+s2.44,스탬피드의 집으로 갈 때가 아니야.,スタンピードの家に行く時じゃない,It's not time to go to Stampede's house.
+s2.45,지금은 집에 돌아가고 싶지 않아..,今は家に帰りたくない。,I don't want to go home right now..
+s2.46,Chapter 2. Never give up! Never surrender!,Chapter 2. Never give up! Never surrender!,Chapter 2. Never give up! Never surrender!
+s2.47,Chapter 3. Count Down,Chapter 3. Count Down,Chapter 3. Count Down
+s2.48,Chapter 4. 미래로 가는 차표,Chapter 4. 미래로 가는 차표,Chapter 4. A ticket to the future
+s3.1,"아재, 잘지냈심니꺼.",おじさん、元気ですか？,"Uncle, have you been well?"
+s3.2,니콜라스!!! 어서 와-!!!!!!!!!!!!,ニコラス！！！ ようこそ-!!!!!!!!,Nicholas! Welcome-!!
+s3.3,"마, 귀청 떨어지겠구로..;",鼓膜が破裂しそう...！ なんで大騒ぎなの？,"Geez, you're going to make me go deaf.."
+s3.4,"아하핫, 왜냐면 니콜라스…",アハハッ、だってニコラス...,"Ahaha, because..."
+s3.5,이제 다 컸다고 예전처럼 자주 와주지 않으니까…,もう大人になったからって、昔みたいに頻繁に来てくれないから...,"Now that you're all grown up, you don't come visit often like before..."
+s3.6,은제적 얘길 하는깁니꺼. 거 내 다슷살 때 입니더.,昔の話です。 私が5歳の時ですよね。,You're talking about old times. That was when I was five years old.
+s3.7,삼촌한텐 바로 어제 같단다..,叔父さんには昨日のことなんですよ。,To uncle it feels like just yesterday..
+s3.8,나이 묵으면 그리된다 카데예.,歳をとるとそうなるんだって。,People often say that’s what happens when you get older
+s3.9,칼이나 줘 보이소.,ナイフください。,Give me the knife.
+s3.10,리비오는 목공용 칼을 건네주었다,リビオは木工用の包丁を渡した,Livio handed over the woodworking knife
+s3.11,손이 커져서 그런가? 이제 훨씬 깔끔하게 만드는걸!,手が大きくなったからか？ これでもっときれいに作れるよ！,Is it because your hands got bigger? Now you make it much more neatly!
+s3.12,마…몸뚱이만 그리 커뿟지예.,うーん...体だけ大きくなったね。,Well... only my body grew like that.
+s3.13,… … … … …,… … … … …,… … … … …
+s3.14,와 그리 보심니꺼..?,なんでそんな目で見てるの...？,Why are you looking at me like that..?
+s3.15,리비오는 니콜라스에게만 보여주는 짖궂은 얼굴로 입가를 당겨 웃는다.,リビオはニコラスだけに見せる凶悪な顔で口角を上げて笑う。,Livio pulls the corners of his mouth and smiles with a mischievous face that he only shows to Nicholas.
+s3.16,"니콜라스, 무슨 고민 있구나?",ニコラス、何か悩みでもあるのか？,"Nicholas, you have some worries, don't you?"
+s3.17,"..없심니더, 그런 거.",......ありませんよ、そんなこと。,..There's nothing like that.
+s3.18,"하지만 네가 만든 새 날개, 한쪽이 더 작게 깎였는데?",でもお前が作った鳥の羽、片側が小さく削られてるぞ？,"But the bird wing you made, one side is carved smaller than the other?"
+s3.19,…!!,.......!!!,…!!
+s3.20,그리고 공방에 올 때는 항상 진정하고 싶을 때였잖아.,そして、工房に来る時はいつも落ち着きたい時だったろ？,And whenever you come to the workshop it's always when you want to calm down.
+s3.21,형한테 처음으로 크게 혼난 날이었나?,初めて兄さんに大声で怒られた日だったかな？,Was it the day you got scolded badly by your dad for the first time?
+s3.22,그때도 새를 깎았었지. 엉망진창이었지만!,当時も鳥を刈ったことがある。めちゃくちゃだったけど！,You carved a bird then too. It was a mess though!
+s3.23,10년도 더 된 일 아입니꺼. 고마 하이소..,もう10年以上前のことなのに。 やめてよ...,That was more than 10 years ago. Please stop it..
+s3.24,"그래도, 니콜라스는 그때 나 지금이나 항상 내 귀여운 조카니까 말이야!",それでも、ニコラスは今も昔も、私の可愛い甥っ子だからね！,"Still, Nicholas is always my cute nephew, whether then or now!"
+s3.25,"…아무리 나이를 무도 얼라는 얼라, 이 말임니꺼!",...どんなに年を取っても子供は子供ってことですか？,"...What, so I’m still just a kid no matter how old I get?!"
+s3.26,"니콜라스는 언성을 높이며 자리를 박차고 일어났다가, 머쓱하니 의자에 주저앉았다.",ニコラスは怒鳴りながら席を立ったかと思えば、しどろもどろに椅子に腰を下ろした。,"Nicholas raised his voice and stood up abruptly, then awkwardly sat back down on the chair."
+s3.27,"맞아, 그러니까 혼자서 끌어안기보단 조금은 어리광 부리면 어때?",そうだ、だから、一人で抱きしめるより、少しはおどけたほうがいいんじゃないか？,"That's right, so instead of bearing it all alone, how about acting a little spoiled?"
+s3.28,그게 어린애의 특권이잖냐!,それが子供の特権だろ！,That's the privilege of being young!
+s3.29,… 맞나. 그럼 내 생각해볼게예.,......考えてみるよ。,"... Right, let me think about that."
+s3.30,니콜라스는 한결 가벼워진 마음으로 조각을 깎아나간다.,ニコラスは一段と軽くなった心で彫刻を削っていく。,Nicholas carves the sculpture with a much lighter heart.
+s3.31,가장 좋아하는 이의 웃는 얼굴을 떠올리면서…,最愛の人の笑顔を思い浮かべながら...。,While thinking of his loving person's smiling face...
+s3.32,날이 어둑해질 즘엔 그럴듯한 새 조각이 완성되었다.,日が暮れる頃には、見栄えのする鳥の彫刻が完成した。,By the time it got dark a decent bird sculpture was completed.
+s3.33,밖이 깜깜해졌네. 너무 늦게까지 붙잡고 있었다고 형한테 혼나겠는걸?,外が真っ暗になった。夜遅くまで起きていたら、兄ちゃんに怒られちゃうよ。,It's gotten dark outside. Won't you get scolded by your brother for keeping you too late?
+s3.34,슬슬 가봐야겠습니더.,そろそろ家に帰るよ。,I should be going now.
+s3.35,그래~ 오늘도 고생했어. 또 고민이 있으면 언제든 찾아와!,うん～、今日もお疲れ様。 また困ったことがあったらいつでも来てね！,Alright~ You worked hard today too. Come visit anytime if you have worries again!
+s3.36,니콜라스? 혹시 나에게 상담하고 싶은 게 있어?,ニコラス、もしかして僕に相談したいことある？,Nicholas? Do you happen to have something you want to consult me about?
+s3.37,(언젠가 이렇게 멋진 삼촌 역할을 하는 날이 오기만을 기다렸지),(いつかこんな素敵なおじさんになる日が来るのを待ってたよ),(I've been waiting for the day when I could play such a cool uncle role like this)
+s3.38,리비오는 기대감을 숨기지 못한다.,リビオは期待を隠せない,Livio cannot hide his anticipation.
+s3.39,(역시 이런 건 커플에게 물어보는 게 낫겠지?),(やっぱりこういうのはカップルに聞いた方がいいよね？),(I guess it's better to ask a couple about things like this.)
+s3.40,아니예. 오늘 감사했습니더.,いや、今日はありがとうございました。,No. Thank you for today.
+s3.41,"그, 그래...",そ、そう...,"Well, alright..."
+s5.1,니코~!,ニコ〜！,Nico~!
+s5.2,어디 다녀왔던 거니?! 밖이 깜깜하잖아,どこに行ってたの！！ 外が真っ暗じゃん。,Where have you been?! It's dark outside
+s5.3,내비 도라. 쟈는 도둑을 만나도 통째로 잡아올 텐데.,ほっといてよ。あいつは泥棒に出会っても丸ごと捕まえてくるのに。,Let him be. He’s the kind of kid who’d nab a thief and drag him back alive.
+s5.4,… 다녀왔습니다.,...行ってきました。,... I'm back.
+s5.5,"아들. 여, 와본 나.",息子よ、ここに座れ。,Son. Come here.
+s5.6,니 먼 고민 있나? 며칠째 세상 망한 것 마냥 우중충해 다니지 않나.,お前、何か悩みでもあるのか？ 何日か前から世の中がダメになったかのようにウツウツしているじゃないか。,Do you have some worries? You've been looking gloomy for days like the world has ended.
+s5.7,… … …,… … …,… … …
+s5.8,… … … … … …,… … … … … …,… … … … … …
+s5.9,아부지. 어무이.,お父さん。お父さん。,Father. Mother.
+s5.10,"그래, 니코!",そうだ、ニコ！,"Yes, Nico!"
+s5.11,아까… 말한 고백이라는 거.,さっき...言った告白ってやつ。,Earlier... about that confession you mentioned.
+s5.12,우예하믄 좋겠습니꺼?,どうしたらいいんだろう？,How should I do it?
+s5.13,… … ! ! !,… … ! ! !,… … ! ! !
+s5.14,아부지 어무이도 커플이니까… 그런 거 잘 알지예…?,お父さんとお母さんもカップルだから...そんなのよくわかりますよね...？,"Since father and mother are a couple... you know about these things well, right?"
+s5.15,… … …,… … …,… … …
+s5.16,"하모, 니 어무이랑 내랑은 지지고 볶고 다해봐 연애는 도사지.",そう、トンガリと私はあれこれ最後までやり尽くした恋愛の達人なんだ。,"Well, your mother and I have been through it all - we're experts at romance."
+s5.17,… … ?,… … ?,… … ?
+s5.18,그런데 …,ところで...,But ...
+s5.19,맨 입으로?,無料で？,Just with words?
+s5.20,… ? ! ! !,… ? ! ! !,… ? ! ! !
+s5.21,세상에 공짜가 어딨나?,世の中にタダがどこにあるのか？,Where in the world is there anything for free?
+s5.22,원래 부모 자식 간이 셈을 가장 잘치뤄야 하는 기다.,本来、親子の間が一番計算をよくしなければならないのだ。,Parents and children should settle accounts the best.
+s5.23,여 적힌 거 다 해뿌면 그때 니 연애 도와주마.,この紙に書かれたことをやり遂げたら、その時にお前の恋愛を手伝ってやるよ。,"Do everything written here, then I'll help you with your love life."
+s5.24,니콜라스는 울프우드가 내민 종이쪽지를 받았다.,ニコラスはウルフウッドが差し出した紙を受け取った。,Nicholas received the paper note that Wolfwood handed him.
+s5.25,(기냥 건수 잡아가 조뺑이 시키는 거 아이가?),(ちょうどこの時だからと甘えているのでは？),(Isn't he just finding an excuse to make me do chores?)
+s5.26,"오늘은 늦었으니까, 이만 자고 내일부터 부탁해~!",今日は遅いから、もう寝て明日から頼むよ〜！,"It's late today, so go to sleep and start tomorrow!"
+s5.27,그래. 퍼뜩 가서 자라. 새벽같이 인나야 밤에는 다 끝내재.,そうだ。さっさと寝なさい。夜が明ける前に家に入るよ。,Yeah. Go to bed quickly. You need to get up early to finish everything by night.
+s5.28,"(내 속은 거 같은데, 삼촌…?)",(騙されたような気がするけど、おじさん...？),"(I feel like he's scheming something, uncle...?)"
+s5.29,할 일이 태산이네.,やることが山積みだなあ。,There's a mountain of work to do.
+s5.30,뭐부터 해볼까...,何からやろうかな...,What should I start with...
+s6.1,인자사 다 끝났구만…,これですべての用事を済ませた...,Now it's all finished...
+s6.2,"다 끝냈구나! 정말 수고했어, 니코~",終わったね！ 本当にお疲れさま、ニコ〜,"You finished everything! Great job, Nico~"
+s6.3,연애하고 잡는 놈이 이 정도는 해야지.,恋愛したい奴はこれくらいやれよ。,Someone who wants to date should do at least this much.
+s6.4,이제 더 할 일은 없는 거지 예?,もうこれ以上やることはないよね？,There's nothing more to do now?
+s6.5,다 했으니 이제 가장 중요한 고백 준비를 해야지!,さてさて、さあ、一番大事なプロポーズの準備だ！,"All the other tasks are done, so now it’s time to get ready for the most important part—telling stampede how you feel!"
+s6.6,프러포즈의 정석인 꽃과 반지를 준비하는 거야.,プロポーズの定番である花と指輪を用意するんだ。,We need to prepare flowers and a ring - the basics of a proposal.
+s6.7,꽃은 니코가 직접 키운 제라늄을 주면 되고,花はニコが自分で育てたゼラニウムを渡せばいいし、,"For the flowers, just give him the geraniums you grew yourself."
+s6.7.1,반지는 역시 직접 제작해서 주는 게 좋겠지?,指輪はやっぱり自分で作るのがいいよね？,And it would be best to make the ring yourself too?
+s6.8,……!?!??!?!,……!?!??!?!,……!?!??!?!
+s6.8.1,"그래서 내보고 나무하고, 제라늄 키우라 한 거가!?",だから木を切って、ゼラニウムを育てろって言ったんですか！？,So that's why you made me chop wood and grow geraniums!?
+s6.9,임마는 이걸 이제 안거가.,君はこれで気づいたのか？,You're just realizing this now.
+s6.10,멀어도 한~참 멀었다.,遠くても遠くても遠い。,You're still far from being ready.
+s6.10.1,가서 더 뺑이 쳐라!!!,ちゃんと準備しなさい！！！,Go and work harder!!!
+s6.11,아 쫌!!!,あ、お願いします！！！！,Oh come on!!!
+s7.0,"사각, 사각.",カリカリ,"Scrape, scrape."
+s7.0.1,늘 나무 새를 조각하던 니콜라스의 손이 오늘은 반지를 깎고 있다.,いつも木の鳥を彫っていたニコラスの手が、今日は指輪を彫っている。,Nicholas's hands that usually carved wooden birds are carving a ring today.
+s7.1,"…그나저나, 내 빗자루 반지 사이즈도 모르는데.",...それにしても、トンガリの指輪のサイズも知らないのに。,"...By the way, I don't even know Spikey's ring size."
+s7.1.1,하… 이리 중한 걸 내는 인제서야.. 미치겄다.,ハ...こんな大事なことに今更気付くなんて。やばいな。,Sigh... I'm just realizing something this important now... I'm going crazy.
+s7.2,준비 잘하고 있나~,準備は大丈夫ですか～？,Are you preparing well~?
+s7.3,조졌심더. 뻥하고 차일 낍니더.,駄目です。 私は断られますよ。,I'm screwed. I’m sure I’ll get turned down flat when I confess my feelings.
+s7.4,저 줄라이꺼정 날라뿌겠지예…,今よりもっとダメな仲になって、あいつは私を避けるでしょうね...,Then I’ll end up flat as a pancake…
+s7.5,야가 와이라 노. 장래희망이 이온포가.,はあ？ なんで急に臆病になったの？,What’s with you? You look like you want the ground to swallow you up.
+s7.6,…빗자루 반지 사이즈를 모릅니더.,...トンガリの指輪のサイズがわかりません。,...I don't know Spikey's ring size.
+s7.7,여즉 손도 안 잡아봤나?,まだスタンピードの手も握ったことないのか？,You haven’t even held his hand yet?
+s7.8,아부지한테선 듣기 싫심니더.,父さんに言われる筋合いはないな。,I don't want to hear that from you.
+s7.9,…아픈 데 찌르지 마라.,...痛いところを突くなよ。,...Don’t rub salt in the wound.
+s7.10,"어쨌든, 사내가 고작 그딴 걸로 죽상을 쓰고 그라나.",いずれにせよ、男がそんなもので、死神像をつけるのか？,"Anyway, a man shouldn't look so miserable over something like that."
+s7.11,"아나, 이거 받으라.",これを受け取れ。,"Here, take this."
+s7.12,울프우드는 작은 상자에서 반지 하나를 꺼냈다.,ウルフウッドは小さな箱から指輪を一つ取り出した。,Wolfwood took out a ring from a small box.
+s7.13,? 이게 뭔데예?,これは何ですか？,What is this?
+s7.14,니 엄마 반지.,お母さんの指輪。,Your mother's ring.
+s7.15,끼는 거 못 봤는데.,指輪してるの見たことないんだけど？,I've never seen him wear it.
+s7.16,"하모, 아직 안 줬은께.",うん、まだ渡してないから。,"Well, I haven't given it to him yet."
+s7.17,…대체 결혼식에선 뭘 한깁니꺼?,...いったい二人は結婚式で何をしたの？,…What exactly did you do on your wedding day?
+s7.18,남자의 사정이 있는기라.,男の事情があるんだ。,Men have their own reasons.
+s7.19,"갸 손을 보아하니, 니 엄마랑 비슷하다 카이.",彼の手を見ると、お前のお母さんに似てるみたいだ。,"Looking at his hands, they're similar to your mother's."
+s7.20,이거 맹키로 맹글면 대강 맞을끼다.,これと同じように作れば大体合うと思う。,If you resize this roughly it should fit.
+s7.21,"예, 고맙심데이.",はい、ありがとうございます。,"Okay, thank you."
+s7.22,뿌사뿌지말고.,壊さないでね。,Don't be too grateful.
+s7.23,"울프우드는 니콜라스의 어깨를 두드린 뒤, 자리에서 일어났다.",ウルフウッドはニコラスの肩を叩くと、席を立った。,"Wolfwood patted Nicholas's shoulder, then got up from his seat."
+s7.24,…결혼반지라.,...結婚指輪か。,"...A wedding ring, huh..."
+s7.25,니콜라스는 낯선 반지를 손 위에 올려 이리저리 살펴보았다.,ニコラスは見知らぬ指輪を手に取り、あちこち見て回った。,Nicholas placed the unfamiliar ring on his hand and examined it from all angles.
+s7.26,…내도 얼른 끼워주고 싶다.,...私も早くトンガリに指輪を渡したい。,...I want to put it on Spikey soon too.
+s7.27,잠깐 바람이라도 씰까…,ちょっと気分転換でもしようか...？,Should I get some fresh air...
+s7.28,이 새벽엔 꽃 밭에 아무도 없겠지.,この夜明けには花畑には誰もいないだろう。,There should be no one in the flower field at this dawn.
+s8.1,시원한 밤바람이 강 쪽에서 불어온다.,涼しい夜風が川沿いから吹いてくる。,A cool night breeze blows from the river.
+s8.2,어느새 몽우리가 진 제라늄이 바람에 산들산들 흔들리고 있다.,いつの間にか花房をつけたゼラニウムが風に揺れている。,The geraniums that have formed buds are swaying gently in the wind.
+s8.3,? 이게 벌써 꽃이 필라 카네. 벨 일이 다 있다…,? これはもう開花しそうだ。いろいろあるものだ...,These are already about to bloom. All sorts of things happen...
+s8.4,오늘 심는다고 당장 자라서 꽃이 피진 않겠지만..,今日植えたからといって、すぐには育たないだろうけど...。,Just because I planted them today doesn't mean they'll grow and bloom right away..
+s8.5,"혹시 모르지, 니코의 사랑을 담는다면 기적이 일어날지도?",もしかしたら、ニコの愛を込めたら奇跡が起こるかも？,"Who knows, maybe a miracle will happen if you put your love into it?"
+s8.6,기적…,奇跡...,A miracle...
+s8.7,진짜면 을매나 좋켔노.,本物だったらどんなにいいだろう。,How wonderful it would be if it were real.
+s8.8,사랑을 알아준다는 거 자체가 기적인디.,私の愛を認めてくれること自体が奇跡だ。,Just having my love acknowledged would be a miracle.
+s8.9,그치만 기다리기만 하진 않을끼다.,でも待ってるだけじゃないよ。,But I won't just wait around.
+s8.10,"선물도, 멋진 말도, 제대로 전해가…",プレゼントも、素敵な言葉も、トンガリにちゃんと伝えて...,I want to give him the present and say just the right words—
+s8.11,웃게 해주고 싶다.,笑わせてあげたい。,so I can make him smile.
+s8.12,"니가 제일 좋다고 말해줬으니께,",君が一番いいと言えるなら,I’ll tell you you’re the one I love most—
+s8.13,내가 제일 좋아하는 얼굴 한 번만 보여도.,私が一番好きな顔を一度だけ見ることができるなら,"So please, just once, show me that face I adore more than anything."
+s8.14,…내는 그걸로 괜찮다.,...私はそれでいい。,...I'd be fine with that.
+s8.15,…,…,…
+s8.16,………,………,………
+s8.17,…괜찮기는 머슨!!!!!!!!!,...大丈夫ってなんだよ!!!!!!!!!,…What do you mean fine!!!!!!!!!
+s8.18,고 사이 딴 놈이 채가면 우짤라카는데?,その間にトンガリが他の奴と付き合ったらどうするんだよ！？,What if someone else takes him in the meantime?
+s8.19,"아니, 이미 만나는 놈이 있으면…?",いや、すでに付き合ってる奴がいたら...？,"No, what if he's already dating someone...?"
+s8.20,"내는 그렇다 쳐도, 쟈는 이미 혼기도 찼다카이!",近所にはトンガリ狙いの奴がいっぱいいるのに！！,"Never mind me, but he's already at marriageable age!"
+s8.21,고라모 다 말짱 도로묵이다!!!,それじゃあ意味ないじゃん！！！,Then it's all for nothing!!!
+s8.22,"퍼뜩, 퍼뜩 자라라!!! 빤니!!!!!!!!!",ぱちぱち、ぱちぱち成長しろ！！！早く!!!!!!!!!,"Quickly, grow quickly!!! Please!!!!!!!!!"
+s9.1,평화로운 나날 어느덧 날짜는 7월 18일을 가리키고 있다.,平和な日々が続く中、いつの間にか日付は7月18日を指している。,In the peaceful days the date has already reached July 18st.
+s9.2,"들판 너머, 니콜라스가 정성을 다해 가꾼 제라늄도 어느덧 꽃 몽우리가 피어날 준비를 하고 있다.",畑の向こうでは、ニコラスが丹精込めて育てたゼラニウムも、いつの間にか花房を咲かせる準備をしている。,"Beyond the fields, the geraniums that Nicholas carefully tended are also ready to bloom."
+s9.3,"제라늄이 활짝 피는 날을 기준으로, 스탬피드에게 고백하는 상상을 괜스레 해보는 니콜라스다.",ゼラニウムが満開の日を基準にして、スタンピードに告白する妄想をするニコラスだ。,Nicholas imagines confessing to Stampede on the day when the geraniums bloom fully.
+s9.4,꽃이 만개한 제라늄 들판에 바람이 휘날린다.,満開のゼラニウム畑に風が吹く。,Wind swirls through the geranium field in full bloom.
+s9.6,어렸을 때부터 니만 좋아했었다.,幼い頃から君だけが好きだった。,I've only loved you since I was young.
+s9.7,내 마음을 받아도…!!,私の気持ちを受け止めても...！？,Please accept my feelings...!!
+s9.8,니코…,ニコ...,Nico...
+s9.9,정말로 기뻐.,本当に嬉しい。,I'm truly happy.
+s9.9.1,나도 네가… 좋아.,俺もお前が...好きだ。,I also... love you.
+s9.10,달콤한 바람을 타고 꽃잎이 흩날린다.,甘い風に乗って花びらが舞い散る。,Flower petals scatter on the sweet breeze.
+s9.10.1,서툴지만 진실한 방식으로 서로의 마음을 확인한 두 사람.,不器用ながらも誠実な方法でお互いの気持ちを確かめた二人。,"The two of them, clumsy yet sincere, finally affirmed each other’s feelings."
+s9.10.2,마주하는 것만으로도 떨리는 눈을 서로에게 마주한 채,向かい合うだけで震える目を見つめ合いながら,With trembling eyes that flutter just from facing each other
+s9.10.3,손을 맞잡고 입을…,手を合わせ、キスを...,Holding hands and their lips...
+s9.10.4,… … … …,… … … …,… … … …
+s9.11,미쳤는 갑다. 얼라도 아이고…!!!!,狂ってる。子供でもないのに変な想像を...!!!!！,I must be crazy. I'm not even a kid...!!!!
+s9.12,…나가서 꽃이나 솎아내야지.,...花でも刈り取りに行かなきゃ。,...I should go out and thin the flowers.
+s9.13,아드으을!!!!!,息子!!!!,SON!!!!!
+s9.14,니코!!!!! 이러고 있을 때가 아냐!!,ニッコ!!!!! こんなことしてる場合じゃない！！,Nico!!!!! This is no time for this!!
+s9.15,스탬피드…! 스탬피드가 오늘 떠난대…!!,スタンピード...!!! スタンピードが今日出発するらしい...!!!,Stampede...! Stampede is leaving today...!!
+s9.16,짐도 벌써 다 실어서 갈 준비를…,荷物ももう全部積んで行く準備を...,He's already packed everything and is ready to go...
+s9.17,뭐라고예!?,えっ！？,What!?
+s9.18,떠난다고예?! 우데를예?!,出発するって？どこへ？,He's leaving?! Where to?!
+s9.19,형을 따라서 줄라이로 간다고…,お兄ちゃんを追いかけてジュライに行くんだって,He's going to July City to follow his brother...
+s9.20,…?!,…?!,…?!
+s9.21,내는… 내는 아직 좋아한다고… 말도 못 했는데…!!,私は...私はまだ好きだと...言えなかった...！！,I... I haven't even told him I love him yet...!!
+s9.22,갔나?,行ったの？,Did he go?
+s9.23,응 다급한 표정으로 뛰어갔어.,うん、焦った顔で走ったよ,Yes. he ran off with an urgent expression.
+s9.24,…괜찮겠지?,...大丈夫かな？,…Will he be okay?
+s9.25,지 하기에 달려있데이.,自分次第だろうね。,It depends on what he does.
+s9.26,… …,… …,… …
+s9.27,기다려봐라,待てよ,Wait and see
+s9.28,차표는 쟈가 갖고 있는기라.,車券はあいつが持ってるんだから。,The path he needs to take is for him to decide.
+s9.29,우리는 그저… 지켜봐 주면 된다.,私たちはただ...見守るだけだ。,We just... need to watch over him.
+s9.30,빗자루가 떠나기 전에 고백해야 해…!!,トンガリが去る前に告白しなければ...!!!,I have to tell him how I feel before he leaves...!!
+s9.31,스탬피드가 떠나기까지 남은 시간은 3분…!,スタンプピードが去るまでの残り時間は3分...!,Time remaining until Stampede leaves is 3 minutes...!
+s9.32,"고백을 위해 준비했던, [제라늄 꽃]과 [반지]를 준비해서 스탬피드를 만나야 해!",告白のために準備した、【ゼラニウムの花】と【指輪】を用意してスタンプピードに会わなければならない!,I need to prepare the [Geranium Flower] and [Ring] that I prepared for the confession and meet Stampede!
+s9.33,제라늄 꽃 준비하기,ゼラニウムの花を準備する,Prepare the geranium flower
+s9.33.1,꽃을 준비하지 않고선 스탬피드를 만날 수 없어!,花を準備しなければスタンプピードに会えない!,I can't meet Stampede without preparing the flower!
+s9.34.1,"바람이 솔솔 부는 들판인지라, 어느새 제라늄 말고도 다른 꽃들이 많이 자리를 잡았다.",風の吹く野原なので、いつの間にかゼラニウム以外の花もたくさん咲いていた。,"Since the wind blows gently through the field, many other flowers besides geraniums have settled in."
+s9.34.2,으아아악…!! 이 중에 제라늄이 있을 텐데…? 대체 어떤 거지?!,この中にゼラニウムがあるはずなんだけど......いったい何だろう？,Ahhh...!! There must be geraniums among these...? Which ones are they?!
+s9.34.3,"제길, 이 녀석이 맞겠지?!",くそ、こいつだろう？,"Damn, this must be the right one?!"
+s9.34.4,니콜라스는 힘차게 꽃을 꺾어들었다!,ニコラスは勢いよく花を摘み取った！,Nicholas vigorously plucked the flower!
+s9.35.1,자세히 보니 제라늄과 비슷한 꽃이었다. 임파첸스… 였었나?,よく見るとゼラニウムに似た花だった。インパチェンス...だったかな？,Looking closely it was a flower similar to geranium. Was it Impatiens...?
+s9.35.2,자세히 보니 제라늄과 비슷한 꽃이었다. 홑겹 장미…였었나…?,よく見るとゼラニウムに似た花だった。バラ...だったかな...？,Looking closely it was a flower similar to geranium. Was it a Single rose...?
+s9.35.3,자세히 보니 제라늄과 비슷한 꽃이었다. 베고니아… 였었나?,よく見るとゼラニウムに似た花だった。ベゴニア...だったかな？,Looking closely it was a flower similar to geranium. Was it Begonia...?
+s9.35.4,니콜라스는 제라늄을 정확히 알아봤다! 이게 다 밧슈의 교육 덕분인 걸까?!,ニコラスはゼラニウムを見分けることができた！これはバッシュの教育のおかげなのだろうか？,Nicholas correctly identified the geranium! Is this all thanks to Vash's education?!
+s9.35.5,니콜라스는 낯선 꽃을 집어던졌다!!!,ニコラスは見知らぬ花を投げつけた！！！,Nicholas threw away the unfamiliar flower!!!
+s9.36,"머꼬, 왠 잡초가 끼어 든기고?!! 제라늄은 어딨는기가?!",何だ、何だ、雑草が紛れ込んでるのか！！？ゼラニウムはどこだ？,"What, why are there weeds mixed in?!! Where are the geraniums?!"
+s9.37,"휴, 꽃은 챙겼고. 이제 반지만 찾으면 된다…!!",ふぅ、花は手に入れた。 あとは指輪を探すだけだ...!!!,"Phew, I got the flower. Now I just need to find the ring...!!"
+s9.38,저번에 옷 주머니에 넣어놨던건  기억이 나는데…,前に服のポケットに入れたのは覚えているけど...,I remember putting it in my clothes pocket last time...
+s9.39,일단 방으로 가자!! 가면 기억이 나겠쟤!!,とりあえず部屋に行こう！！！行けば覚えているはずだ！！,Let's go to my room first!! I'll remember when I get there!!
+s9.40.1,방에 도착한 니콜라스는 정작 어떤 옷에서 반지를 찾아야 할지 몰라 혼돈에 빠졌다!,部屋に着いたニコラスは、いったいどの服の中から指輪を探せばいいのか分からず、混乱に陥る！,Nicholas arrived at his room but fell into confusion not knowing which clothes to search for the ring!
+s9.40.2,아 그러니까… 내가 그날 뭘 입었지…?!,あ、そういえば...あの日私は何を着ていたっけ...？,Oh right... what did I wear that day...?!
+s9.41,꺼믕 옷이었던 거 같은데…,黒い服だったような気がするけど...,I think it was the black clothes...
+s9.42,이 옷이 아니었다…,この服じゃなかった...,This isn’t the right outfit…
+s9.43,주머니에서 반지를 찾았다…!!,ポケットから指輪を見つけた...!!!,I found the ring in the pocket...!!
+s9.44,"하, 반지… 여 있었나?!!!",は、指輪...ここにあったのか！！？,"Ah, the ring... was it here?!!!"
+s9.45,앞으론 입은 옷은 재깍 재깍 치워야겠데이…,これからは着た服は時間内に片付けないと...。,From now on I should put away the clothes I’ve worn more neatly...
+s9.46.1,….?,….?,….?
+s9.46.2,주머니에 뭔가 들어있는 것 같다…,ポケットに何かが入っているようだ...,There seems to be something in the pocket...
+s9.47,됐다…!!,了解...!!!,All set...!!
+s9.48,반지도 꽃도 준비가 끝났다…!,指輪も花も準備完了...!!!,Both the ring and flower are ready...!
+s9.49,이제 빗자루를 만나러 가면 된데이…!!!,これでトンガリに会いに行けばいい...!!!,Now I just need to go meet Spikey...!!!
+s9.50,제한 시간이 끝나기 전에 스탬피드를 만나러 가자!,制限時間が終わる前にスタンピードに会いに行こう!!!,Let's go meet Stampede before time runs out!
+s9.51,너무 늦으면 스탬피드가 떠나버릴지도 모른다…! 서둘러야 해…!,遅いとスタンピードが去ってしまうかもしれない...! 急がないと...！,If I'm too late Stampede might leave...! I need to hurry...!
+s9.52,으아아악…!! 머꼬!! 왜 나무가 여기 쓰러져 있는 기가?!!,何だ！！！ なんでここに木が倒れてるんだ！！！,Ahhh...!! What the—?! Why is there a tree fallen here?!!
+s9.53,급해 죽겠는데…. 어쩔 수 없지! 뿌쑤고 지나간다…!!!,急がないといけないよ.... 仕方ない！ 壊して通り過ぎる......！,I’m in such a rush.... Can't help it! I'll break through...!!!
+s9.54,[확인 키]를 연타해 나무를 부수고 지나가자!,[確認キー]を連打して木を壊して通り抜けよう！,Press [spacebar] to break the tree and pass through!
+s9.55,제한 시간 내에 나무를 부수면 성공!,制限時間内に木を壊せば成功！,Success if you break the tree within the time limit!
+s9.56,"헉,헉…. 별것도 아닌 게, 앞 길을 막고 있어…!!",ふっ、ふっ、ふっ.... どうでもいいけど、前の道が塞がってる！！,"Huff, huff... Something so trivial is blocking the way...!!"
+s9.56.1,기다려라 빗자루! 내 금방 간다…!!,待てよ、ほうき！ すぐ行くぞ......！,Wait! Spikey! I'm coming right now...!!
+s9.57,"제길, 다시!! 이딴 걸로 포기할 순 없데이…! 다시 해보자!!!",くそ、またか！！ このまま諦めるわけにはいかない......もう一度やってみよう！！！,"Damn, again!! I can't give up over something like this...! Let's try again!!!"
+s11.0,빗자루-!!!,ほうき-!!!,Spikey-!!!
+s11.1,떠돌이 개 한 마리가 기어들어왔군.,放浪の犬が一匹這い込んできたぞ。,A stray dog has crawled in.
+s11.2,헉…헉 비키쇼.,どいてくれ。,"Huff... huff, get out of the way."
+s11.3,지금 그쪽이랑 말장난할 시간 따위 없심더.,今、お前としゃべってる暇なんてない。,I don't have time to play word games with you right now.
+s11.4,제 앞가림도 못하는 놈에게 들을 말은 없다.,身の程知らずの奴に聞く耳はない。,I have nothing to hear from someone who can't even take care of himself.
+s11.5,나이 나 준비 다 끝났어~,ナイ 俺の準備は終わったよ～,"Knives, I'm all ready~"
+s11.6,앗 니코..?! 둘이 왜 그러고 있어?,あっニッコ......二人とも何してるんだ？,Oh Nico..?! Why are you two like this?
+s11.7,"아무것도 아니야. 짐, 이리 줘.",何でもないよ、ジム、よこせよ。,It's nothing. Give me the luggage.
+s11.8,응 여기. 고마워 다음에 놀러 올 거지?,うん、ここ。ありがとう、今度遊びに来るんだろ？,Here you go. Thanks. Will you come visit?
+s11.9,생각해 보지.,考えてみるよ。,I'll think about it.
+s11.9.1,허튼짓을 하면 죽여버리겠다.,ふざけたら殺してやるよ。,I'll kill you if you do anything foolish.
+s11.10,니코..? 여기까지 뛰어온 거야? 숨찬 것 같은데 괜찮아..?,ニコ...？ここまで走ってきたの？ 息切れしてるみたいだけど、大丈夫...？,Nico..? Did you run all the way here? You look out of breath..
+s11.11,… …,… …,… …
+s11.11.1,니 오늘 이사가나..?,お前、今日引っ越すのか...？,Are you moving today..?
+s11.12,어..? 으응.. 맞아. 그래서 나이가 도와주러-,えっ？うん、そうだ。 だからナイが手伝いに-,Huh..? Yeah.. that's right. So Knives came to help-
+s11.13,니는 내가 못 미덥나..!!!,お前は俺が信用できないのか...!!!,Don't you trust me...?!
+s11.14,왜..! 내한테는 말도 안 하고…!!,なんで...！俺には言わないで.......！,Why..! You didn't even tell me…!!
+s11.15,초조했던 마음이 터져 나오듯 목소리가 높아졌던 니콜라스는 얼어붙은 스탬피드를 보고 입을 다문다.,焦っていた気持ちが爆発したかのように声を上げたニコラスは、凍りついたスタンプイドを見て口を閉ざす。,"Nicholas’s voice rose, his anxiety spilling over, but he fell silent at Stampede’s frozen expression."
+s11.16,(아냐. 저런 표정을 짓게 만들고 싶었던 게 아닌데..),(いや、そんな顔させたかったわけじゃないのに......),(No. I didn’t mean to make you look like that...)
+s11.17,"숨이 목 끝까지 차오르고, 심장이 터질 것 같아도..",息が喉の奥まで詰まり、心臓が破裂しそうな勢いでも,Even though my breath rises to my throat and my heart feels like it's going to burst...
+s11.18,다리를 움직여 달려와서 전하고 싶었던 말은..!,足を動かして駆け寄り、伝えたいことは...！,The words I wanted to say after moving my legs and running here are..!
+s11.19,니콜라스는 손에 들고 있던 제라늄을 불쑥 들이민다.,ニコラスは手に持っていたゼラニウムを突きつけた。,Nicholas suddenly thrust forward the geranium he was holding in his hand.
+s11.20,"급히 달려온 탓에 줄기가 군데군데 꺾여있고, 조금이나마 피어있던 꽃들은 꽃잎이 날려 성치 않다.",急いで駆けつけたせいか、茎はあちこち折れており、少しだけ咲いていた花は花びらが吹き飛ばされ散り散りになっている。,Because of rushing here the stems are broken in places and the few flowers that were blooming have their petals blown away and are not intact.
+s11.21,….내는 남들처럼 예쁜 말도 몬한다.,.... 私は他の人ほど優しくはない。,…I can't say pretty words like others.
+s11.22,말도 등신처럼 하고 니한테 상처만 주는 놈이라 별로겠재..,口が悪くて、お前を傷つけるだけの奴だから嫌なんだろうな。,I speak like an idiot and only hurt you so you probably don't like me..
+s11.23,니콜라스…?,ニコラス...？,Nicholas…?
+s11.24,내도 내가 뭐라 하는지 모르겠다!!!,俺も俺が何を言ってるのか分からない！！！,I don't even know what I'm saying!!!
+s11.25,니는 어떨지 모르겠지만 내가 하고 싶은 말은..,君はどうなのか分からないけど、俺が言いたいのは。,I don't know how you feel but what I want to say is..
+s11.26,니가 안 갔으면 좋겠다.,君が行かないでほしい。,I wish you wouldn't go.
+s11.27,내 옆에 있어주면 좋겠데이…,私のそばにいてほしいんだ...,I wish you would stay by my side…
+s11.28,"빗자루, 니 안 가믄 안 되나..?",トンガリ、お前は行かないでくれないか...?,Spikey can't you not go..?
+s11.29,…,…,…
+s11.30,… 내 니 좋아한데이. 가지 마.,...俺はお前が好きだ。行かないで。,... I love you. Don't go.
+s11.31,(멋지게 고백하고 싶었는데..),(かっこよく告白したかったのに...),(I wanted to confess to him in style…)
+s11.32,니콜라스는 모든 것 망쳤음을 직감적으로 깨달았다.,ニコラスはすべてを台無しにしたことを直感的に悟った。,Nicholas intuitively realized that he had ruined everything.
+s11.33,그의 볼품없는 고백에 실망한 탓일까. 스탬피드는 아무 말 없이 니콜라스를 바라본다.,彼の見苦しい告白に失望したせいか、スタンピードは何も言わずにニコラスを見つめる。,"Perhaps disappointed by his shabby confession, Stampede looks at Nicholas without saying anything."
+s11.34,스탬피드는 니콜라스가 건넨 꽃다발을 받아들었다.,スタンピードはニコラスから渡された花束を受け取った。,Stampede accepted the bouquet that Nicholas handed to him.
+s11.35,…내 품에 안겼을 때가 엊그제 같은데..,...私の腕に抱かれたのがつい昨日のことのようだ。,…It feels like yesterday when you were in my arms..
+s11.36,…?,…?,…?
+s11.37,니코는 어려서 기억 안 나겠지만 ..,ニコは小さいから覚えてないだろうけど...,You probably don't remember because you were young Nico but..
+s11.38,어릴 때 나랑 결혼하겠다고 그랬거든,幼い頃、私と結婚すると言っていたのを,When you were little you said you would marry me
+s11.39,그때는 그냥 어린아이의 투정이라고 생각했었어..,当時はただの子供の駄々っ子だと思っていた。,Back then I thought it was just a child's whim..
+s11.39.1,…!!!,...!!!,…!!!
+s11.40,"그런데, 언제 이렇게 커서 나한테..",でも、いつの間にかこんなに大きくなって、俺に...,But when did you grow up like this and to me...
+s11.42,니콜라스는 춤을 청하듯 스탬피드의 손을 자신의 손 위에 올렸다.,ニコラスはダンスを求めるように、スタンピードの手を自分の手の上に乗せた。,Nicholas placed Stampede's hand on his own as if asking for a dance.
+s11.42.1,"어째서인지, 허겁지겁 달렸던 방금 보다 지금 더 심장이 뛰는 것 같다.",何故か、慌ただしく走っていた先ほどよりも、今より心臓が高鳴るような気がする。,For some reason my heart seems to be beating faster now than when I was running frantically just now.
+s11.42.2,주머니 안쪽에 소중히 보관한 나무 반지를 꺼내 스탬피드 손에 끼워준다.,ポケットの中に大切に保管していた木製の指輪を取り出し、スタンピードの手にはめる。,He takes out the wooden ring he had carefully kept in his pocket and puts it on Stampede's hand.
+s11.43,"… 니코. 후회할 것 같으면, 아직 그만둬도 돼.",...ニコ。後悔しそうなら、まだやめてもいいよ。,…Nico. If you think you'll regret it you can still stop.
+s11.43.1,내는 두 말 안 한다.,俺は後悔しない。,I won't say anything twice.
+s11.44,니도 내도. 이젠 무르고 싶어도 못 무르는 거래이.,お前も俺も、もう変えられないんだ。,You and I both. Now we can't take it back even if we want to.
+s11.45,!,!,!
+s11.46,응! 너도 나중에 딴소리하면 안 돼?,うん！ お前も後で余計なことを言ってはいけないのか？,Yes! And you’d better not change your tune later! okay?
+s11.47,스탬피드는 제라늄처럼 발개진 코를 훌쩍이고 꽃다발을 와락 끌어안는다.,スタンピードはゼラニウムのように鼻を膨らませ、花束を抱きしめる。,Stampede sniffles with his nose red like a geranium and hugs the bouquet tightly.
+s11.49,"헤헤, 꽃향기 좋다~",へへへ、花の香りが良いですね〜。,Hehe the flowers smell nice~
+s11.51,…,…,…
+s11.52,그..있제 혹시..,あの...  ひょっとして,Um.. by any chance..
+s11.53,니만 괜찮으면 우리 집으로 오는건 어때?,君さえよければ、私の家に来るのはどうかな？,If you're okay with it how about coming to our house?
+s11.54,우리 집에 빈 방 하나 있어가..,私の家に空き部屋があるから...,We have one empty room in our house..
+s11.55,"물론 정리는 쪼매 해야 하지만, 니 오면 내가 광나게 닦아놓을게.",もちろん、もう少し片付けが必要だけど、君が来たら、私が素敵な部屋を用意するよ。,Of course I need to clean up a bit but if you come I'll polish it until it shines.
+s11.56,"우리 집에 살면..! 내가 키운 제라늄들 맨날 볼 수 있다. 그리고, 내도…",私の家に住んだら 私が育てたゼラニウムをいつも見ることができる。そして、私も毎日見れるし...,If you live in our house..! You can see the geraniums I grew every day. And I also…
+s11.57,…응?,...うん？,…Yes?
+s11.57.1,"저기, 니콜라스.. 아까부터 뭔가 이상한 것 같아서.",ねえ、ニコラス。さっきから何か変な感じだったから。,Um Nicholas.. something seems strange since earlier.
+s11.57.2,나 니코네 집으로 이사 가는 건데?,俺、ニコの家に引っ越すんだっけ？,I'm moving to Nico's house.
+s11.58,?,?,?
+s11.59,어라? 부모님께서 안 알려주셨어?,あれ？ 両親が教えてくれなかったの？,Huh? Didn't your parents tell you?
+s11.60,혼자 있기엔 집에 너무 큰 것 같아서 고민이었거든!,一人でいるには家が大きすぎるような気がして悩みましたが...。,My house seemed too big for me to live alone so I was worried!
+s11.61,"그런데 울프우드씨가 빈 방이 하나 있다고, 얼른 들어오라고 하셨어.",そしたら、ウルフウッドさんが空き部屋が一つあるよ、早く来いって。,But Mr. Wolfwood said there's one empty room and told me to come in quickly.
+s11.62,지금 짐 싸서 리비오씨를 부르려는 참이었는데..,今、荷物をまとめてリビオさんを呼ぼうと思ってたんだけど...,I was just about to pack my things and call Mr. Livio..
+s11.63,(망할… 아버지..!!),(くそ.....父さん.......!!),(Damn it… Father..!!)
+s11.64,"니 연애, 내가 도와 줄기다.",お前の恋愛、俺が手伝うよ。,I'll help you with your romance.
+s11.64.1,순간 자신의 부모님이 머릿속에서 껄껄 웃으며 주마등처럼 스쳐 지나간다.,瞬間、自分の両親が頭の中でクスクス笑いながら走馬灯のように頭をよぎる。,For a moment his parents pass through his mind like a panorama laughing heartily.
+s11.65,어떻게 된 건진 잘 모르겠지만..,どうなったのかよくわからないけど...,I don't really know what happened but..
+s11.66,그래도 앞으로 니코랑 같이 지낼 수 있어서 좋아.,それでもこれからニコと一緒にいられるのは嬉しい。,But I'm happy that I can live with Nico from now on.
+s11.67,약속 지켜줘서 정말 기뻐.,約束を守ってくれて本当に嬉しい。,I'm really happy that you kept your promise.
+s11.68,내도 좋다..,僕も君が去ってくれなくてよかった。,I'm happy too..
+s11.69,그렇게 두 사람의 이야기는 끝나지 않고 계속된다.,そうして二人の物語は終わらないまま続く。,Thus the story of the two continues without ending.
+s11.70,누군가의 간절했던 기도가 푸른 하늘에 닿아,誰かの切実な祈りが青空に届き,Someone's earnest prayer reaches the blue sky
+s11.71,그 염원을 들어 준 것처럼,その願いを叶えてくれたように,As if their wish was granted
+s11.72,더 이상 이 세상에 눈물 흘리는 이가 없기를,これ以上、この世に涙を流す人がいなくなりますように,May there be no more tears in this world
+s11.73,사랑하는 이를 두고 홀로 떠나는 이가 없기를,愛する人を置いて孤独に去る人がいなくなりますように,May there be no one who leaves alone leaving their loved one behind
+s11.74,연인들의 앞에 끝없는 축복만이 가득하기를…,恋人の前に果てしない祝福だけが満たされますように ...,May endless blessings be full before the lovers…
+s11.75,… … … …,… … … …,… … … …
+s12.2,다행이야. 솔직하게 마음을 전했구나..!,よかった、素直な気持ちを伝えたんだね...！,I’m glad they were able to express their feelings honestly!
+s12.3,내가 말했재.,言ったでしょ？,I told you.
+s12.4,이번'생'에는 별 탈 없을 거라고,今度の「生」は大丈夫だって,This 'life' will be without any problems
+s12.5,..푸흐 그렇네! 이번엔 정말 별일 없어서 다행이야.,......ふふっ、そうね！ 今回は本当に無事で良かったわ。,That's right! I'm glad nothing really happened this time.
+s12.6,울프우드도 아이들도!,ウルフウッドも子供たちも！,Wolfwood and the children too!
+s12.7,우리가 멀쩡하니 또 다른 '우리'도 괜찮은 게 당연한 거재.,私たちが無事なんだから、もう一人の「私たち」も無事なのは当然だ。,Since we're fine it's natural that another 'us' is also okay.
+s12.7.1,… … … …,... ... ... ... ... ...,… … … …
+s12.7.2,빗자루. 내도 줄 게 있다.,トンガリ。僕も君にあげたいものがある。,Spikey. I also have something to give you.
+s12.8,울프우드는 품 속에서 반지를 꺼낸다.,ウルフウッドは腕の中から指輪を取り出す。,Wolfwood takes out a wooden ring from his chest.
+s12.9,… !,… !,… !
+s12.10,오랜 시간 주인을 기다린 반지는 약지에 딱 맞게 들어갔다.,長い間主人を待っていた指輪は、薬指にぴったりと収まりました。,The ring that had been waiting for its owner for a long time fit perfectly on the ring finger.
+s12.11,우리 결혼할 때 반지 하나 못 나눴다 아이가.,私たちが結婚するとき、指輪を一つも分けてもらえなかったんだ。,We couldn't even share a ring when we got married.
+s12.12,닌 슬퍼하느라 기억 못 하겠지만..,ニンは悲しんでいて覚えていないだろうけど。,You probably don't remember because you were grieving but..
+s12.13,오늘 우리 결혼기념일이다. 쪼매 늦었어서 미안타.,今日は私たちの結婚記念日だ。準備が遅れてごめんね。,Today is our wedding anniversary. Sorry I'm a little late.
+s12.14,..!!,..!!,..!!
+s12.15,기억 못할 리 없잖아..이 바보 목사가…!!,覚えてないわけないだろ...このバカ牧師が...!!!,How could I not remember.. you silly priest…!!
+s12.16,흑…. 우루훗도오…..~!!,ひっく.... ウルフウッド.....~!,(Sob…) Wolfwood…..~!!
+s12.17,멍청이.. 웃으라니까..,アホ。笑えよ。,Silly.. I told you to smile..
+s12.18,울프우드는 품속에서 울고 있는 밧슈를 떼어놓고 자신의 손을 내민다.,ウルフウッドは腕の中で泣いているロープシューを離し、自分の手を差し出す。,Wolfwood separates the crying Vash from his chest and extends his hand.
+s12.19,빗자루. 너도 언젠가 선택할 순간이 온다고 했던 거 기억하나?,ほうき。お前もいつか選ぶ瞬間が来るって言ったのを覚えてるか？,Spikey. Do you remember I said that someday you would have a moment to choose?
+s12.20,니 이번엔 제대로 선택해라.,お前は今度こそちゃんと選べよ。,You choose properly this time.
+s12.20.1,"계속 울고만 있을지, 내한테도 니랑 똑같은 반지를 끼워줄지.",泣き続けるか、俺にもお前と同じ指輪をはめるか。,"Keep crying or put a ring on my finger, too."
+s12.21,우..우에에엥..!!!,ふえぇ……!!,Wah.. wahhh..!!!
+s12.22,넌 항상 못된 말을 하더라..!!,お前はいつも意地悪なことを言うんだ...！？,You always say mean things..!!
+s12.23,밧슈는 눈물을 닦아내고 울프우드의 손가락에 반지를 끼워주었다.,バシューは涙を拭き、ウルフウッドの指に指輪をはめた。,Vash wiped away his tears and put the ring on Wolfwood's finger.
+s12.24,훌쩍.. 미래로 가는 차표는 아직 우리 것도 있었구나..!,ふふっ。未来への切符はまだ私たちのものもあったんだ...！,(Sniff..) we still have our tickets to the future..!
+s12.25,이거야말로 최고의 종착지 아니겠나.,これこそ最高の終着駅だろう？,This is truly the best destination isn't it.
+s12.26,뭐고. 뭔 소리고. 저 아부지 어무이 아인가?,何だ、何だ、何だ。あのお父さんは誰だ？,What is this sound? Aren't those father and mother?
+s12.27,앗?! 어머님이 아버님 품에 안겨서 울고 계시는데..?,あれ？お母さんがお父さんの腕に抱かれて泣いているけど...？,Ah?! Your mother is crying in father's arms..?
+s12.28,저기는 허구한 날 스킨ㅅ…,あそこは架空の日のスキンシップ...,Those two are always skinsh-
+s12.29,방금 뭐라고..?,さっきは何...？,What did you just say..?
+s12.30,"어머님, 아버님?",お母様、お父様？,Mother Father?
+s12.31,…..??? ?? ???? ???,…..??? ?? ???? ???,…..??? ?? ???? ???
+s12.32,하하핫..!,ハハハッ...！,Hahaha..!
+s12.33,"푸하, 아하하핫..!",ふははは、あははは...！,"Ha, Hahahaha..!"
+s12.34,하늘이 시리도록 맑은 날에,空が澄み切った日に,On a day when the sky is crystal clear
+s12.35,그는 더 이상 신에게 기도하지 않아도 되는 세상이 되기를 기도했다.,彼はもう神に祈る必要のない世の中になるようにと祈った。,He prayed for a world where he no longer needed to pray to God.
+s12.36,"아득한 저쪽, 보이지 않는 머나먼 곳에서는 노랫소리가 끊임없이 이어지기를…",遥か彼方、見えない遠いところでは、歌声が絶え間なく続くように...,In that distant place far beyond sight may the sound of singing continue endlessly…
+s12.37,그 기도가 푸른 하늘이 이어진 곳에 닿아 작은 기적을 일으켰다면…,その祈りが青い空が続くところに届き、小さな奇跡を起こしたのなら...,If that prayer reached the place where the blue sky extends and caused a small miracle…
+s12.37.1,… … … …,… … … …,… … … …
+s12.38,이건 더 이상 신에게 기도하지 않아도 되는,これはもう神に祈る必要のない,This is about a world where you no longer need to pray to God
+s12.39,그런 세상에 대한 이야기이다.,そんな世界の話である。,This is a story about such a world.
+s13.1,휴… …,ふぅ... ...,Phew… …
+s13.2,이게 마지막 박스였재?,これが最後の箱だったね。,Was this the last box?
+s13.3,"멋부린다 카긴 했지만, 이래 옷이 많은 줄은 몰랐다…",かっこいいのは知ってたけど、こんなに服が多いとは...,I knew he was fashionable but I didn't know he had so many clothes…
+s13.4,니코~ 빨리 와~!,ニコ～早く来て～！,Nico~ Come quickly~!
+s13.5,어어 나간다. 기다리래이.,さあ、行くよ。待って～,Okay I'm coming. Wait for me.
+town1.1,인간 태풍'에 대해 들어본 적 있어?,人間台風って聞いたことある？,Have you ever heard of the 'Human Typhoon'?
+town1.2,예전에 전 세계 사람들을 공포에 떨게 했었나 봐,昔、世界中の人々を恐怖に陥れたらしい,It seems he once made people all over the world tremble in fear
+town1.3,소문에 의하면 도넛을 좋아하고..,噂ではドーナツが好きで,According to rumors he likes donuts and..
+town1.4,무시무시한 미인이래,恐ろしい美人らしい。,He's said to be a terrifying beauty
+town1.5,"역시, 옛날 사람들이 지어낸 농담이겠지?",やっぱり、昔の人が作った冗談でしょう？,Still it's probably just a joke made up by people in the past right?
+town2.1,옛날엔 우리 마을에 목사가 없었거든.,昔はウルフウッドさんがいて本当に良かったよ。,In the old days our village didn't have a priest.
+town2.2,울프우드씨가 있어서 정말 다행이야.,ウルフウッドさんがいて本当に良かったね。,I'm really glad we have Mr. Wolfwood.
+town2.3,처음 봤을 땐 오해했었어. 정장을 입은 목사라니!,初めて見たときは誤解したよ。 スーツを着た牧師なんて！,I misunderstood when I first saw him. A priest in a suit!
+town2.4,하지만 왜 그런지 알 것 같아.,でも理由がわかったよ。,But I think I know why.
+town2.5,울프우드씨가 수단을 입으면 기도할 때 아무도 눈을 감지 않을 거잖아?,ウルフウッドさんがスーダン着たら、祈るときに誰も目を閉じないでしょ？,If Mr. Wolfwood wore a cassock no one would close their eyes during prayer right?
+town3.1,아이스 아메리카노 한 잔 주이소,アイスアメリカーノ一杯ください。,One cold americano please
+town3.2,"미안하지만, 우리 가게는 바나나 선데이만 가능해.",悪いけど、うちの店はバナナサンデーしかできないよ。,Sorry but our shop only serves banana sundae.
+town3.3,"(아니, 뭐 이딴 가게가 다 있나..?)",(いや、まあ、こんな店があるのかよ...？),(What kind of shop is this..?)
+town4.1,영업시간이 끝났다. 나중에 다시 오자.,営業時間が終わった。後でまた来よう。,Business hours are over. Let's come back later.
+town5.1,총..?,銃...？,Gun..?
+town5.2,요즘 같은 세상에 그런 걸 팔리 없잖아?,今の世の中、そんなの売ってないだろ？,There's no way they'd sell such things in a world like this right?
+town6.1,무거워 보이는 통나무들이 차곡차곡 쌓여있다.,重そうな丸太がずらりと並んでいる。,Heavy-looking logs are neatly stacked.
+town7.1,"오, 니코!",おお、ニコ！,Oh Nico!
+town7.2,"삼촌 우예 목공소가 아이라, 여 있습니꺼?",おじさん、なんで木工所がアイラ、ここにいるんですか？,Uncle why are you at the carpentry shop instead of home?
+town7.3,"아, 만나기로 한 사람이 있어서!",あ、会う約束の人がいるから！,Oh I have someone I'm supposed to meet!
+town7.4,"아하...? 아, 저 수리도구가 필요한데 빌려도 되지예?",あはは...？あ、あの修理道具が必要なんだけど、貸してくれる？,Ah...? Oh I need some repair tools can I borrow them?
+town7.5,물론~! 목공소 입구 맞은 편의 도구걸이를 확인해 봐!,もちろん～！木工所入り口の向かいにある工具棚をチェックしてね！,Of course~! Check the tool rack across from the woodshop entrance!
+town7.6,고맙십니더.,ありがとうございます。,Thank you.
+town7.7,(누구를 기다리는 거재..?),(誰を待ってるんだろう...？),(Who is he waiting for..?)
+town7.8,(리비오는 다소 설레어 보인다),(リビオはやや興奮しているようだ),(Livio seems somewhat excited)
+town8.1,"3시간에 5실버, 하룻 밤은 10실버야.",3時間で5シルバー、一晩で10シルバーだよ。,3 hours for 5 silver a full night is 10 silver.
+town8.2,뭐? 3시간만 자고 가는 사람이 있냐고?,えっ、3時間だけ寝て帰る人がいるのかよ。,What? Are there people who only sleep for 3 hours?
+town8.3,푸흡. 부모님께 물어보지 그래?,ふふっ。両親に聞いてみたら？,Hehe. Why don't you ask your parents?
+town9.1,"오, 니콜라스군 아냐?",ああ、ニコラス君じゃないの？,"Oh, Nicholas?"
+town9.2,나 아까 스탬피드랑 닮은 것 같은 사람을 봤어.,さっきスタンプピードに似てるような人を見たよ。,I saw someone who looked like Stampede earlier.
+town9.3,뭐? 닮으면 닮았지. 닮은 것 같은 게 뭐냐고?,何？ 似ていれば似ているよ。 似ているようなものってなんだよ。,What? If they look alike they look alike. What do you mean 'looks like'?
+town9.4,"하하, 너도 직접 보면 알게 될걸?",ハハ、君も直接見ればわかるよ。,Haha you'll understand when you see for yourself?
+town10.1,무럭무럭 자라라~,大きくなれよ〜。,Grow big and strong~
+town10.2,울프우드씨에게 특제 우동을 배우기로 했다고?,ウルフウッドさんに特製うどんを習うことになった？,I decided to learn special udon from Mr. Wolfwood
+town11.1,"있잖아, 나.. 사실..",あのね、私。実は...,You know what..
+town11.2,너를...,あなたを...,I always...
+town12.1,안녕하세요 올리브 샵입니다~,こんにちは、オリーブショップです～,Hello this is Wolfmart~
+town12.2,찾으시는 게 있으시면 말씀해 주세요~,探してるものがあったら言ってね～,If you're looking for something please let me know~
+town13.1,이 우동 맛있는걸!,このうどん美味しいよ！,This udon is delicious!
+town13.2,쫀득한 면발과\n섬세한 국물의 하모니..!,もっちりした麺と\n繊細なスープのハーモニー...!,The harmony of chewy noodles\n and delicate broth..!
+town14.1,뭐야? 왜 그렇게 쳐다봐?,何だ？ 何でそんな目で見てるの？,What? Why are you staring at me like that?
+town14.2,한 끼 대접하고 싶지만 이집 카레는 특별히 맛있는 게 아니라..,ご馳走したいけど、ここのカレーは特別美味しいわけじゃないから...,I'd like to treat you to a meal but this place's curry isn't particularly delicious..
+town15.1,"어어, 울프우드씨~",あー、ウルフウッドさん～。,Oh Mr. Wolfwood~
+town15.2,가 아니라 니콜라스잖아?,エン・ニコラスじゃなかったっけ？,Wait no. You're Nicholas isn't it?
+town16.1,응? 나를 어디서 본 것 같다고?,え？ どこで見たような顔してる？,Hm? You think you've seen me somewhere?
+town16.2,에이~ 금발 미인 쌍둥이는 흔하잖아~,え～、金髪美人の双子なんてよくいるでしょ～？,Hey~ blonde beautiful twins are common~
+town16.3,랄랄라~ 라랄라라~,ラララ~ ラララ~,Lalala~ Lalalala~
+town17.1,이 너머엔 볼 일이 없어,この先には何もないよ,There's nothing to see beyond here
+town18,"이 앞, 나무 있다",この先、木ががあるぞ,Amazing tree ahead!
+town19.1,...?,...?,...?
+town19.2,빗자루잖아?,トンガリだろ？,Isn't that Spikey?
+town19.3,옆은 누구지..?,隣は誰だろう...？,Who's next to him..?
+town19.4,빗자루랑 닮은 것 같기도.. 아닌 것 같기도 한데?,トンガリに似ているような、似ていないような。違うような気がするけど？,He looks similar to Spikey.. but also not?
+town19.5,"니콜라스는 귀를 기울였지만, 시냇물이 흐르는 소리에 섞여 대화가 잘 들리지 않는다.",ニコラスは耳を傾けるが、川の流れの音に紛れて会話がよく聞こえない。,Nicholas listened carefully but the conversation was hard to hear mixed with the sound of flowing stream water.
+town19.6,― ... ... .,― ... ... .,― ... ... .
+town19.7,"하지만, 나이..",でも、ナイ。,But Knives..
+town19.8,"여태까지 계속 네 의견을 존중해왔어, 밧슈.",今までずっとお前の意見を尊重してきたぞ、バシュー。,I've been respecting your opinion all this time Vash.
+town19.9,너야말로 한 번이라도 내 말을 들어줄 순 없는 거냐?,お前こそ、一度でいいから俺の言うことを聞いてくれないのか？,Can't you just listen to me for once?
+town19.10,... ... ...,... ... ...,...  ... ...
+town19.11,미안... 그래도 나는 ―가 ...,ごめん...それでも俺は-が...,Sorry... but I still think ― is ...
+town19.12,... 딱 이번 달까지만 기다려주마.,...今月までだけ待ってやるよ。,... I'll wait just until this month.
+town19.13,잘 생각해 봐.,よく考えてくれ。,Think about it carefully.
+town19.14,"니콜라스는 스탬피드에게 말을 걸고 싶었지만, 중요한 대화 중인 둘을 방해하지 않기로 했다.",ニコラスはスタンピードに話しかけたかったが、大事な話をしている二人を邪魔しないことにした。,Nicholas wanted to talk to Stampede but decided not to disturb the two who were having an important conversation.
+town20.1,무너지지 않는 침대를\n어떻게 만들란 거야?,崩れないベッドを\nどうやって作れって言うんだ？,How am I supposed to make\n a bed that won't collapse?
+town20.2,형도 정말...,お兄ちゃんも本当に......。,"Please, bro..."
+town21.1,지금은 방해하지 말자..,今は邪魔しないでおこう。,Let's not disturb them now..
+home28.1,다양한 동화책들이 있다. 한 권 펼쳐보시겠습니까? ,様々な絵本がある。一冊開いてみますか？,There are many different fairy tale books. Would you like to try one? 
+home28.2,맞아. 동화책을 읽을 나이는 지났지.,そうだ。童話を読む年齢は過ぎたんだ。,"You're right, I'm past the age of storybooks."
+home28.3,[늑대와 빨간 모자],[オオカミと赤い帽子],The Wolf and Little Red Riding Hood
+home28.4,"옛날 옛적에, 빨간 모자를 쓴 아주 착한 아이가 살고 있었어요.",むかしむかし、赤い帽子をかぶったとてもいい子が住んでいました。,"Once upon a time, there lived a very nice little boy named Little Red Riding Hood."
+home28.5,햇살이 따스한 7월에 빨간 모자는 따끈따끈한 쿠키를 바구니에 담고 사랑하는 할머니를 만나러 숲속 길을 걸었어요.,日差しが暖かい7月、赤い帽子は暖かいクッキーをバスケットに入れ、大好きなおばあちゃんに会いに森の道を歩きました。,"On a sunny July day, Little Red Riding Hood walked through the woods with a basket of warm cookies to visit his beloved grandmother."
+home28.6,"그런데, 할머니 집에 도착하자 그곳엔... 할머니가 아닌, 까만 늑대가 기다리고 있었어요!",ところが、おばあちゃんの家に着くと、そこには...。おばあちゃんではなく、黒いオオカミが待っていました！,"But when he got to her house... Instead of her grandmother, a black wolf was waiting for her!"
+home28.7,"빨간 모자는 깜짝 놀랐지만, 용감하게 바구니에서 쿠키 하나를 꺼내 늑대에게 건넸어요.",赤い帽子はびっくりしましたが、勇気を出してバスケットからクッキーを一つ取り出し、オオカミに渡しました。,"Little Red Riding Hood was surprised, but she bravely took a cookie out of her basket and gave it to the wolf."
+home28.8,"늑대는 쿠키를 한 입 먹고는 ""니, 이런걸로 내를 꼬실 수 있다고 생각한기냐"" 하며 화를 냈답니다.",オオカミはクッキーを一口食べて、「お前、こんなもので私を誘惑できると思ったのか」と怒ってしまいました。,"The wolf took one bite of the cookie and was furious, saying, ""You think you can lure me with this?"""
+home28.9,하지만 늑대는 사실 용감한 빨간 모자가 마음에 들었어요.,しかし、オオカミは実は勇敢な赤い帽子が気に入ったのです。,But the wolf actually liked the brave Little Red Riding Hood.
+home28.10,빨간 모자와 늑대는 힘을 합쳐 달콤한 쿠키 가게를 열었어요. [늑대와 빨간 모자의 베이커리]는 숲 속 친구들이 줄을 서서 쿠키를 사러 올 만큼 정말 인기 있는 가게가 되었습니다!,赤い帽子とオオカミは力を合わせて甘いクッキー屋さんを開きました。 オオカミと赤い帽子のパン屋さん」は、森の中の友達が並んでクッキーを買いに来るほどの人気店になりました！,Little Red Riding Hood and the wolf joined forces and opened a sweet cookie shop. [Wolf and Red Riding Hood's Bakery] became so popular that all the forest friends lined up to buy cookies!
+home28.11,- 해피 엔딩 -,- ハッピーエンド -,- Happy Ending
+home28.12,다양한 동화책들이 있다.,様々な絵本があります。,There are many different fairy tales.
+intro1.1,"울프우드씨랑 밧슈씨, 돌아오셨구나!",ウルフウッドさんとバシューさん、帰ってきたね！,Mr. Wolfwood and Mr. Vash back!
+intro1.2,니콜라스군의 목소리인가 봐,ニコラスくんの声かな,I think that's Mr. Nicholas' voice.
+intro1.3,아기여도 꽤 목청이 큰걸?,赤ちゃんなのに結構声量があるよ！,"He's quite a vocal boy, even for a baby."
+intro1.4,"첫인상을 잘 보이고 싶어서 신경 썼는데, 괜찮으려나..?",第一印象を良くしたいから気にしてたんだけど、大丈夫かな...？,I've been trying to make a good first impression... Will it be okay?
+intro2.1,흠.. 저러다 빗자루 잡겠네,うーん...。こりゃトンガリ気絶しそうだな,Hmm.. I should have brought\nmore baby and toddler toys.
+intro2.2,유모차를 준비해야긋다,ベビーカーを用意しなきゃ,I need to get\nthe stroller ready.
+intro3.1,니코 왜 우는 거니?,ニッコ なんで泣いてるの？,"Nico, why did you crying?"
+intro3.2,배가 고픈 걸까?,腹が減ったのかな？,Did you hungry?
+intro3.3,졸려서 그래?,眠いのかな？,Did you sleepy?
+menu.newGame,새 게임,新しいゲーム,New game
+menu.continue,이어하기,続行,Continue
+menu.toTitle,타이틀로,タイトルで,Title
+menu.cancle,취소,キャンセル,Cancel
+option.alwaysRun,항상 달리기,常に走る,Always run
+option.rememberControl,명령 기억,コマンドの記憶,Remember commands
+option.touchUI,터치 UI,タッチUI,Touch UI
+option.BGM,BGM 볼륨,BGMの音量,BGM volume
+option.BGS,BGS 볼륨,BGSの音量,BGS volume
+option.ME,ME 볼륨,MEの音量,ME volume
+option.SE,SE 볼륨,SEの音量,SE volume
+option.remining,갖고 있는 수,持ってる数,How many do you have
+option.saveFileMessage,어느 파일에 저장할까요?,どのファイルに保存しようか,Which file should I save to?
+option.loadFileMessage,어떤 파일을 로드할까요?,どのファイルをロードしようか？,Which file should I load?
+option.file,파일,ファイル,File
+option.autoSave,자동 저장,自動保存,Autosave
+stat.level,레벨,レベル,Level
+stat.HP,최대 HP,最大HP,Max HP
+stat.MP,최대 MP,最大MP,Max MP
+stat.attack,공격,攻撃,Attack
+stat.defense,방어,防御,Defense
+stat.magicAttack,마법 공격력,魔法攻撃力,Magic Attack
+stat.magicDefense,마법 방어력,魔法防御力,Magic Defense
+stat.Agility,민첩성,素早さ,Agility
+stat.Luck,운,運,Luck
+stat.hit,명중률,命中率,Hit Chance
+stat.dodge,회피율,回避率,Dodge Chance
+command.option,설정,設定,Settings
+command.save,저장,保存,Save
+command.endGame,게임 종료,ゲーム終了,End Game
+command.stats,스탯,統計,Stats
+command.attack,공격,攻撃,Attack
+command.defense,방어,防御,Defense
+command.items,아이템,アイテム,Items
+command.sort,정렬,並べる,Sort
+command.skills,스킬,スキル,Skills
+command.fight,싸우기,戦う,Fight
+command.flee,도망,逃げる,Flee
+command.equipment,장비,装備,Equipment
+command.weapons,무기,武器,Weapons
+command.armor,방어구,防具,Armor
+command.coreItems,핵심 아이템,コアアイテム,Core Items
+command.gear,장비,装備,Gear
+command.optimization,최적화,最適化,Optimization
+command.unlockAll,모두 해제,すべて解除,Unlock All
+command.buy,구매,購入,Buy
+command.sell,판매,販売,Sell
+item1.1,수리 도구,修理道具,Repair tools
+item1.2,리비오의 목공소에서 빌린 망치. 못과 세트이다.,リビオの木工所で借りたハンマー。釘とセットになっている。,A hammer borrowed from a woodshop in Livio. Nails and set.
+item2.1,물뿌리개,スプリンクラー,Watering can
+item2.2,울프우드의 솜씨로 새것같이 고쳐진 물뿌리개,ウルフウッドの腕前で新品同様に修理されたスプリンクラー,Wolfwood's craftsmanship has made this watering can good as new
+item3.1,사진,写真,Photo
+item3.2,어릴 적 니콜라스와 스탬피드. 스탬피드는 나이를 먹지 않는 걸까?,子供の頃のニコラスとスタンピード。スタンピードは歳をとらないのだろうか？,Nicholas and Stampede as children. Does Stampede never age?
+item4.1,도끼,斧,Axe
+item4.2,울프우드가 애용하는 도끼. 세월을 타서 이음새가 헐거워졌다.,ウルフウッドが愛用している斧。経年劣化で継ぎ目が緩んでいる。,Wolfwood's favorite axe. The seams have come loose with age.
+item5.1,제라늄 씨앗,ゼラニウムの種,Geranium seeds
+item5.2,홑겹 제라늄 씨앗이 한 움큼 든 주머니,一握りのゼラニウムの種が入ったポケット,A pocket full of geranium seeds.
+item6.1,체크 셔츠,チェックシャツ,Check Shirt
+item6.2,무난한 체크 셔츠. 울프우드와 가끔 바꿔 입기도 한다.,無難なチェックシャツ。ウルフウッドと時々入れ替えて着ることもある。,A plain check shirt. Sometimes worn interchangeably with Wolfwood.
+item7.1,붉은 조끼,赤いベスト,Red Vest
+item7.2,부드러운 알파카 모로 짜인 붉은 조끼.,柔らかいアルパカの毛糸で編まれた赤いベスト。,A red vest woven from soft alpaca moro.
+job.undertaker,장의사,葬儀屋,Undertaker
+job.plants,플랜트,植物,Plant
+etc1.1,무기,武器,Weapons
+etc1.2,방패,盾,Shields
+etc1.3,머리,頭,Head
+etc1.4,몸,体,Body
+etc1.5,장신구,装飾品,Jewelry
+etc1.6,마법,魔法,Magic
+etc1.7,필살기,必殺技,Special Power
+skill.sadSmile1,슬픈 미소,悲しい笑顔,Sad Smile
+skill.sadSmile2,적에게 자비를 일깨워 주기 위한 슬픈 미소. 때때로 역효과를 일으키기도 한다.,敵に慈悲を呼び覚ますための悲しげな笑顔 時には逆効果になることもある。,Sad smile to inspire mercy in your enemies. Sometimes it backfires.
+skill.loveAndPeace1,러브 앤 피스,愛と平和,Love and Peace
+skill.loveAndPeace2,세상 모든 사람들에게 나누어주는 의지,世の中のすべての人に分け与える意志,The will to give to all the people in the world
+skill.handsomeSmile1,잘생긴 미소,ハンサムな笑顔,Handsome smile
+skill.handsomeSmile2,때때로 어떤 옷을 입었는지 기억나지 않게 하는 효과가 있다,時々、どんな服を着ていたか思い出させない効果がある,Sometimes has the effect of making you not remember what you're wearing
+skill.pray1,장례 예식 기도문,葬儀の礼拝の祈り,Funeral Service Pray
+skill.pray2,기도를 부탁하려면 2만 더블 달러가 필요하다,祈りを頼むには2万ダブルドルが必要,"You need 20,000 double dollars to ask for him"
+skill.body1,튼튼한 몸,丈夫な体,Strong body
+skill.body2,어떤 상처든 순식간에 회복할 수 있다,どんな傷も一瞬で回復する,Can recover from any wound in a flash
+home30.1,단정한 얼굴이 거울에 비친다 ,整頓された顔が鏡に映る,Pretty face in the mirror
+home31.1,...굳이 뒤져보시겠습니까?,...あえて探しませんか？,...Do you dare to look it up?
+home31.2,부모님들의 휴식 공간,両親の休憩スペース,Parent's Rest Area
+home31.3,현명하다,賢明である,It's a smart choice
+home31.4,여러 가지 방식으로...,様々な方法で...,In many ways...
+home32.1,방치해둔 지 오래된 듯 먼지가 쌓여있다. ,長い間放置していたような埃が積もっている。,"It looks like it's been sitting around for a while, gathering dust."
+home33.1,상자 안에 무언가 먼지투성이 천으로 덮여져 있다. 걷어내 보시겠습니까? ,箱の中に何やらほこりっぽい布で覆われている。それを剥がしてみますか？,There's something in the box covered with a dusty cloth. Would you like to take it off?
+home33.2,"...콜록, 콜록! 이 먼지 봐라! 좀 치우라 캐도","...ゴホン, ゴホン！ ほこりが飛ぶでしょ？もっと早く片付けるべきだった。","Cough, Cough! Look at all this dust! Clean it up dad!"
+home33.3,...음? 뭐고 이건. 총? 와 이런 위험한 게 집에. 아부지 꺼가? ,...うーん、なんだこれは。銃？ なんでこんな危険なものが家にあるんだ。お父さんのものか？,"Hmm? What is this? A gun? Wow, such a dangerous thing in the house. Are you going to take it out?"
+home33.4,45구경 리볼버 타입의 총이 들어있다. ,45口径のリボルバータイプの銃が入っている。,It's a .45 caliber revolver.
+home33.5,괜히 건들였다 얻어터져라 혼나는 건 사양이다.,無駄に触ったからといって殴られるのは勘弁してほしい。,I don't want you to get beaten up for touching it.
+town22.1,기도하는 모습 보고 싶네~,祈る姿が見たいね～,I'd like to see wolfwod pray~
+town22.2,아이스 아메리카노는 안 팔아,アイスアメリカーノは売ってない,We don't sell cold coffee.
+town22.3,"역시, 옛날 사람들이 지어낸 농담이겠지? ",やっぱり、昔の人が作った冗談だろう？,I'm sure it's an old wives' tale.
+town22.4,그럼 가토 밀푀유는 어때? ,じゃあ、ガトーミルフィーユはどう？,How about a gateau mille-feuille?
+town22.5,미안하지만 우리 가게는 세이론 티 세트만 판매해,悪いけど、うちの店はセイロンティーセットしか売ってない,"I'm sorry, but we only sell the Ceylon tea set."
+town23.1,다양한 공구들이 걸려있다.,様々な工具が飾ってある。,There are various tools hanging around.
+town23.2,날카로운 것들도 있으니 주의하자. ,鋭利なものもあるので注意しよう。,"Some of them are sharp, so be careful."
+town24.1,복잡한 도면.,複雑な図面。,A complicated drawing.
+town24.2,호신용 퍼니셔 제조법이라고 써있다.,護身用ファニッシャーの作り方と書いてある。,It says it's a recipe for a self-defense punisher.
+town24.3,퍼니셔가 뭐지?,ファニッシャーってなんだろう？,What is a punisher?
+town25.1,어린이 실습용 목재들이다,子供用の実習用木材だ,These are woods for children's practice
+town26.1,가족용 텐트,家族用テント,Family Tent
+town26.2,어릴 적 여기서 간이 캠핑을 했던 적이 있다.,子供の頃、ここで簡易キャンプをしたことがある。,I remember camping here when I was a kid.
+town26.3,엄마랑 요리를 하다 실수로 불을 낼뻔하기도 했었지..,母と一緒に料理をしていて、誤って火を起こしそうになったこともあった。,We almost started a fire while cooking with my mom.
+town27.1,이 채소가 다 자라면 마을의 가게에 납품하기로 했어,この野菜が育ったら、町のお店に納品することになったんだ,I've decided to sell these veggies to a shop in town when they're grown
+town27.2,그럼 바나나 선데이 말고도 다른 걸 먹을 수 있겠지..?,じゃあ、バナナサンデー以外も食べられるんだろうな...？,So we'll have something other than Banana Sunday...?
+home34.1,밧슈는 충격받아 멍한 얼굴로 연못을 보고 있다...,バシューはショックを受け、呆然と池を眺めている...。,Vash stares at the pond in shock...
+home35.1,투덜댈 시간에 가서 일이나 봐라.,愚痴ってる暇があったら仕事でもしてろよ。,Go and do the work instead of complaining.
+home36.1,어렸을 땐 귀여웠는데...,小さい頃は可愛かったのに...。,You were cute when you were little....
+home37.1,(말을 걸고 싶지 않다..),(話しかけたくない...),(I don't want to talk to my parents...)
+home38.1,옷장에 아기 옷이 가득 들어있다.,クローゼットにベビー服がいっぱい入っている。,A closet full of baby clothes.
+home38.2,대부분 검은 색이다.,ほとんどが黒色である。,Mostly black.
+home38.3,대부분 빨간 색이다.,ほとんどが赤色だ。,Most of them are red.
+home39.1,동화책이 나란히 정리되어 있다.,絵本が並んでいる。,The storybooks are lined up side by side.
+home39.2,한 권 읽어볼까?,一冊読んでみようかな？,Would you like to read one?
+home39.3,[야수와 미녀],[野獣と美女】,[The Beast and the Beauty]
+home39.4,"옛날, 옛적 어느 마을에 마음씨 고운 미녀가 살고 있었어요.",むかしむかし、むかしむかし、ある村に心優しい美女が住んでいました。,"Once upon a time, in a village, there lived a kind-hearted beauty."
+home39.5,마을 근처를 산책하던 미녀는 우연히 야수와 만났습니다. 미녀는 야수를 보고 놀랐지만 누구에게 그러해왔듯 다정하게 그를 대했어요.,村の近くを散歩していた美女は、偶然野獣と出会いました。美女は野獣を見て驚きましたが、誰にでもそうであったように優しく接してくれました。,"While walking around the village, she happened to meet a beast. She was surprised to see him, but she treated him as she would anyone else."
+home39.6,사실 껄렁한 야수를 보고 처음엔 그를 의심하기도 했었죠. 하지만 어느샌가 그의 맘 속에 다정함과 배려심이 있다는 것을 알게 되었습니다.,実は、堅苦しい野獣を見て最初は彼を疑うこともありましたが、いつの間にか彼の心の中に優しさと思いやりがあることを知りました。,"In fact, she was suspicious of him at first because he was so rough, but then she realized that he had a kind and caring heart."
+home39.7,미녀는 야수가 좋아졌어요. 야수도 고운 마음씨를 가진 미녀가 점점 좋아졌습니다.,美女は野獣が好きになりました。 野獣も心優しい美女がどんどん好きになりました。,"The beauty grew fond of the beast, and the beast grew fond of the beauty, who also had a kind heart."
+home39.8,하지만 사실 야수는 미녀에게 거짓말을 하고 있었어요. 그는 사실 미녀를 감시하기 위해 파견된 요원이었습니다.,しかし、実は野獣は美女に嘘をついていました。 彼は実は美女を監視するために派遣された工作員だったのです。,But the beast was lying to the beauty. He was actually an agent sent to spy on the beauty.
+home39.9,야수는 자신의 잘못을 미녀에게 고했어요. 그리고 놀랍게도 미녀는 이미 알고 있다고 대답했습니다.,野獣は自分の過ちを美女に告げました。 そして驚いたことに、美女はすでに知っていると答えました。,"He confessed his misdeeds to her, and to his surprise, she replied that she already knew."
+home39.10,서로의 사랑을 확인한 두 사람은 행복하게 오래오래 살았답니다~,お互いの愛を確認した二人は、幸せに長生きしたそうです。,They realized that they loved each other and lived happily ever after.
+home39.11,감동적인 이야기였다.,感動的な話だった。,It was an inspiring story.
+home40,남의 집을 함부로 뒤지는 건 무례한 일이야!,他人の家を勝手に覗くのは失礼だよ！,It's rude to rummage through someone's house!
+home40.1,노란 장미가 꽂힌 꽃병,黄色のバラの花瓶,Vase with yellow roses
+home41.1,"어렸을 때, 우물에서 귀신이 올라오는 공포 영화를 봤었다.",子供の頃、井戸から幽霊が出るホラー映画を見たことがある。,"When I was a kid, I saw a horror movie where a ghost came up from a well."
+home41.2,"걱정이 되어 부모님께 귀신이 되살아나오지 않게 우물을 묻어버리자고 했더니, 부모님의 표정이 이상해졌었다.",心配になって両親に、幽霊が蘇らないように井戸を埋めてしまおう、と言ったら、両親の表情がおかしくなった。,"I was worried and asked my parents if we should bury the well so the ghosts wouldn't come back, and they got a strange look on their faces."
+home41.3,우물에 귀신은 없어.,井戸に幽霊はいない。,There are no ghosts in wells.
+home42.1,당근.,ニンジン。,Carrots.
+home42.2,맛이 없다...,不味い...。,Tasteless...
+home42.3,아무도 보고 있지 않을 때 몰래 뽑아버릴까?,誰も見ていないときにこっそり抜いてしまおうか？,Shall I sneak and pull it out when no one is looking?
+home42.4,아들? 니 뭐하나?,息子よ、何してるんだ？,Son? What are you doing?
+home42.5,"헉, 아부지..? 그게 아이라예..",えっ、お父さん...いや、そうじゃなくて,"Hmph, dad...? It's a misunderstanding."
+home42.6,니 제정신이가!!! 니 어무이랑 내랑 피땀 흘려 니보다 소중하게 키워온 텃밭에 뭐 하는 기고!!!!!!!!,お前の正気か!!! あなたのお母さんと私と血を流してあなたより大切に育ててきた家庭菜園に何をしているのか寄稿!!!!!!!!！,Are you crazy! What are you doing to the garden that your mother and I have sweated over and grown more precious than you!!!!!!!!
+home42.7,맞다. 아무리 당근이 싫어도 그건 아니지.,そうだ。いくらニンジンが嫌いでもそれはないだろう。,"That's right. No matter how much you hate carrots, that's not it."
+home42.8,콜라비.,コーラビ。,Collavi. 
+home42.9,맞다. 아무리 콜라비가 싫어도 그건 아니지.,そうだ。いくらコーラビが嫌いでもそれはないだろう。,"That's right. No matter how much you hate Collavi, you shouldn't do that."
+home42.10,양배추.,キャベツ。,Cabbage.
+home42.11,맞다. 아무리 양배추가 싫어도 그건 아니지.,そうだ。いくらキャベツが嫌いでもそれはない。,"That's right. No matter how much you hate cabbage, you shouldn't do that."
+home42.12,피망.,ピーマン。,Bell peppers.
+home42.13,맞다. 아무리 피망이 싫어도 그건 아니지.,そうだ。いくらピーマンが嫌いでもそれはないだろう。,"That's right. No matter how much you hate bell peppers, you shouldn't do that."
+home43.1,넌 뭐야? 눈치 없이 끼어들지 말아 줄래?,あんたは何なの？ 勝手に 끼어들지 말아줄래요?,What are you?! Can you please not barge in unannounced?
+home43.2,(속삭이며) 고백받고 싶지 않아. 제발 도와줘...,(ささやきながら) 告白されたくないんだ。 助けてくれよ...,"(whispering) I don't want to be confessed to by her, please help me..."
+home43.3,그는 간절해 보인다... 도와줄까?,彼は切羽詰まってるようだ...。助けてあげようか？,He looks desperate... Can I help you?
+home43.4,"너, 끼어들지 말라고 했지!!!",お前、口出しするなと言っただろ！！！,I told you to stay out of it!
+home43.5,하지만 남자애가 싫어하지 않나..,でも、男子が嫌われてるんじゃないか...,But doesn't the boy hate it?
+home43.6,뭐?! 너 솔직히 말해봐 정말 내가 싫어?!,え？お前、正直に言ってみろよ、本当に俺が嫌いなのか！！,"What?! Tell me honestly, do you really hate me?!"
+home43.7,"그야, 그 쪽이 더 자극되니까...",だって、そっちの方が刺激的だから...。,Because it's more sexually arousing that way...
+woman,여자,女,Woman
+man,남자,男,Man
+home43.10,....?,....?,....?
+home43.11,둘은 여관으로 사라졌다...,二人は旅館に消えた...。,They disappeared into the inn...
+home43.12,"내 사랑 문제도 복잡한데, 남의 문제에 끼어들 여력이 없다.",自分の恋愛問題も複雑なのに、他人の問題に口出しする余裕はない。,My love life is complicated enough that I can't afford to get involved in other people's problems.
+home44.1,어릴 적 내가 썼던 요람이다.,子供の頃、私が使っていたゆりかご。,This is my cradle as a baby.
+home44.2,내가 이렇게 작았다고? ,私がこんなに小さかったの？,I was this small?
+home45.1,상자 안에 여러 가지 육아 용품들이 있다.,箱の中にいろいろな育児用品が入っている。,There's a bunch of baby stuff in the box.
+home45.2,아직까지 쟁여두고 있는 모양이다.,まだ保管しているようだ。,I'm still holding on to them.
+home45.3,10년도 지났는데. ,10年も経ったのに。,It's been over a decade.
+home46.1,<무너지지 않는 침대 설계도> 라고 적혀있다.,<崩れないベッドの設計図>と書いてある。,It says “bed plans that won't fall apart”.
+home46.2,이런 걸 누가 필요로 하는거지?,誰がこんなものを必要としているんだろう？,Who needs this?
+home47.1,나비야 안녕~,蝶よこんにちは〜,"Hi, kitty~"
+home47.2,고양이는 새카만 눈으로 스탬피드를 올려다본다,猫は真っ黒な目でスタンプを見上げる,The cat looks up at Stampede with her black eyes
+home47.3,으응~? 하고 싶은 말이 있니?,うーん〜？ 何か言いたいことある？,Umm? Is there something you want to say?
+home47.4,...? ??? ?????,...? ??? ?????,...? ??? ?????
+home48.1,쿠로네코 산책가는 기가~,くろねこお散歩するキガ～,Are you going for a walk in Kuroneko~?
+home48.2,고양이는 새카만 눈으로 니콜라스를 올려다본다,猫は真っ黒な目でニコラスを見上げる,The cat stares up at Nicholas with its black eyes.
+home48.3,"머꼬, 니 할 말 있나?",なんで、何か言いたいことある？,Why? Do you have something to say?
+home48.4,...? ??? ???????????,...? ??? ???????????,...? ??? ???????????
+home49.1,... ... ...,... ... ...,... ... ...
+home49.2,... ... ... ... ... ...,... ... ... ... ... ...,... ... ... ... ... ... ...
+home49.3,니 또 노래 부를기가,また歌を歌うのか？,Are you going to sing again?
+home49.4,어데서 그런 노래를 배워오는기고,どこでそんな歌を習ってくるの？,Where did you learn to sing like that?
+home50.1,빨빨대고 다니는걸 보니 기분 좋은갑네,一日中あちこち回っているのを見ると、気持ち良さそうですね。,"You must be in a good mood today, because you're all over the place."
+home50.2,어데 한 곡 뽑아본나,どこか一曲歌ってみろ,Sing for me.
+home50.3,... ... ...,... ... ... ...,... ... ...
+home50.4,...????? 머꼬..?? 먼데..?????,...????? 何だろう...何でだ... ?????,...????? Why..?? What is it...?????
+home50.5,검은 고양이가 아쉽냐는 듯이 바라본다.,黒猫が残念そうな顔をする。,The black cat looks at me as if it's disappointed.
